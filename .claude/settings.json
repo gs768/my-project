@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__67986b51-4f46-478c-87e8-f985c21cb86b__read_file_content",
+      "mcp__67986b51-4f46-478c-87e8-f985c21cb86b__search_files",
+      "mcp__67986b51-4f46-478c-87e8-f985c21cb86b__create_file",
+      "mcp__67986b51-4f46-478c-87e8-f985c21cb86b__get_file_metadata",
+      "mcp__67986b51-4f46-478c-87e8-f985c21cb86b__list_recent_files"
+    ]
+  }
+}
