@@ -1,0 +1,11 @@
+# Example reverse proxy config for Caddy (https://caddyserver.com), which gets
+# you free automatic HTTPS. Point a DNS A record for the subdomain at your
+# droplet's IP first, then copy this to /etc/caddy/Caddyfile on the droplet
+# (merging with anything already there) and run `sudo systemctl reload caddy`.
+#
+# The google-bridge container only listens on 127.0.0.1:8080 (see
+# docker-compose.yml), so it is only reachable through this proxy.
+
+bridge.yourdomain.com {
+    reverse_proxy 127.0.0.1:8080
+}
