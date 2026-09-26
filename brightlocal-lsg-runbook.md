@@ -1,6 +1,6 @@
 # BrightLocal LSG twice-monthly run
 
-Runs on the 1st and 15th. Triggers existing Local Search Grid reports only.
+Runs on the 2nd and 4th Monday of each month at 1:54 PM ET (Routine "BrightLocal Grid Check", trig_01KvrUs9k7keYYbX8Tscaxu1). Triggers existing Local Search Grid reports only.
 
 ## Source of truth
 
