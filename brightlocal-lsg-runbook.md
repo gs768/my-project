@@ -17,7 +17,9 @@ column is misaligned on the Brandywine, Kawecki and Weston & Pape rows.
 
 ## Steps
 
-1. Read the master sheet. Keep rows where column I is TRUE.
+1. Read the master sheet with the Google Sheets connector
+   (`get_values` on `'Clients Master'!A3:BX` or narrower ranges for A, I and
+   BX). Keep rows where column I is TRUE.
 2. Exclude Todd A Kawecki – Jupiter.
 3. Take the location ID from column BX (tab "Clients Master"). If BX is blank,
    skip the row and list it in the summary.
