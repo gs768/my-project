@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Google_Drive__read_file_content",
+      "mcp__Google_Drive__download_file_content",
+      "mcp__BrightLocal__find_lsg_reports",
+      "mcp__BrightLocal__get_lsg_report",
+      "mcp__BrightLocal__get_lsg_credits",
+      "mcp__BrightLocal__run_lsg_report",
+      "mcp__Slack__slack_send_message"
+    ],
+    "deny": [
+      "mcp__BrightLocal__create_lsg_report",
+      "mcp__BrightLocal__update_lsg_report",
+      "mcp__BrightLocal__delete_lsg_report"
+    ]
+  }
+}
