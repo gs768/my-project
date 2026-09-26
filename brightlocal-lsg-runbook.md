@@ -19,8 +19,8 @@ column is misaligned on the Brandywine, Kawecki and Weston & Pape rows.
 
 1. Read the master sheet. Keep rows where column I is TRUE.
 2. Exclude Todd A Kawecki – Jupiter.
-3. Take the location ID from column BX. If BX is blank, use the fallback table
-   below. If the row has no ID either way, skip it and list it in the summary.
+3. Take the location ID from column BX (tab "Clients Master"). If BX is blank,
+   skip the row and list it in the summary.
    Deduplicate location IDs.
 4. For each location ID, `find_lsg_reports(location_id)` and `run_lsg_report`
    each report. If a location has more than one report, use the one listed in
@@ -32,9 +32,11 @@ column is misaligned on the Brandywine, Kawecki and Weston & Pape rows.
    client / location ID / report ID, skipped rows and why, failures, and the
    remaining LSG credits (`get_lsg_credits`).
 
-## Fallback IDs (until column BX is filled)
+## Reference IDs
 
-Verified against BrightLocal on 2026-09-26.
+Verified against BrightLocal on 2026-09-26 and written to column BX of the
+Clients Master tab the same day (row 54, WPB, left blank until confirmed).
+Use this table to pick the report when a location has more than one.
 
 | Row | Client Location | Location ID | Report ID |
 |---|---|---|---|
