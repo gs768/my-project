@@ -162,7 +162,13 @@ class ClaudeProvider(Provider):
         return resp
 
     def ask(self, prompt, country="US", language="en"):
-        tools = [{"type": "web_search_20260209", "name": "web_search", "max_uses": 5,
+        # The dynamic-filtering search tool needs Opus 4.6+/Sonnet 4.6+; older
+        # models such as Haiku 4.5 only accept the basic variant.
+        newer = any(self.model.startswith(p) for p in (
+            "claude-opus-5", "claude-opus-4-6", "claude-opus-4-7", "claude-opus-4-8",
+            "claude-sonnet-5", "claude-sonnet-4-6", "claude-fable", "claude-mythos"))
+        tools = [{"type": "web_search_20260209" if newer else "web_search_20250305",
+                  "name": "web_search", "max_uses": 5,
                   "user_location": {"type": "approximate", "country": country}}]
         resp = self._run(prompt, tools)
         texts, cites, results = [], [], []
