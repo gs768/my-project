@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Beacon — AI Search Visibility</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='6' fill='%232a6df4'/><circle cx='16' cy='16' r='12' fill='none' stroke='%232a6df4' stroke-width='3' opacity='.4'/></svg>" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo"><span class="dot"></span> Beacon</div>
+    <select id="projectSelect" aria-label="Project"></select>
+    <button id="newProjectBtn" class="ghost">+ New project</button>
+    <div class="spacer"></div>
+    <span id="runStatus" class="muted"></span>
+    <button id="runBtn" class="primary">Run now</button>
+  </header>
+
+  <nav class="tabs" id="tabs">
+    <button data-tab="overview" class="active">Overview</button>
+    <button data-tab="prompts">Prompts</button>
+    <button data-tab="sources">Sources</button>
+    <button data-tab="responses">Responses</button>
+    <button data-tab="settings">Settings</button>
+  </nav>
+
+  <section class="filters" id="filters">
+    <label>Range
+      <select id="rangeSelect">
+        <option value="7">Last 7 days</option>
+        <option value="14">Last 14 days</option>
+        <option value="30" selected>Last 30 days</option>
+        <option value="90">Last 90 days</option>
+      </select>
+    </label>
+    <label>Engine <select id="providerFilter"><option value="">All engines</option></select></label>
+    <label>Tag <select id="tagFilter"><option value="">All tags</option></select></label>
+    <div class="spacer"></div>
+    <a id="exportLink" class="ghost button" href="#">Export CSV</a>
+  </section>
+
+  <main id="view"></main>
+
+  <dialog id="dialog"><form method="dialog" id="dialogForm"></form></dialog>
+  <div id="tooltip" class="tooltip" hidden></div>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

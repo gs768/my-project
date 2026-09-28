@@ -1,0 +1,20 @@
+{
+  "name": "beacon",
+  "version": "0.1.0",
+  "description": "Self-hosted AI search visibility tracker — see how ChatGPT, Claude, Gemini and Perplexity talk about your brand.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "run-now": "node --disable-warning=ExperimentalWarning src/cli.js run",
+    "demo": "node --disable-warning=ExperimentalWarning src/cli.js demo",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.128.0",
+    "zod": "^4.6.5"
+  }
+}
