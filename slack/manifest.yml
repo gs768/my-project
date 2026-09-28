@@ -1,0 +1,20 @@
+# Slack app manifest for the GBP review-reply bot.
+# api.slack.com/apps -> Create New App -> From a manifest -> paste this.
+display_information:
+  name: GBP Review Replies
+  description: Weekly Google review-reply proposals and approvals
+features:
+  bot_user:
+    display_name: GBP Review Replies
+    always_online: false
+oauth_config:
+  scopes:
+    bot:
+      - chat:write          # post proposals and results
+      - groups:history      # read thread replies in the private channel
+      - channels:history    # same, if the channel is ever made public
+      - reactions:write     # ✅ / ❓ acknowledgements
+settings:
+  org_deploy_enabled: false
+  socket_mode_enabled: false
+  token_rotation_enabled: false

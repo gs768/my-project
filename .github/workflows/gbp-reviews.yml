@@ -1,0 +1,57 @@
+name: GBP review replies
+
+on:
+  schedule:
+    # Weekly proposal: Mondays 12:47 UTC (8:47am Eastern during daylight time).
+    - cron: "47 12 * * 1"
+    # Approval / notes poller: hourly.
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      job:
+        description: "Which job to run"
+        required: true
+        default: poll
+        type: choice
+        options: [poll, weekly, init-store]
+
+# Never let the weekly run and a poll touch the queue at the same time.
+concurrency:
+  group: gbp-reviews
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run job
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLIENTS_SHEET_ID: ${{ secrets.CLIENTS_SHEET_ID }}
+          SYSTEM_SHEET_ID: ${{ secrets.SYSTEM_SHEET_ID }}
+          SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+          MIN_REVIEW_AGE_DAYS: ${{ vars.MIN_REVIEW_AGE_DAYS }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            JOB="${{ inputs.job }}"
+          elif [ "${{ github.event.schedule }}" = "47 12 * * 1" ]; then
+            JOB=weekly
+          else
+            JOB=poll
+          fi
+          python -m gbp_reviews "$JOB"
