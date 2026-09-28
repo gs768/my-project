@@ -6,6 +6,7 @@ import urllib.request
 
 TOKEN_URL = "https://oauth2.googleapis.com/token"
 API_BASE = "https://mybusiness.googleapis.com/v4"
+BUSINESS_INFO_BASE = "https://mybusinessbusinessinformation.googleapis.com/v1"
 
 
 class GoogleReviewsClient:
@@ -37,6 +38,11 @@ class GoogleReviewsClient:
             req.add_header("Content-Type", "application/json")
         with urllib.request.urlopen(req) as resp:
             return json.load(resp)
+
+    def get_location_title(self, location_id):
+        """Return the business name shown on the location's profile."""
+        url = f"{BUSINESS_INFO_BASE}/locations/{location_id}?readMask=title"
+        return self._request("GET", url).get("title", "")
 
     def list_reviews(self, account_id, location_id):
         """Yield every review for a location, following pagination."""

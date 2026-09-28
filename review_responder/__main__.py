@@ -5,7 +5,10 @@ import os
 import sys
 
 from .google_client import GoogleReviewsClient
-from .responder import DEFAULT_TEMPLATES, process_reviews
+from .responder import DEFAULT_TEMPLATES, WrongBusinessError, process_reviews
+
+# Only this business gets replies. Other clients on the account reply to their own reviews.
+DEFAULT_BUSINESS_NAME = "Rainstone"
 
 REQUIRED_ENV = [
     "GOOGLE_CLIENT_ID",
@@ -40,13 +43,17 @@ def main(argv=None):
         os.environ["GOOGLE_REFRESH_TOKEN"],
     )
     templates = load_templates(args.templates) if args.templates else DEFAULT_TEMPLATES
-    replied, skipped = process_reviews(
-        client,
-        os.environ["GBP_ACCOUNT_ID"],
-        os.environ["GBP_LOCATION_ID"],
-        templates=templates,
-        dry_run=not args.send,
-    )
+    try:
+        replied, skipped = process_reviews(
+            client,
+            os.environ["GBP_ACCOUNT_ID"],
+            os.environ["GBP_LOCATION_ID"],
+            os.environ.get("GBP_BUSINESS_NAME", DEFAULT_BUSINESS_NAME),
+            templates=templates,
+            dry_run=not args.send,
+        )
+    except WrongBusinessError as e:
+        sys.exit(str(e))
     verb = "Replied to" if args.send else "Would reply to"
     print(f"{verb} {replied} five-star review(s); skipped {skipped} (not five-star or already replied).")
 

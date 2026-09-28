@@ -1,7 +1,7 @@
 import random
 import unittest
 
-from review_responder.responder import build_reply, first_name, process_reviews, should_reply
+from review_responder.responder import WrongBusinessError, build_reply, first_name, process_reviews, should_reply
 
 
 def review(stars, name="Jane Doe", replied=False, rid="1"):
@@ -16,9 +16,13 @@ def review(stars, name="Jane Doe", replied=False, rid="1"):
 
 
 class FakeClient:
-    def __init__(self, reviews):
+    def __init__(self, reviews, title="Rainstone"):
         self.reviews = reviews
+        self.title = title
         self.replies = []
+
+    def get_location_title(self, location_id):
+        return self.title
 
     def list_reviews(self, account_id, location_id):
         return iter(self.reviews)
@@ -62,14 +66,31 @@ class ProcessReviewsTests(unittest.TestCase):
         )
 
     def test_send_replies_only_to_unreplied_five_stars(self):
-        replied, skipped = process_reviews(self.client, "a", "l", templates=["Thanks {name}!"], dry_run=False, log=lambda _: None)
+        replied, skipped = process_reviews(self.client, "a", "l", "Rainstone", templates=["Thanks {name}!"], dry_run=False, log=lambda _: None)
         self.assertEqual((replied, skipped), (1, 3))
         self.assertEqual(self.client.replies, [("accounts/a/locations/l/reviews/five", "Thanks Jane!")])
 
     def test_dry_run_posts_nothing(self):
-        replied, _ = process_reviews(self.client, "a", "l", dry_run=True, log=lambda _: None)
+        replied, _ = process_reviews(self.client, "a", "l", "Rainstone", dry_run=True, log=lambda _: None)
         self.assertEqual(replied, 1)
         self.assertEqual(self.client.replies, [])
+
+    def test_refuses_other_businesses(self):
+        self.client.title = "Some Other Client LLC"
+        with self.assertRaises(WrongBusinessError):
+            process_reviews(self.client, "a", "l", "Rainstone", dry_run=False, log=lambda _: None)
+        self.assertEqual(self.client.replies, [])
+
+    def test_refuses_without_expected_name(self):
+        for name in ["", "  ", None]:
+            with self.assertRaises(WrongBusinessError):
+                process_reviews(self.client, "a", "l", name, dry_run=False, log=lambda _: None)
+        self.assertEqual(self.client.replies, [])
+
+    def test_business_name_match_is_case_insensitive(self):
+        self.client.title = "RAINSTONE Landscaping"
+        replied, _ = process_reviews(self.client, "a", "l", "Rainstone", dry_run=False, log=lambda _: None)
+        self.assertEqual(replied, 1)
 
 
 if __name__ == "__main__":

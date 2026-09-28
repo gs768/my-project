@@ -26,8 +26,31 @@ def build_reply(review, templates=DEFAULT_TEMPLATES, rng=random):
     return rng.choice(templates).format(name=first_name(review))
 
 
-def process_reviews(client, account_id, location_id, templates=DEFAULT_TEMPLATES, dry_run=True, log=print):
+class WrongBusinessError(Exception):
+    pass
+
+
+def check_business(client, location_id, expected_business_name):
+    """Refuse to touch a location whose profile name doesn't match the business we're allowed to reply for.
+
+    The account manages many clients' profiles, most of whom handle their own replies,
+    so a misconfigured location ID must never result in a reply.
+    """
+    expected = (expected_business_name or "").strip().lower()
+    if not expected:
+        raise WrongBusinessError("No expected business name configured; refusing to reply to anything.")
+    title = client.get_location_title(location_id) or ""
+    if expected not in title.lower():
+        raise WrongBusinessError(
+            f"Location {location_id} is {title!r}, not {expected_business_name!r}; refusing to reply to anything."
+        )
+    return title
+
+
+def process_reviews(client, account_id, location_id, expected_business_name, templates=DEFAULT_TEMPLATES, dry_run=True, log=print):
     """Reply to eligible reviews. Returns (replied, skipped) counts."""
+    title = check_business(client, location_id, expected_business_name)
+    log(f"Location {location_id} confirmed as {title!r}.")
     replied = skipped = 0
     for review in client.list_reviews(account_id, location_id):
         if not should_reply(review):
