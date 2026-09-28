@@ -12,8 +12,8 @@ Google Sheet **Sutton Digital Clients – Master**
 - Column I: SEO (include only rows where this is TRUE)
 - Column BX: BrightLocal Campaign/Grid ID (the BrightLocal **location ID**)
 
-The old "All Clients Core info" sheet (`1gDXN45…`) is not used: its BrightLocal
-column is misaligned on the Brandywine, Kawecki and Weston & Pape rows.
+This is the sheet meant by "client database". The old "All Clients Core info"
+sheet (`1gDXN45…`) was retired and deleted on 2026-09-27; never use it.
 
 ## Steps
 
