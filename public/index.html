@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LocalDesk</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div id="login" class="login" hidden>
+    <form id="login-form" class="card">
+      <h1>LocalDesk</h1>
+      <p class="muted">Sign in to manage your locations.</p>
+      <input type="password" name="password" placeholder="Password" autocomplete="current-password" required>
+      <button class="btn primary" type="submit">Sign in</button>
+      <p class="error" id="login-error"></p>
+    </form>
+  </div>
+
+  <div id="shell" class="shell" hidden>
+    <aside class="sidebar">
+      <div class="brand" id="brand">LocalDesk</div>
+      <nav id="nav">
+        <a href="#/">Dashboard</a>
+        <a href="#/reviews">Reviews</a>
+        <a href="#/posts">Posts</a>
+        <a href="#/requests">Review requests</a>
+        <a href="#/reports">Reports</a>
+        <a href="#/clients">Clients &amp; locations</a>
+        <a href="#/settings">Settings</a>
+      </nav>
+      <div class="sidebar-foot">
+        <span id="demo-badge" class="badge warn" hidden>Demo mode</span>
+        <button class="link" id="logout">Sign out</button>
+      </div>
+    </aside>
+    <main id="view" class="view"></main>
+  </div>
+
+  <div id="toast" class="toast" hidden></div>
+  <dialog id="modal"><div id="modal-body"></div></dialog>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

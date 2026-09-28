@@ -1,0 +1,31 @@
+{
+  "name": "localdesk",
+  "version": "0.1.0",
+  "description": "Self-hosted local reputation & Google Business Profile management for agencies",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server/index.js",
+    "dev": "node --watch --disable-warning=ExperimentalWarning server/index.js",
+    "seed": "node --disable-warning=ExperimentalWarning server/seed.js",
+    "test": "node --disable-warning=ExperimentalWarning --test \"test/*.test.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gs768/my-project.git"
+  },
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/gs768/my-project/issues"
+  },
+  "homepage": "https://github.com/gs768/my-project#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.128.0",
+    "express": "^5.2.1",
+    "nodemailer": "^10.0.11"
+  },
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.13"
+  }
+}
