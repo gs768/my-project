@@ -1,0 +1,4 @@
+# One reply per line. {name} is replaced with the reviewer's first name.
+# A random line is picked for each five-star review.
+Thank you so much, {name}! We're thrilled you had a great experience.
+{name}, thanks for the five stars! We look forward to seeing you again.
