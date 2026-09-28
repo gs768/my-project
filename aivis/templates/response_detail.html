@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% from "_delta.html" import brandchip %}
+{% block content %}
+<header class="head">
+  <div><a class="muted small" href="/p/{{ pid }}/prompts/{{ r.prompt_id }}">← Prompt</a>
+  <h1>{{ r.prompt }}</h1>
+  <p class="muted small"><span class="tag">{{ model_label(r.model) }}</span> {{ r.model_version or '' }} · {{ r.created_at }}{% if r.latency_ms %} · {{ (r.latency_ms / 1000)|round(1) }}s{% endif %}</p></div>
+</header>
+<div class="grid wide-narrow">
+  <section class="card">
+    <h2>Answer</h2>
+    {% if r.error %}<p class="err">{{ r.error }}</p>{% endif %}
+    <div class="answer">{{ highlighted|safe }}</div>
+  </section>
+  <div>
+    <section class="card">
+      <h2>Brands mentioned</h2>
+      <table class="tbl"><thead><tr><th>#</th><th>Brand</th><th class="r">Count</th><th class="r">Sentiment</th></tr></thead>
+      <tbody>{% for m in mentions if m.entity %}<tr><td>{{ m.position }}</td><td>{{ brandchip(m.entity.name, m.entity.color, m.entity.is_own) }}</td>
+        <td class="r">{{ m.count }}</td><td class="r">{{ m.sentiment }}</td></tr>
+      {% else %}<tr><td colspan="4" class="muted">None of your tracked brands.</td></tr>{% endfor %}</tbody></table>
+    </section>
+    <section class="card">
+      <h2>Sources ({{ citations|length }})</h2>
+      <ol class="cites">{% for c in citations %}<li><a href="{{ c.url }}" target="_blank" rel="noopener">{{ c.title or c.domain }}</a>
+        <span class="type t-{{ c.source_type }}">{{ c.source_type }}</span><div class="muted small">{{ c.domain }}</div></li>
+      {% else %}<li class="muted">No sources.</li>{% endfor %}</ol>
+    </section>
+  </div>
+</div>
+{% endblock %}

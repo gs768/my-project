@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="head">
+  <h1>Responses</h1>
+  {% include "_filters.html" %}
+</header>
+<section class="card">
+  <div class="cardhead">
+    <div class="tabs">
+      <a class="{{ 'on' if not brand }}" href="{{ url_with(request, brand=None, page=None) }}">All</a>
+      {% for e in entities %}<a class="{{ 'on' if brand == e.id }}" href="{{ url_with(request, brand=e.id, page=None) }}">{{ e.name }}</a>{% endfor %}
+    </div>
+    <span><a class="small" href="/p/{{ pid }}/export/responses.csv?{{ qs }}">Responses CSV</a> · <a class="small" href="/p/{{ pid }}/export/mentions.csv?{{ qs }}">Mentions CSV</a></span>
+  </div>
+  {% set responses = rows %}{% set show_prompt = True %}
+  {% include "_responses_list.html" %}
+  <div class="pager">
+    {% if page > 1 %}<a class="btn tiny" href="{{ url_with(request, page=page-1) }}">← Newer</a>{% endif %}
+    {% if rows|length == 25 %}<a class="btn tiny" href="{{ url_with(request, page=page+1) }}">Older →</a>{% endif %}
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,17 @@
+{% from "_delta.html" import brandchip %}
+<ul class="resp">
+{% for r in responses %}
+  <li>
+    <a href="/p/{{ pid }}/responses/{{ r.id }}" class="rlink">
+      <div class="rmeta"><span class="tag">{{ model_label(r.model) }}</span><span class="muted small">{{ r.created_at[:10] }}</span>
+        {% if show_prompt %}<span class="small">{{ r.prompt }}</span>{% endif %}</div>
+      <p class="excerpt">{{ r.excerpt }}{% if r.text|length > 280 %}…{% endif %}</p>
+      <div>{% for m in r.mentions %}{{ brandchip('#' ~ m.position ~ ' ' ~ m.name, m.color, m.is_own) }}{% endfor %}
+        {% if not r.mentions %}<span class="muted small">No tracked brands mentioned</span>{% endif %}
+        <span class="muted small">· {{ r.citations }} source(s)</span></div>
+    </a>
+  </li>
+{% else %}
+  <li class="muted">No answers in this range.</li>
+{% endfor %}
+</ul>

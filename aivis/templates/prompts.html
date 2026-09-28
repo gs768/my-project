@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% from "_delta.html" import brandchip %}
+{% block content %}
+<header class="head">
+  <h1>Prompts <span class="muted small">{{ rows|length }} tracked</span></h1>
+  {% include "_filters.html" %}
+</header>
+
+<div class="grid two">
+  <section class="card">
+    <h2>Add prompts</h2>
+    <form method="post" action="/p/{{ pid }}/prompts" class="stack">
+      <textarea name="texts" rows="4" required placeholder="One prompt per line&#10;What is the best CRM for startups?"></textarea>
+      <div class="row2">
+        <input name="tags" placeholder="Tags (comma separated)">
+        <button class="btn primary">Add</button>
+      </div>
+    </form>
+  </section>
+  <section class="card">
+    <h2>Suggest prompts</h2>
+    <form method="post" action="/p/{{ pid }}/prompts/suggest" class="row2">
+      <input name="category" required value="{{ category or '' }}" placeholder="Your category, e.g. CRM software">
+      <button class="btn">Suggest</button>
+    </form>
+    {% if suggestions is not none %}
+    <form method="post" action="/p/{{ pid }}/prompts" class="stack" style="margin-top:12px">
+      {% for s in suggestions %}
+      <label class="check"><input type="checkbox" checked onchange="syncSug(this.form)" data-text="{{ s.text }}"> {{ s.text }}
+        {% for t in s.tags %}<span class="tag">{{ t }}</span>{% endfor %}</label>
+      {% endfor %}
+      <textarea name="texts" hidden>{% for s in suggestions %}{{ s.text }}
+{% endfor %}</textarea>
+      <input type="hidden" name="tags" value="suggested">
+      <button class="btn primary">Add selected</button>
+    </form>
+    <script>function syncSug(f){f.texts.value=[...f.querySelectorAll("input[data-text]:checked")].map(i=>i.dataset.text).join("\n")}</script>
+    {% else %}<p class="muted small">Generates realistic questions people ask AI assistants in your category (uses an LLM if one is configured, otherwise templates).</p>{% endif %}
+  </section>
+</div>
+
+<section class="card">
+  <div class="cardhead"><h2>Performance by prompt</h2><a class="small" href="/p/{{ pid }}/export/prompts.csv?{{ qs }}">Export CSV</a></div>
+  <table class="tbl">
+    <thead><tr><th>Prompt</th><th class="r">Answers</th><th class="r">Visibility</th><th class="r">Position</th><th>Brands mentioned</th><th></th></tr></thead>
+    <tbody>
+    {% for r in rows %}
+    <tr class="{{ '' if r.active else 'inactive' }}">
+      <td><a href="/p/{{ pid }}/prompts/{{ r.id }}?{{ qs }}">{{ r.text }}</a>
+        <div>{% for t in r.tags %}<a class="tag" href="{{ url_with(request, tag=t) }}">{{ t }}</a>{% endfor %}{% if not r.active %}<span class="tag">paused</span>{% endif %}</div></td>
+      <td class="r muted">{{ r.responses }}</td>
+      <td class="r"><span class="bar"><i style="width:{{ r.visibility }}%"></i></span>{{ r.visibility|pct }}</td>
+      <td class="r">{{ r.position|num }}</td>
+      <td class="stackbar">{% for b in r.brands[:5] %}<span title="{{ b.name }}: {{ b.pct|pct }}">{{ brandchip(b.name ~ ' ' ~ (b.pct|pct), b.color) }}</span>{% endfor %}</td>
+      <td class="actions">
+        <form method="post" action="/p/{{ pid }}/prompts/{{ r.id }}/toggle"><button class="btn tiny">{{ "Pause" if r.active else "Resume" }}</button></form>
+        <form method="post" action="/p/{{ pid }}/prompts/{{ r.id }}/delete" onsubmit="return confirm('Delete this prompt and all its answers?')"><button class="btn tiny danger">Delete</button></form>
+      </td>
+    </tr>
+    {% else %}
+    <tr><td colspan="6" class="muted">No prompts yet — add some above.</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endblock %}

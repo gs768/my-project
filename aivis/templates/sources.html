@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="head">
+  <h1>Sources</h1>
+  {% include "_filters.html" %}
+</header>
+
+<section class="card">
+  <h2>Source types</h2>
+  <div class="typebar">
+    {% for t in sources.types %}<span class="seg t-{{ t.type }}" style="flex:{{ t.pct }}" title="{{ t.type }}: {{ t.pct|pct }}"></span>{% endfor %}
+  </div>
+  <div class="legend">
+    {% for t in sources.types %}<span><i class="t-{{ t.type }}"></i>{{ t.type }} <b>{{ t.pct|pct }}</b> <span class="muted">({{ t.citations }})</span></span>{% endfor %}
+  </div>
+  <p class="muted small">you = your domains · competitor = competitor domains · ugc = Reddit, YouTube, forums · review = G2, Capterra… · reference = Wikipedia… · institutional = .gov/.edu · editorial = everything else (media, blogs).</p>
+</section>
+
+<section class="card">
+  <div class="cardhead">
+    <div class="tabs">
+      <a class="{{ 'on' if view == 'domains' }}" href="{{ url_with(request, view='domains') }}">Domains</a>
+      <a class="{{ 'on' if view == 'urls' }}" href="{{ url_with(request, view='urls') }}">URLs</a>
+    </div>
+    <a class="small" href="/p/{{ pid }}/export/{{ 'sources' if view == 'domains' else 'urls' }}.csv?{{ qs }}">Export CSV</a>
+  </div>
+  {% if view == 'domains' %}
+  <table class="tbl">
+    <thead><tr><th>Domain</th><th>Type</th><th class="r" title="Share of answers that cite this domain">Used</th><th class="r">Citations</th><th class="r">Avg. position</th><th class="r" title="Of answers citing this domain, share that mention you">You mentioned</th></tr></thead>
+    <tbody>
+    {% for d in sources.domains %}
+    <tr><td><a href="https://{{ d.domain }}" target="_blank" rel="noopener">{{ d.domain }}</a></td>
+      <td><span class="type t-{{ d.type }}">{{ d.type }}</span></td>
+      <td class="r"><span class="bar"><i style="width:{{ d.used }}%"></i></span>{{ d.used|pct }}</td>
+      <td class="r">{{ d.citations }}</td><td class="r">{{ d.position|num }}</td>
+      <td class="r {{ 'warn' if d.you_mentioned < 30 }}">{{ d.you_mentioned|pct }}</td></tr>
+    {% else %}<tr><td colspan="6" class="muted">No citations in this range.</td></tr>{% endfor %}
+    </tbody>
+  </table>
+  <p class="muted small">Tip: high-use domains with a low “You mentioned” rate are outreach targets — get featured there and AI answers follow.</p>
+  {% else %}
+  <table class="tbl">
+    <thead><tr><th>URL</th><th>Type</th><th class="r">Used</th><th class="r">Citations</th></tr></thead>
+    <tbody>
+    {% for u in sources.urls %}
+    <tr><td class="url"><a href="{{ u.url }}" target="_blank" rel="noopener">{{ u.title or u.url }}</a><div class="muted small">{{ u.url }}</div></td>
+      <td><span class="type t-{{ u.type }}">{{ u.type }}</span></td><td class="r">{{ u.used|pct }}</td><td class="r">{{ u.citations }}</td></tr>
+    {% else %}<tr><td colspan="4" class="muted">No citations in this range.</td></tr>{% endfor %}
+    </tbody>
+  </table>
+  {% endif %}
+</section>
+{% endblock %}

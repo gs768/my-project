@@ -1,0 +1,23 @@
+<form class="filters" method="get">
+  {% for k, v in request.query_params.multi_items() if k not in ("days", "model", "tag", "page") %}
+  <input type="hidden" name="{{ k }}" value="{{ v }}">
+  {% endfor %}
+  <label>Range
+    <select name="days" onchange="this.form.submit()">
+      {% for d in [7, 14, 30, 90, 365] %}<option value="{{ d }}" {% if days == d %}selected{% endif %}>Last {{ d }} days</option>{% endfor %}
+    </select>
+  </label>
+  <label>Model
+    <select name="model" onchange="this.form.submit()">
+      <option value="">All models</option>
+      {% for m in all_models %}<option value="{{ m }}" {% if m in sel_models %}selected{% endif %}>{{ model_label(m) }}</option>{% endfor %}
+    </select>
+  </label>
+  <label>Tag
+    <select name="tag" onchange="this.form.submit()">
+      <option value="">All tags</option>
+      {% for t in all_tags %}<option value="{{ t }}" {% if t == sel_tag %}selected{% endif %}>{{ t }}</option>{% endfor %}
+    </select>
+  </label>
+  {% if f %}<span class="muted small">{{ f.start }} → {{ f.end }}</span>{% endif %}
+</form>

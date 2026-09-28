@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% from "_delta.html" import brandchip %}
+{% block content %}
+<header class="head">
+  <div><a class="muted small" href="/p/{{ pid }}/prompts">← Prompts</a>
+  <h1>{{ prompt.text }}</h1>
+  <form method="post" action="/p/{{ pid }}/prompts/{{ prompt.id }}/tags" class="inline">
+    <input name="tags" value="{{ prompt.tags|join(', ') }}" placeholder="tags"><button class="btn tiny">Save tags</button>
+  </form></div>
+  {% include "_filters.html" %}
+</header>
+
+<section class="card">
+  <h2>Visibility over time</h2>
+  <div class="chartwrap short"><canvas id="trend"></canvas></div>
+  <script type="application/json" id="series">{{ series|tojson }}</script>
+</section>
+
+<div class="grid two">
+  <section class="card">
+    <h2>Brands</h2>
+    <table class="tbl"><thead><tr><th>Brand</th><th class="r">Visibility</th><th class="r">Position</th><th class="r">Sentiment</th></tr></thead>
+    <tbody>{% for b in brands %}<tr class="{{ 'ownrow' if b.is_own }}"><td>{{ brandchip(b.name, b.color, b.is_own) }}</td>
+      <td class="r">{{ b.visibility|pct }}</td><td class="r">{{ b.position|num }}</td><td class="r">{{ b.sentiment|num }}</td></tr>{% endfor %}</tbody></table>
+    <h3>By model</h3>
+    <table class="tbl"><tbody>{% for m in by_model %}<tr><td>{{ model_label(m.model) }}</td><td class="r">{{ m.visibility|pct }}</td></tr>{% endfor %}</tbody></table>
+  </section>
+  <section class="card">
+    <h2>Sources cited</h2>
+    <table class="tbl"><thead><tr><th>Domain</th><th>Type</th><th class="r">Used</th></tr></thead>
+    <tbody>{% for d in sources.domains %}<tr><td>{{ d.domain }}</td><td><span class="type t-{{ d.type }}">{{ d.type }}</span></td><td class="r">{{ d.used|pct }}</td></tr>
+    {% else %}<tr><td colspan="3" class="muted">No sources cited.</td></tr>{% endfor %}</tbody></table>
+  </section>
+</div>
+
+<section class="card">
+  <h2>Answers</h2>
+  {% include "_responses_list.html" %}
+</section>
+{% endblock %}
+{% block scripts %}
+<script src="/static/chart.umd.js"></script>
+<script src="/static/chart.js"></script>
+<script>drawTrend("trend", JSON.parse(document.getElementById("series").textContent));</script>
+{% endblock %}

@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}Projects{% endblock %}
+{% block content %}
+<header class="head"><h1>{{ "New project" if force_new or not projects else "Projects" }}</h1></header>
+
+{% if projects and not force_new %}
+<div class="grid cards">
+  {% for p in projects %}
+  <a class="card link" href="/p/{{ p.id }}"><h3>{{ p.name }}</h3>
+    <p class="muted small">{{ p.models|length }} model(s) · {{ p.country }}</p></a>
+  {% endfor %}
+  <a class="card link dashed" href="/new"><h3>+ New project</h3><p class="muted small">Track another brand</p></a>
+</div>
+{% else %}
+<section class="card narrow">
+  <p class="muted">Track how ChatGPT, Claude, Gemini, Perplexity and Grok talk about your brand versus competitors.</p>
+  <form method="post" action="/projects" class="stack">
+    <label>Project name <input name="name" required placeholder="Acme – US"></label>
+    <div class="row2">
+      <label>Your brand <input name="brand" required placeholder="Acme"></label>
+      <label>Country <input name="country" value="US" maxlength="2"></label>
+    </div>
+    <label>Brand aliases <span class="muted small">(comma separated)</span><input name="aliases" placeholder="Acme Inc, AcmeCRM"></label>
+    <label>Your domains <input name="domains" placeholder="acme.com, blog.acme.com"></label>
+    <label>Competitors <span class="muted small">(one per line: <code>Name | aliases | domains</code>)</span>
+      <textarea name="competitors" rows="4" placeholder="HubSpot | | hubspot.com&#10;Salesforce | Sales Cloud | salesforce.com"></textarea></label>
+    <fieldset><legend>Models to track</legend>
+      {% for p in providers_list %}
+      <label class="check {{ '' if p.configured else 'disabled' }}">
+        <input type="checkbox" name="models" value="{{ p.key }}" {% if p.configured %}checked{% else %}disabled{% endif %}>
+        {{ p.label }} <span class="muted small">{{ p.model }}{% if not p.configured %} — set {{ p.env }}{% endif %}</span>
+      </label>
+      {% endfor %}
+    </fieldset>
+    <button class="btn primary">Create project</button>
+  </form>
+  <p class="muted small">No API keys yet? Run <code>python -m aivis demo</code> to load a project with 30 days of sample data.</p>
+</section>
+{% endif %}
+{% endblock %}

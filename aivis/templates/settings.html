@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="head"><h1>Settings</h1></header>
+
+<div class="grid two">
+<section class="card">
+  <h2>Project</h2>
+  <form method="post" action="/p/{{ pid }}/settings" class="stack">
+    <div class="row2">
+      <label>Name <input name="name" value="{{ project.name }}" required></label>
+      <label>Country <input name="country" value="{{ project.country }}" maxlength="2"></label>
+    </div>
+    <fieldset><legend>Models</legend>
+      {% for p in providers_list %}
+      <label class="check {{ '' if p.configured else 'disabled' }}">
+        <input type="checkbox" name="models" value="{{ p.key }}" {% if p.key in project.models %}checked{% endif %} {% if not p.configured %}disabled{% endif %}>
+        {{ p.label }} <span class="muted small">{{ p.model }}{% if not p.configured %} — set {{ p.env }}{% endif %}</span>
+      </label>
+      {% endfor %}
+      {% for m in project.models if m.startswith('demo') %}<p class="muted small">Demo model “{{ model_label(m) }}” enabled.</p>{% endfor %}
+    </fieldset>
+    <button class="btn primary">Save</button>
+  </form>
+  <p class="muted small">Analysis helper (prompt suggestions): {{ analysis.label if analysis else "none — using templates" }}.</p>
+</section>
+
+<section class="card">
+  <h2>Discovered brands</h2>
+  <p class="muted small">Names that keep appearing in answers but aren't tracked yet.</p>
+  {% if discovered %}
+  <table class="tbl"><tbody>
+  {% for d in discovered %}
+  <tr><td>{{ d.name }}</td><td class="r muted">{{ d.pct|pct }} of answers</td>
+    <td class="r"><form method="post" action="/p/{{ pid }}/entities"><input type="hidden" name="name" value="{{ d.name }}"><button class="btn tiny">Track</button></form></td></tr>
+  {% endfor %}
+  </tbody></table>
+  {% else %}<p class="muted">Nothing yet — run some prompts first.</p>{% endif %}
+</section>
+</div>
+
+<section class="card">
+  <h2>Brands</h2>
+  <p class="muted small">Aliases and domains count as mentions. Capitalised names must appear capitalised (so “Close” won’t match “close to”). Saving re-analyses stored answers.</p>
+  <table class="tbl brands">
+    <thead><tr><th></th><th>Name</th><th>Aliases</th><th>Domains</th><th></th></tr></thead>
+    <tbody>
+    {% for e in entities %}
+    {% set fid = "ent" ~ e.id %}
+    <tr>
+      <td><input type="color" name="color" value="{{ e.color }}" form="{{ fid }}"></td>
+      <td><input name="name" value="{{ e.name }}" required form="{{ fid }}">{% if e.is_own %}<span class="tag">you</span>{% endif %}</td>
+      <td><input name="aliases" value="{{ e.aliases|join(', ') }}" form="{{ fid }}"></td>
+      <td><input name="domains" value="{{ e.domains|join(', ') }}" form="{{ fid }}"></td>
+      <td class="actions">
+        <form id="{{ fid }}" method="post" action="/p/{{ pid }}/entities/{{ e.id }}"><button class="btn tiny">Save</button></form>
+        {% if not e.is_own %}<form method="post" action="/p/{{ pid }}/entities/{{ e.id }}/delete" onsubmit="return confirm('Stop tracking this brand?')"><button class="btn tiny danger">Remove</button></form>{% endif %}
+      </td>
+    </tr>
+    {% endfor %}
+    <tr>
+      <td></td><td><input name="name" placeholder="Add competitor" required form="entnew"></td>
+      <td><input name="aliases" placeholder="aliases" form="entnew"></td><td><input name="domains" placeholder="domain.com" form="entnew"></td>
+      <td><form id="entnew" method="post" action="/p/{{ pid }}/entities"><button class="btn tiny primary">Add</button></form></td>
+    </tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="card danger-zone">
+  <h2>Danger zone</h2>
+  <form method="post" action="/p/{{ pid }}/delete" onsubmit="return confirm('Delete this project and all its data?')"><button class="btn danger">Delete project</button></form>
+</section>
+{% endblock %}

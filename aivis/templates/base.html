@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ project.name if project else "AI Visibility" }}{% endblock %} · AI Visibility</title>
+  <link rel="stylesheet" href="/static/app.css">
+  <script>try{const t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body>
+<div class="shell">
+  <aside class="side">
+    <a class="logo" href="/"><span class="dot"></span> AI Visibility</a>
+    {% if projects %}
+    <select class="proj" onchange="location.href=this.value==='new'?'/new':'/p/'+this.value">
+      {% for p in projects %}<option value="{{ p.id }}" {% if project and p.id == project.id %}selected{% endif %}>{{ p.name }}</option>{% endfor %}
+      <option value="new">+ New project</option>
+    </select>
+    {% endif %}
+    {% if project %}
+    {% set path = request.url.path %}
+    <nav>
+      <a href="/p/{{ pid }}" class="{{ 'on' if path == '/p/' ~ pid }}">Overview</a>
+      <a href="/p/{{ pid }}/prompts" class="{{ 'on' if '/prompts' in path }}">Prompts</a>
+      <a href="/p/{{ pid }}/sources" class="{{ 'on' if '/sources' in path }}">Sources</a>
+      <a href="/p/{{ pid }}/responses" class="{{ 'on' if '/responses' in path }}">Responses</a>
+      <a href="/p/{{ pid }}/runs" class="{{ 'on' if '/runs' in path }}">Runs{% if running %} <span class="pulse"></span>{% endif %}</a>
+      <a href="/p/{{ pid }}/settings" class="{{ 'on' if '/settings' in path }}">Settings</a>
+    </nav>
+    <form method="post" action="/p/{{ pid }}/run" class="runbox">
+      <button class="btn primary wide" {% if running %}disabled{% endif %}>{{ "Run in progress…" if running else "Run now" }}</button>
+    </form>
+    {% endif %}
+    <button class="theme" type="button" onclick="toggleTheme()">◐ Theme</button>
+  </aside>
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+</div>
+<script>
+function toggleTheme(){
+  const cur = document.documentElement.dataset.theme ||
+    (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  const next = cur === "dark" ? "light" : "dark";
+  document.documentElement.dataset.theme = next;
+  try{localStorage.setItem("theme", next)}catch(e){}
+  window.dispatchEvent(new Event("themechange"));
+}
+</script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

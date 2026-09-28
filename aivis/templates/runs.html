@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="head"><h1>Runs</h1>
+  <span class="muted small">{% if cfg.SCHEDULE %}Scheduled daily at {{ "%02d"|format(cfg.SCHEDULE_HOUR_UTC) }}:00 UTC{% else %}Daily schedule off{% endif %} · {{ cfg.SAMPLES_PER_PROMPT }} sample(s) per prompt per model</span></header>
+<section class="card">
+  <table class="tbl">
+    <thead><tr><th>#</th><th>Started</th><th>Trigger</th><th>Status</th><th class="r">Progress</th><th class="r">Errors</th></tr></thead>
+    <tbody>
+    {% for r in runs %}
+    <tr><td class="muted">{{ r.id }}</td><td>{{ r.started_at[:16]|replace('T', ' ') }}</td><td>{{ r.trigger }}</td>
+      <td><span class="status s-{{ r.status }}">{{ r.status }}</span></td>
+      <td class="r">{{ r.done }} / {{ r.total }}</td><td class="r {{ 'warn' if r.errors }}">{{ r.errors }}</td></tr>
+    {% else %}<tr><td colspan="6" class="muted">No runs yet.</td></tr>{% endfor %}
+    </tbody>
+  </table>
+</section>
+{% if errors %}
+<section class="card">
+  <h2>Recent errors</h2>
+  <table class="tbl"><tbody>{% for e in errors %}<tr><td>{{ model_label(e.model) }}</td><td class="small">{{ e.prompt }}</td><td class="small err">{{ e.error }}</td></tr>{% endfor %}</tbody></table>
+</section>
+{% endif %}
+{% endblock %}
+{% block scripts %}{% if running %}<script>setTimeout(() => location.reload(), 3000)</script>{% endif %}{% endblock %}

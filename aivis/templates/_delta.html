@@ -1,0 +1,9 @@
+{% macro delta(v, invert=False, unit="") -%}
+{%- if v is defined and v is not none and v != 0 -%}
+{%- set good = (v < 0) if invert else (v > 0) -%}
+<span class="delta {{ 'up' if good else 'down' }}" title="vs previous period">{{ "▲" if v > 0 else "▼" }} {{ "%.1f"|format(v|abs) }}{{ unit }}</span>
+{%- endif -%}
+{%- endmacro %}
+{% macro brandchip(name, color, own=False) -%}
+<span class="chip{{ ' own' if own }}"><i style="background:{{ color }}"></i>{{ name }}</span>
+{%- endmacro %}

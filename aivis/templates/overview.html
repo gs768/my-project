@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+{% from "_delta.html" import delta, brandchip %}
+{% block content %}
+<header class="head">
+  <h1>Overview</h1>
+  {% include "_filters.html" %}
+</header>
+
+{% if not has_data %}
+<section class="card empty">
+  <h3>No data yet</h3>
+  <p class="muted">Add prompts, enable at least one model in Settings, then click <b>Run now</b>. Runs also happen daily at {{ "%02d"|format(cfg.SCHEDULE_HOUR_UTC) }}:00 UTC.</p>
+  <a class="btn" href="/p/{{ pid }}/prompts">Add prompts</a>
+</section>
+{% else %}
+<section class="tiles">
+  <div class="tile"><span class="lbl">Visibility</span><b>{{ own.visibility|pct }}</b>{{ delta(own.visibility_delta, unit=" pts") }}
+    <span class="muted small">{{ own.responses }} of {{ own.total }} answers mention {{ own.name }}</span></div>
+  <div class="tile"><span class="lbl">Share of voice</span><b>{{ own.share_of_voice|pct }}</b>{{ delta(own.sov_delta, unit=" pts") }}
+    <span class="muted small">of all tracked-brand mentions</span></div>
+  <div class="tile"><span class="lbl">Avg. position</span><b>{{ own.position|num }}</b>{{ delta(own.position_delta, invert=True) }}
+    <span class="muted small">1 = mentioned first</span></div>
+  <div class="tile"><span class="lbl">Sentiment</span><b>{{ own.sentiment|num }}</b>{{ delta(own.sentiment_delta) }}
+    <span class="muted small">0–100, 50 = neutral</span></div>
+</section>
+
+<section class="card">
+  <div class="cardhead">
+    <h2>{{ {"visibility": "Visibility", "share_of_voice": "Share of voice", "position": "Position", "sentiment": "Sentiment"}[metric] }} over time</h2>
+    <div class="tabs">
+      {% for k, lbl in [("visibility","Visibility"),("share_of_voice","Share of voice"),("position","Position"),("sentiment","Sentiment")] %}
+      <a class="{{ 'on' if metric == k }}" href="{{ url_with(request, metric=k) }}">{{ lbl }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="chartwrap"><canvas id="trend" aria-label="Trend chart; the brand table below has the same data"></canvas></div>
+  <script type="application/json" id="series">{{ series|tojson }}</script>
+</section>
+
+<div class="grid two">
+  <section class="card">
+    <div class="cardhead"><h2>Brand ranking</h2><a class="small" href="/p/{{ pid }}/export/brands.csv?{{ qs }}">Export CSV</a></div>
+    <table class="tbl">
+      <thead><tr><th>#</th><th>Brand</th><th class="r">Visibility</th><th class="r">SoV</th><th class="r">Position</th><th class="r">Sentiment</th></tr></thead>
+      <tbody>
+      {% for b in brands %}
+      <tr class="{{ 'ownrow' if b.is_own }}">
+        <td class="muted">{{ b.rank }}</td>
+        <td><a href="/p/{{ pid }}/responses?brand={{ b.id }}&{{ qs }}">{{ brandchip(b.name, b.color, b.is_own) }}</a></td>
+        <td class="r"><span class="bar"><i style="width:{{ b.visibility }}%;background:{{ b.color }}"></i></span>{{ b.visibility|pct }} {{ delta(b.visibility_delta) }}</td>
+        <td class="r">{{ b.share_of_voice|pct }}</td>
+        <td class="r">{{ b.position|num }}</td>
+        <td class="r">{{ b.sentiment|num }}</td>
+      </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </section>
+
+  <section class="card">
+    <h2>{{ own.name }} by model</h2>
+    <table class="tbl">
+      <thead><tr><th>Model</th><th class="r">Answers</th><th class="r">Visibility</th><th class="r">Position</th><th class="r">Sentiment</th></tr></thead>
+      <tbody>
+      {% for m in by_model %}
+      <tr><td>{{ model_label(m.model) }}</td><td class="r muted">{{ m.responses }}</td>
+        <td class="r"><span class="bar"><i style="width:{{ m.visibility }}%"></i></span>{{ m.visibility|pct }}</td>
+        <td class="r">{{ m.position|num }}</td><td class="r">{{ m.sentiment|num }}</td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </section>
+</div>
+
+<div class="grid two">
+  <section class="card">
+    <div class="cardhead"><h2>Biggest gaps</h2><span class="muted small">prompts where a competitor beats you</span></div>
+    {% if opps %}
+    <table class="tbl">
+      <thead><tr><th>Prompt</th><th class="r">You</th><th>Leader</th><th class="r">Gap</th></tr></thead>
+      <tbody>
+      {% for o in opps %}
+      <tr><td><a href="/p/{{ pid }}/prompts/{{ o.id }}?{{ qs }}">{{ o.text }}</a></td>
+        <td class="r">{{ o.visibility|pct }}</td>
+        <td class="small">{{ o.top_competitor }} ({{ o.top_competitor_visibility|pct }})</td>
+        <td class="r"><span class="delta down">{{ "%.0f"|format(o.gap) }} pts</span></td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    {% else %}<p class="muted">No gaps — you lead on every prompt in this range.</p>{% endif %}
+  </section>
+
+  <section class="card">
+    <div class="cardhead"><h2>Top sources</h2><a class="small" href="/p/{{ pid }}/sources?{{ qs }}">All sources →</a></div>
+    <table class="tbl">
+      <thead><tr><th>Domain</th><th>Type</th><th class="r">Used</th></tr></thead>
+      <tbody>
+      {% for d in sources.domains %}
+      <tr><td>{{ d.domain }}</td><td><span class="type t-{{ d.type }}">{{ d.type }}</span></td>
+        <td class="r"><span class="bar"><i style="width:{{ d.used }}%"></i></span>{{ d.used|pct }}</td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </section>
+</div>
+{% endif %}
+{% endblock %}
+{% block scripts %}
+{% if has_data %}
+<script src="/static/chart.umd.js"></script>
+<script src="/static/chart.js"></script>
+<script>drawTrend("trend", JSON.parse(document.getElementById("series").textContent));</script>
+{% endif %}
+{% endblock %}
