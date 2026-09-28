@@ -66,7 +66,7 @@ Each answer then goes through these steps:
 2. **Sentiment.** If an Anthropic key is set, Claude Haiku 4.5 scores each mentioned brand and returns structured output. Without a key, a lexicon scorer rates only the sentences that name the brand.
 3. **Citations.** Sources from the engine and inline URLs are merged, deduplicated and stripped of `utm_*` parameters, then classified by domain.
 
-Everything is stored in SQLite at `data/beacon.db`: responses, mentions and citations. Metrics are calculated when you view the dashboard, so changing a brand's aliases or filters doesn't require a re-run.
+Everything is stored in SQLite at `data/beacon.db`: responses, mentions and citations. Metrics are calculated when you view the dashboard, so changing filters doesn't require a re-run. Mentions are detected when an answer is saved, so a new alias or competitor only applies to answers from later runs.
 
 ## Layout
 
