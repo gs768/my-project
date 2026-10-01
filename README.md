@@ -10,6 +10,10 @@ until someone approves it.
 
 ## How it works
 
+> **Schedules are currently off.** Nothing runs automatically; run `weekly` and `poll` by hand
+> from the Actions tab. To re-enable, add the `schedule:` block noted at the top of
+> `.github/workflows/gbp-reviews.yml`.
+
 ```
 Mon 8:47am ET   weekly  ─► client master sheet (SEO = TRUE rows)
                           ─► exclusions + rules (system sheet)

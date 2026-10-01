@@ -1,11 +1,10 @@
 name: GBP review replies
 
+# Schedules are turned off; run manually from the Actions tab. To turn them back on, add:
+#   schedule:
+#     - cron: "47 12 * * 1"   # weekly proposal, Mondays 8:47am ET
+#     - cron: "17 * * * *"    # hourly approvals / notes poller
 on:
-  schedule:
-    # Weekly proposal: Mondays 12:47 UTC (8:47am Eastern during daylight time).
-    - cron: "47 12 * * 1"
-    # Approval / notes poller: hourly.
-    - cron: "17 * * * *"
   workflow_dispatch:
     inputs:
       job:
@@ -46,12 +45,4 @@ jobs:
           SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
           ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
           MIN_REVIEW_AGE_DAYS: ${{ vars.MIN_REVIEW_AGE_DAYS }}
-        run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            JOB="${{ inputs.job }}"
-          elif [ "${{ github.event.schedule }}" = "47 12 * * 1" ]; then
-            JOB=weekly
-          else
-            JOB=poll
-          fi
-          python -m gbp_reviews "$JOB"
+        run: python -m gbp_reviews "${{ inputs.job }}"
