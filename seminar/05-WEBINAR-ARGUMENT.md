@@ -41,7 +41,7 @@ Same format for each firm so the pattern is unmistakable: **Before → What we i
 
 | Firm | Screenshots to capture (before & after, same date span) |
 |---|---|
-| **Orell, Silk & Powell** | LSA dashboard: leads/month, cost per lead, charged vs. credited leads, review count/score |
+| **Obral Silk & Pal (OSP)** | LSA dashboard: leads/month, cost per lead, charged vs. credited leads, review count/score |
 | **Langley Law Firm** | Same, plus a BrightLocal Local Search Grid before/after for the core keyword |
 | **Meyer Gutierrez** | Same, plus CallRail answer rate/response time before/after |
 

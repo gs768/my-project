@@ -15,8 +15,9 @@
 | Item | Decision |
 |---|---|
 | Format | Pre-scheduled **webinar** on Zoom (not an in-person seminar), ~60 min + Q&A |
-| Price | **$20**, credited toward the first month if they become a client |
+| Price | **$30**, not credited toward services |
 | Title | *The LSA Playbook: What Actually Moves PI Firms to the Top of Google Local Services Ads* |
+| Date | **November 15, 2026 (placeholder, time TBD)** |
 | Runs | **Webinar #1** (practice, smaller audience) → fix → **Webinar #2** (~3 weeks later, full push) |
 | Audience | PI firm owners/partners, all states except FL; best fit is 3+ attorneys already spending on Google |
 | Registration questions | Name, firm, email, phone, state, LSA status, monthly marketing spend, **case type they value most** (used in nurture) |
@@ -40,7 +41,7 @@ Mihle and Romina are gone; the LLM connectors now manage Instantly, Google Tag M
 ## 4. Tool stack ($0 new except ads)
 | Need | Tool (already owned / free) |
 |---|---|
-| Registration + $20 payment + Zoom link + reminders | **Eventbrite** (free listing; ~$1–2 ticket fee passed to the buyer), embedded on the WordPress page. Backup: Gravity Forms + PayPal |
+| Registration + $30 payment + Zoom link + reminders | **Eventbrite** (free listing; ~$1–2 ticket fee passed to the buyer), embedded on the WordPress page. Backup: Gravity Forms + PayPal |
 | Webinar room | **Zoom** meeting with registration (muted entry, waiting room, cloud recording). Add Zoom Webinars for one month only if over the participant cap |
 | Contacts / pipeline | **Google Sheet** "Webinar Contacts" (replaces Pipedrive and GoHighLevel) |
 | Automations | Zapier: Eventbrite/Gravity Forms → Sheet + Mailchimp |
@@ -81,7 +82,7 @@ Mihle and Romina are gone; the LLM connectors now manage Instantly, Google Tag M
 ⚠️ Say "LSA ranking signals + Search Ads Quality Score". LSA itself has no Quality Score.
 
 **Act 4: Proof (~15 min).** Same before → what we did → after format for each firm:
-- **Orell, Silk & Powell** (confirm spelling)
+- **Obral Silk & Pal (OSP)** (confirm spelling)
 - **Langley Law Firm**
 - **Maier Gutierrez & Associates** (spelled "Maier" in their email signature)
 Show LSA dashboard (leads, cost/lead, credited leads, reviews) + BrightLocal grid / CallRail answer rate. One headline number per firm, plus a quote/clip.
@@ -99,16 +100,19 @@ Requirements: written permission, redact caller data, "results vary" footnote, n
 - **Facebook:** retarget warm pools first, then the cold 4,000 list + lookalike. Optimize for `Purchase`. Retarget non-buyers at 7 and 3 days out, and the day before.
 - **Avatar promo videos:** invitation · "Google screenshot" teaser · client-result teaser · last call. Turn on Meta's **AI info label**. Record the final invite as a real selfie video.
 - **Email:** Instantly 3-step cold invite (FL removed, conservative send limits) + personal Gmail to warm contacts.
-- **SDR sprint (Alexander, 2–3 days):** "Gabriel's running a $20 PI-only session on LSA rankings, can I text you the link?" Log in the Sheet.
+- **SDR sprint (Alexander, 2–3 days):** "Gabriel's running a $30 PI-only session on LSA rankings, can I text you the link?" Log in the Sheet.
 - **Free listings:** Eventbrite · Facebook Event · LinkedIn Event (Gabriel + company page) · AllEvents/Luma · PI attorney groups (value post, follow group rules) · email signature + website banner.
 
 ## 7. Registrant emails (Mailchimp, or Eventbrite reminders for #1)
 Confirmation + checklist PDF → 3 days before ("bring your LSA cost-per-lead and answer rate") → 24h → 1h → starting now → replay (attendees) / replay 48h (no-shows).
 Lead magnet: **LSA Lead Dispute Checklist** (1 page).
 
+## 7b. Choosing which firms to target (analysis consent)
+Before a firm is added to the target list, **confirm we may run its city-opportunity analysis and present it in the meeting** (the analysis uses its public LSA and review data, plus screenshots). Record the confirmation (email or call note) in the Sheet. No confirmation, no analysis. **Capacity: 2 analyses per meeting.**
+
 ## 8. Conversion: two meetings
 1. **Meeting 1, LSA Market Audit (30 min).** Before: BrightLocal grid, LSA rank check, a test call to their intake, hub/spoke coverage check. On the call: 3 findings, their goals, the case type they value. **Book Meeting 2 before hanging up.**
-2. **Meeting 2, The Plan (45 min).** Spoke map, responsiveness plan, dispute recovery estimate, premium pricing, $20 credit. One follow-up within 7 days, then nurture. No pressure.
+2. **Meeting 2, The Plan (45 min).** Spoke map, responsiveness plan, dispute recovery estimate, premium pricing. One follow-up within 7 days, then nurture. No pressure.
 
 Sheet statuses: Invited → Paid → Attended / No-show → M1 Booked → M1 Held → M2 Held → Won / Nurture.
 
@@ -134,7 +138,7 @@ Sheet statuses: Invited → Paid → Attended / No-show → M1 Booked → M1 Hel
 Ad reach / warm pool size → registrations → paid → attended → M1 → M2 → won · cost per registration · cost per signed client · nurture replies and bookings per quarter.
 
 ## 12. Open items
-- [ ] Confirm the spelling "Orell, Silk & Powell"
+- [ ] Confirm the spelling "Obral Silk & Pal (OSP)"
 - [ ] Video links for the MBJ email (draft in Gmail, not sent)
 - [ ] Zoom participant cap and Mailchimp plan limit
 - [ ] Webinar #1 date

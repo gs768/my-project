@@ -1,14 +1,14 @@
-# Eventbrite listing + registrant emails (draft, $20 webinar)
+# Eventbrite listing + registrant emails (draft, $30 webinar)
 
-Fill before publishing: `{DATE}` `{TIME ET}` `{ZOOM LINK}` `{CREDIT}` (decide: is the $20 credited toward services, yes/no) `{FIRM}/{A}/{B}/{C}` (case-study numbers, only from connector data and a screenshot).
+Fill before publishing: `{DATE}` (Nov 15, 2026 placeholder) `{TIME ET}` `{ZOOM LINK}` `{FIRM}/{A}/{B}/{C}` (case-study numbers, only from connector data and a screenshot).
 No guaranteed results anywhere. Exclude Florida from all targeting.
 
 ## 1. Eventbrite listing
 **Title:** The LSA Playbook for Personal Injury Firms: What Agencies Leave Out
-**Summary (under 140 characters):** A live 60-minute webinar for PI firms on Google Local Services Ads, with real before-and-after case studies. $20.
+**Summary (under 140 characters):** A live 60-minute webinar for PI firms on Google Local Services Ads, with real before-and-after case studies. $30.
 **Category:** Business & Professional > Marketing. **Format:** Online. **Date/time:** {DATE}, {TIME ET} (show the time zone).
 **Image:** HeyGen avatar frame with the date badge (1:1 and 16:9 versions).
-**Ticket:** "Webinar seat", $20, fees passed to the buyer, capacity set to the Zoom limit. Sales end 30 minutes before start.
+**Ticket:** "Webinar seat", $30, fees passed to the buyer, capacity set to the Zoom limit. Sales end 30 minutes before start.
 
 **Description**
 > Most agencies say photos, citations and response time are the key to Local Services Ads. Those are table stakes.
@@ -23,7 +23,6 @@ No guaranteed results anywhere. Exclude Florida from all targeting.
 > - Live Q&A. Replay included for ticket holders.
 >
 > **Who it's for:** personal injury firms already investing in Google. **Not for:** anyone shopping for a low-cost package.
-> {CREDIT}
 > Results vary. This is marketing education for law firms, not legal advice.
 
 **Eventbrite settings:** online event page with the Zoom link in the "online event" details, order message ("Your Zoom link is below. Bring your LSA cost per lead and answer rate if you have them"), custom question: *"Which case type matters most to your firm?"* (auto / trucking / premises / med-mal / wrongful death / other) plus state and firm name, reminder 24 hours before, refund policy stated.
@@ -54,7 +53,6 @@ Every email: plain text, physical address, unsubscribe. Marketing emails from th
 For attendees who book Meeting 1, we run `tools/lsa_opportunity.py` for their firm using the manual data collection process (TEAM-INSTRUCTIONS.md). It takes a few hours per firm, so cap Meeting 1 bookings at the number we can prepare per week.
 
 ## 4. To decide
-- [ ] Is the $20 credited toward services? ({CREDIT} line, FAQ, E6)
 - [ ] Date/time, and Zoom capacity
 - [ ] Case-study numbers (one firm, verified with a screenshot)
-- [ ] How many Meeting 1 audits per week can we prepare
+- [x] Two analyses per meeting. Firms confirm beforehand that we may run and present their analysis (see PLAYBOOK 7b)
