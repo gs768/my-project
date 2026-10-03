@@ -38,14 +38,27 @@ Spend sat near a **budget ceiling of about $6.3-6.9k a month** from Dec 2024 to 
 - Steady 2026: Mar $2,035 / 539, Apr $419 / 479, May $1,077 / 546. Impressions fall to 269-373 from Jun to Sep 2026, and spend to about $0.3k a month.
 - Weakest case-study candidate: volume is small and declining. Needs lead data to see if charged calls rose despite the lower impressions.
 
-## MBJ medical malpractice (requested as the second case study)
-- **No medical-malpractice LSA profile found** in the Google Ads accounts reachable through this connection. All MBJ LSA leads (both accounts below) are in the *personal injury* category.
-- What does exist: a Smart campaign named "Medical Malpractice Lawyer" in the MBJ account (paused, **only July 2026 data: 317 impressions, 9 clicks, $13.90**). That's too small to support a case study.
-- A second **unnamed** account (4267491599) has an ENABLED LSA campaign, also personal injury. Impressions: about 1,300-2,900 a month through Nov 2025, **falling to 156-379 from Jan to Jun 2026**, then 376 (Jul) and 508 (Aug). It could be an MBJ location (Anderson?); not confirmed.
-- To find the med-mal profile: its account may sit under the other Google Ads connection (only 16 accounts are visible here), or it may be an LSA category in another account. Tell me where it lives, or give me its account ID, and I'll pull the same numbers.
+## MBJ Columbia: medical malpractice (second case study, different profile)
+Account **4267491599** (unnamed in Google Ads) holds a **medical malpractice LSA category** (`malpractice_lawyer`) next to personal injury. I'm treating it as the **MBJ Columbia** account. **Confirm that mapping** before using it.
+**Impressions and spend (whole LSA campaign, both categories):**
+| Period | Impressions | Spend |
+|---|---|---|
+| Jul 2024 | 99 | $176 |
+| **Aug 2024** | **811** | $2,854 |
+| **Sep 2024** | **1,729** | $3,518 |
+| Oct 2024 to Jul 2025 | about 1,300-2,900 (peak May 2025: 2,942) | $1.8k-$5.8k |
+| Sep-Dec 2025 | 1,028 / 1,486 / 1,004 / 593 | $2.0k-$4.8k |
+| **Jan-Jun 2026** | **202 / 156 / 260 / 379 / 305 / 172** | $0.6k-$3.4k |
+| Jul-Sep 2026 | 376 / 508 / 385 | $1.3k-$2.0k |
+**Charged medical-malpractice phone calls by month** (counted from the lead rows):
+Jul 2024: 1 · Aug: 7 · Sep: 6 · Oct: 3 · Nov: 7 · Dec: 4 · Jan 2025: 6 · Feb: 3 · Mar: 2 · Apr: 7 · May: 4 · Jun: 4 · Jul: 1 · Aug: 4 · Sep: 1 · **Oct 2025 to Sep 2026: 0** (the last med-mal lead of any type was Sep 8, 2025; the last med-mal message lead was Aug 15, 2025).
+- **Inflection 1 (the good one): Aug-Sep 2024.** Impressions went from 99 to 811 to 1,729 and the first med-mal calls arrived (8 charged calls in the first full month, 7 in Aug and 6 in Sep). Strong "launch" story.
+- **Inflection 2 (the problem): after Sep 2025.** Med-mal leads stopped completely and impressions fell by about 80% by early 2026. It is the same pattern as Langley's drop. Find out whether the med-mal category was removed, paused, or lost visibility (verification, license/insurance status, complaints, a profile edit) and whether it can be restored.
+- The unnamed account also has personal injury leads through Sep 2026, so only the med-mal part went quiet.
+- Separately, the Smart campaign "Medical Malpractice Lawyer" in the main MBJ account (paused, July 2026 only: 317 impressions, 9 clicks, $13.90) is too small to use.
 
 ## What this means for the case study
-Build the story around **OSP Sep-Oct 2025** (impressions doubled at a flat budget) and **Langley Oct 2024 (go-live) plus the spring 2026 climb**, if the change log supports them. MBJ is the weakest.
+Build the story around **OSP Sep-Oct 2025**, **MBJ Columbia med-mal Aug-Sep 2024 (launch)** (impressions doubled at a flat budget) and **Langley Oct 2024 (go-live) plus the spring 2026 climb**, if the change log supports them. MBJ is the weakest.
 
 ## To do next
 1. Get the **change log** for OSP (Aug-Sep 2025) and Langley (Feb-Apr 2026).
