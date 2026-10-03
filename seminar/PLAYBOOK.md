@@ -46,7 +46,7 @@ Mihle and Romina are gone; the LLM connectors now manage Instantly, Google Tag M
 | Contacts / pipeline | **Google Sheet** "Webinar Contacts" (replaces Pipedrive and GoHighLevel) |
 | Automations | Zapier: Eventbrite/Gravity Forms → Sheet + Mailchimp |
 | Registrant + nurture email | **Mailchimp** (check that the contact limit covers ~5k; free fallback: Apps Script + Gmail off the Sheet) |
-| Cold email invites | **Instantly** (warmed cold domains only) |
+| Cold email invites | **Instantly** (warmed cold domains only; dedicated Outlook + Gmail inboxes; the inbox domains forward to a separate website, so cold-email links never point at the main site). API access: see 11 |
 | Booking | **Google Calendar appointment schedule** "LSA Market Audit" (30 min, ≤10/week) |
 | Calls | Aircall / Google Voice; numbers cleaned with Twilio |
 | Video | ElevenLabs (avatar/voice), TurboScribe (transcripts), Canva/Adobe |
