@@ -1,137 +1,140 @@
-# Sutton Injury Law Marketing Group — Paid Seminar Playbook (v2)
+# Sutton Injury Law Marketing Group: PI Webinar Playbook (v4, 2026-10-03)
 
-**Based on:** "Law Firm Webinar Acquisition System — Setup Manual (Instantly.ai Edition)" by Sam, Miguel and Álvaro (Google Doc `1d7IwTgEyylr…`, shared by Sam on Slack 2026-09-07), plus the Webinar-Project-Facts doc and the Webinar expense sheet.
-**What changed from v1:** paid seminar instead of free, PI only, nationwide except Florida, new brand, LSA topic, social retargeting added, two-meeting close, long-term nurture.
-
-> Heads-up: on 2026-09-08 you told Sam in Slack "Let's not do the seminars… other plays are more scalable." Let Sam know the project is back on so he doesn't think it's still on hold.
-
----
-
-## 0. Brand decision
-
-**My recommendation: Sutton Injury Law Marketing Group**
-
-| | Injury **Law** Marketing Group | Injury **Lawyer** Marketing Group |
-|---|---|---|
-| Reads like | A firm that knows the practice area | A vendor that sells to lawyers |
-| Length / logo fit | Shorter, flows better | One more syllable, slightly clunky ("Lawyer Marketing") |
-| SEO | "injury law marketing" is a real phrase | "injury lawyer marketing" gets a bit more search volume |
-| Fit with the premium price | Better | Fine |
-
-The name is for trust, not for ranking. The SEO gap is small, and you can still target "personal injury lawyer marketing" in page copy and schema `description`/`knowsAbout`. Short form: **Sutton Injury Law** (or "SILMG" internally only). Check the domain and social handles before you commit.
-
-**Website changes (WordPress, small set only):**
-1. Logo in the top-left header: new name.
-2. Body copy: change "Sutton Digital Marketing" to the new name everywhere it appears.
-3. Structured data: `Organization`/`ProfessionalService` `name`, `alternateName: "Sutton Digital Marketing"` (keeps continuity), `logo`, `description`, `areaServed` (US minus FL).
-4. Footer: name and © line.
-5. Homepage videos (3): **Man, Blake & Jackson** (new PI video, to be requested), **Brown, Bass & Jeter**, **Langley Law Firm**.
-6. Leave URLs, Google Business Profile and email domains alone for now. Changing the GBP name needs to match real-world signage and documents, so do that as a separate step.
+**Goal:** sign personal injury firms (all US states **except Florida**) at premium rates, using a low-cost paid webinar, a two-meeting close, and patient long-term nurture.
+**Origin:** v1 Setup Manual by Sam, Miguel & Álvaro (Instantly edition, shared 2026-09-07). This version replaces it and files 01–06.
+**Principles:** use tools we already own, build free where possible, run two webinars (the first one is practice), be patient.
 
 ---
 
-## 1. Foundation & Decisions (Facts Sheet updates)
+## 1. Brand & website
+- **Name:** Sutton Injury Law Marketing Group (Gabriel is handling the legal name change and GBP).
+- **WordPress updates (small set only):** top-left logo · body copy · structured data (`name`, `alternateName: "Sutton Digital Marketing"`, `logo`, `areaServed` = US minus FL) · footer.
+- **Homepage videos (3):** Mann Blake & Jackson (requested via draft email 2026-10-03) · Brown, Bass & Jeter (Katrina Brown) · Langley Law Firm.
 
-| Item | v1 | **v2** |
-|---|---|---|
-| Niche | PI or Family | **Personal Injury only** |
-| Region | FL, GA, AL | **All US states except Florida** (FL excluded "for now") |
-| Price | Free | **Paid.** Suggested $297 (early) / $497 (regular), fully credited toward the first month if they sign within 30 days |
-| Title | "Capture More Consultations…" | **"The LSA Playbook: What Actually Moves Personal Injury Firms to the Top of Google Local Services Ads"** |
-| Promise | 3 intake leaks | Why most PI firms overpay for LSA leads, and the 3-layer system top-ranked firms use |
-| Host | — | Gabriel Sutton |
-| Firm size target | 1–10 attorneys | 3–25 attorneys, already spending on LSA or Google Ads (they can afford premium rates) |
-| Kill number | 3 months' fee | 3 months of the **new, higher** retainer. Patient nurture is fine, so measure on a 12-month window |
+## 2. The offer
+| Item | Decision |
+|---|---|
+| Format | Pre-scheduled **webinar** on Zoom (not an in-person seminar), ~60 min + Q&A |
+| Price | **$20**, credited toward the first month if they become a client |
+| Title | *The LSA Playbook: What Actually Moves PI Firms to the Top of Google Local Services Ads* |
+| Runs | **Webinar #1** (practice, smaller audience) → fix → **Webinar #2** (~3 weeks later, full push) |
+| Audience | PI firm owners/partners, all states except FL; best fit is 3+ attorneys already spending on Google |
+| Registration questions | Name, firm, email, phone, state, LSA status, monthly marketing spend, **case type they value most** (used in nurture) |
 
-**Qualifying questions on the registration form:**
-1. Are you currently running Google Local Services Ads? (Yes, happy / Yes, unhappy / Paused / Never)
-2. Monthly marketing spend? (<$5k / $5–15k / $15–50k / $50k+). Treat <$5k as low priority.
-3. Which case type do you value most? (Auto / Trucking / Premises / Med-mal / Wrongful death / Other). **Save this field; the quarterly nurture uses it.**
+## 3. Team (active per HR sheet)
+| Person | Role |
+|---|---|
+| Gabriel | Host, final edits, AI avatar, client relationships |
+| Sam | Project lead, Instantly, build checklist |
+| Veronica | All Facebook/social ads (warm-up + webinar) |
+| Shereesa | Slides, emails, Mailchimp, event listings, nurture |
+| Arjun | Google screenshots, WordPress page/schema |
+| Eduardo | BrightLocal grids + CallRail reports for case studies |
+| Robyn | Client permissions for case studies, review screenshots |
+| Alexander Zanon (COO) | SDR call sprint, client video coordination |
+| Raghu | Web/forms/tracking, if available |
 
----
+**Before any spend:** move account ownership away from former staff. Mihle still owns Facebook Ads/Business Manager, Instantly, Zapier, GTM, MillionVerifier and NeverBounce. Romina still owns G Suite, Outlook, NordPass and Google Voice. Transfer to Gabriel and update NordPass.
 
-## 2. Seminar content: "give a lot, hold back the how"
+## 4. Tool stack ($0 new except ads)
+| Need | Tool (already owned / free) |
+|---|---|
+| Registration + $20 payment + Zoom link + reminders | **Eventbrite** (free listing; ~$1–2 ticket fee passed to the buyer), embedded on the WordPress page. Backup: Gravity Forms + PayPal |
+| Webinar room | **Zoom** meeting with registration (muted entry, waiting room, cloud recording). Add Zoom Webinars for one month only if over the participant cap |
+| Contacts / pipeline | **Google Sheet** "Webinar Contacts" (replaces Pipedrive and GoHighLevel) |
+| Automations | Zapier: Eventbrite/Gravity Forms → Sheet + Mailchimp |
+| Registrant + nurture email | **Mailchimp** (check that the contact limit covers ~5k; free fallback: Apps Script + Gmail off the Sheet) |
+| Cold email invites | **Instantly** (warmed cold domains only) |
+| Booking | **Google Calendar appointment schedule** "LSA Market Audit" (30 min, ≤10/week) |
+| Calls | Aircall / Google Voice; numbers cleaned with Twilio |
+| Video | ElevenLabs (avatar/voice), TurboScribe (transcripts), Canva/Adobe |
+| Tracking | GA4 + Meta Pixel via GTM, `Purchase` event on the thank-you page |
+| Case-study data | LSA dashboards, BrightLocal, CallRail |
 
-The goal: they leave knowing exactly *what* to do, convinced it's real, and seeing that doing it themselves takes too much time and skill.
+**Not used:** Pipedrive, GoHighLevel (candidate to cancel).
 
-**What we give away (real value):**
-- How LSA ranking actually works: proximity, review count and recency, responsiveness, business hours, verification, and complaint history. Google confirms these factors.
-- Why "citations and photos" is the wrong answer. It's what most agencies call their secret sauce, and it's minor.
-- The lead-dispute process: how many PI firms pay for unbillable leads (wrong case type, out of area, spam) and never get credited back.
+## 5. The argument (the core of the webinar)
+**Chain:** what Google *says* ranks LSA → what Google *punishes* → the strategy that satisfies both → proof from clients.
+**Hook:** "Every agency says the LSA secret is citations and photos. Google never says that. Here's what Google does say."
 
-**The headline "secret sauce": The Hub-and-Spoke Local Authority System**
-- Hub: one strong PI practice page per metro. Spokes: city/neighborhood × case-type pages, each with real local proof (courthouses, crash corridors, local results) and internal links back to the hub.
-- How to pitch it: it strengthens the local relevance and prominence signals behind the firm's map and LSA presence, and it raises **Quality Score** on the Google Search Ads campaigns most PI firms run alongside LSA. That means a lower CPC on the same clicks.
-- ⚠️ **Wording guardrail:** LSA has no "Quality Score". That term belongs to Google Search Ads. In the room, say *"LSA ranking signals + Search Ads Quality Score."* Sophisticated PI firms will notice the mix-up, and it would hurt credibility at a premium price.
+**Act 1: Google's own words (~10 min).** Screenshots with URL and date visible:
+- LSA ranking factors: proximity, review score/count, **responsiveness**, hours, complaints
+- Lead disputes / credits
+- Reviews feeding LSA
+- Google Ads Quality Score (landing page experience) for the Search Ads PI firms run alongside LSA
 
-**The second clever layer I recommend: "The Responsiveness Engine"**
-LSA rewards firms that answer fast and reliably, and most PI intake loses here. Show the *outcome* (answer-rate and response-time metrics, a missed-call text-back, a 24/7 routing tree, and a weekly dispute routine). Don't show the build. This idea is concrete and checkable, and you can show it with CallRail data. Nobody else is talking about it.
+**Act 2: What Google punishes (~10 min).**
+- Doorway pages (city-swap pages)
+- Scaled content abuse (2024 spam update)
+- Site reputation / expired domain abuse
+- Fake or batched reviews
+- GBP name keyword stuffing
 
-**What we hold back:** the page templates, the internal-link map, the spoke selection model, the call-routing build, and the dispute scripts. Show screenshots, not files.
+**Turn:** "Google rewards local relevance, responsiveness and real reviews, and it punishes fake scale. Very few firms do both."
 
-**Slide outline (60–75 min):**
-1. Title / Gabriel / no fluff promise
-2. Proof: Man, Blake & Jackson, Brown, Bass & Jeter, and Langley (short clips)
-3. What PI firms are paying per signed case on LSA (benchmarks)
-4. How LSA ranking really works
-5. The myth: citations and images
-6. Layer 1: Responsiveness Engine (outcomes only)
-7. Layer 2: Hub-and-Spoke Local Authority (diagram, one anonymized before/after)
-8. Layer 3: Lead disputes and credits recovered
-9. "Why this is hard to do in-house" (time, skills, ongoing weekly work)
-10. 3 things to do this week
-11. Invitation: Strategy Meeting 1 (limited slots)
-12. Q&A
+**Act 3: The strategy (~15 min). Show the what and why, hold back the how.**
+1. **Hub-and-Spoke Local Authority, the spam-proof version:** fewer, better spoke pages, each with real local proof. Helps local relevance and Search Ads Quality Score.
+2. **Responsiveness Engine:** answer rate, speed to lead, after-hours coverage, missed-call text-back.
+3. **Filter-safe review velocity:** one-by-one requests, never batched.
+4. **Weekly lead-dispute routine.**
+⚠️ Say "LSA ranking signals + Search Ads Quality Score". LSA itself has no Quality Score.
 
-Compliance: these are marketing claims made to lawyers, so no guaranteed rankings or results, and no client numbers without permission. CAN-SPAM opt-out on every email.
+**Act 4: Proof (~15 min).** Same before → what we did → after format for each firm:
+- **Orell, Silk & Powell** (confirm spelling)
+- **Langley Law Firm**
+- **Maier Gutierrez & Associates** (spelled "Maier" in their email signature)
+Show LSA dashboard (leads, cost/lead, credited leads, reviews) + BrightLocal grid / CallRail answer rate. One headline number per firm, plus a quote/clip.
+Requirements: written permission, redact caller data, "results vary" footnote, no guarantees.
 
----
+**Close (~5 min):** recap the chain · 3 things to do this week (dispute last month's bad leads, check answer rate, stop batch review requests) · CTA: book the **LSA Market Audit**.
 
-## 3. Traffic
+## 6. Promotion
+**Phase A: Warm-up ads (start now, 3–4 weeks before webinar ads)**, run by Veronica
+- Video-view + engagement campaigns to the **~4,000-lawyer Facebook custom audience** (exclude FL), ~$10–20/day, no webinar mention.
+- Content: 5 AI-avatar clips. (1) Citations aren't the LSA secret. (2) Google ranks how fast you answer. (3) You can get credit for bad LSA leads. (4) Why cheap city pages hurt PI firms now. (5) The review mistake after a big settlement.
+- Builds retargeting pools (video viewers, site visitors, engagers) and pixel history.
 
-| Channel | Owner | Notes |
-|---|---|---|
-| Cold email (Instantly) | Sam | v1 Sections 2.3 and 5.6–5.8 still apply: separate domains, 2–3 weeks of warmup, 20–30 sends/inbox/day. Remove FL from the list. Rewrite the copy for a **paid** event ("$297, credited if you work with us") |
-| Social retargeting | Veronica | **Already set up.** Point the PI custom audience and site visitors to the registration page; retarget registrants who haven't paid, and attendees who didn't book |
-| Existing list / referrals | Gabriel | Personal invites to warm PI contacts |
+**Phase B: Webinar promotion (~14 days before each webinar)**
+- **Facebook:** retarget warm pools first, then the cold 4,000 list + lookalike. Optimize for `Purchase`. Retarget non-buyers at 7 and 3 days out, and the day before.
+- **Avatar promo videos:** invitation · "Google screenshot" teaser · client-result teaser · last call. Turn on Meta's **AI info label**. Record the final invite as a real selfie video.
+- **Email:** Instantly 3-step cold invite (FL removed, conservative send limits) + personal Gmail to warm contacts.
+- **SDR sprint (Alexander, 2–3 days):** "Gabriel's running a $20 PI-only session on LSA rankings, can I text you the link?" Log in the Sheet.
+- **Free listings:** Eventbrite · Facebook Event · LinkedIn Event (Gabriel + company page) · AllEvents/Luma · PI attorney groups (value post, follow group rules) · email signature + website banner.
 
-Landing page and checkout: Mailchimp funnel with a payment step (Stripe), then the thank-you page with the lead magnet ("LSA Lead Dispute Checklist").
+## 7. Registrant emails (Mailchimp, or Eventbrite reminders for #1)
+Confirmation + checklist PDF → 3 days before ("bring your LSA cost-per-lead and answer rate") → 24h → 1h → starting now → replay (attendees) / replay 48h (no-shows).
+Lead magnet: **LSA Lead Dispute Checklist** (1 page).
 
----
+## 8. Conversion: two meetings
+1. **Meeting 1, LSA Market Audit (30 min).** Before: BrightLocal grid, LSA rank check, a test call to their intake, hub/spoke coverage check. On the call: 3 findings, their goals, the case type they value. **Book Meeting 2 before hanging up.**
+2. **Meeting 2, The Plan (45 min).** Spoke map, responsiveness plan, dispute recovery estimate, premium pricing, $20 credit. One follow-up within 7 days, then nurture. No pressure.
 
-## 4. Client conversion: two-meeting close
+Sheet statuses: Invited → Paid → Attended / No-show → M1 Booked → M1 Held → M2 Held → Won / Nurture.
 
-1. **Seminar** (paid), then the replay and an invitation to Meeting 1 (Mailchimp "Webinar After" emails, v1 Step 5.3, with new copy).
-2. **Meeting 1: LSA & Local Audit (30 min).** Run BrightLocal/Ahrefs on their market beforehand and show 2–3 findings. **Book Meeting 2 before you hang up.**
-3. **Meeting 2: Proposal (45 min).** Spoke map for their metros plus a responsiveness plan, at premium pricing. Seminar fee credited.
-4. Google Sheet stages: Registered → Paid → Attended → M1 booked → M1 held → M2 held → Won / Nurture.
+## 9. Long-term nurture (never ends)
+- **Monthly (1st Tuesday):** one genuinely useful plain-text email from Gabriel on *Google's spam filters and PI firms*. 12 topics: review filter · fake listings · LSA disputes · spam-looking Ads leads · thin city pages · contact forms in spam · lead-gen listings · review gating · helpful content · spam calls on the LSA bill · duplicate profiles · year in review.
+- **Quarterly:** "Hi {first}, we have a new idea for getting more **{case type}** cases in {state}. Do you have 15 minutes?" + booking link. Only send it when there's a real idea.
+- Replies/bookings pull them out of automation and alert Gabriel. Unsubscribe/won ends it. FL contacts are held, not mailed.
+- Retargeting stays on nurture contacts for 180 days.
 
----
+## 10. Timeline (Webinar #1 ≈ 5 weeks out)
+| Week | Actions |
+|---|---|
+| 0 | Fix account ownership · avatar clips · warm-up ads live · confirm Zoom cap and Mailchimp limit · request client permissions + MBJ video |
+| 1 | Google screenshots · case-study data · Eventbrite + WordPress page · Sheet + Zapier · Calendar booking |
+| 2 | Slides v1 · emails in Mailchimp · Instantly campaign loaded (paused) · checklist PDF |
+| 3 | Webinar ads + Instantly + listings live (~14 days out) · rehearsal with timer |
+| 4 | SDR sprint · reminders · final dry run |
+| 5 | **Webinar #1** → transcript + debrief → fix slides, emails, ads → schedule #2 |
+| 8 | **Webinar #2** (full 4,000 audience + full email list + SDR) → cut replay into clips |
+| Ongoing | Meetings 1 & 2 · monthly + quarterly nurture · monthly report |
 
-## 5. Long-term nurture (anyone who doesn't sign)
+## 11. Measure (monthly)
+Ad reach / warm pool size → registrations → paid → attended → M1 → M2 → won · cost per registration · cost per signed client · nurture replies and bookings per quarter.
 
-| Cadence | Content | Tool |
-|---|---|---|
-| **Monthly** | One genuinely useful email, e.g. "How Google's spam filters are quietly hiding PI firms' reviews / LSA leads" (spam updates, review filtering, fake-competitor listings, lead disputes). No pitch. Embed the FAQ videos and blog posts. | Mailchimp newsletter |
-| **Quarterly** | "Hi {first}, we have a new idea for getting more **{case type they value}** cases in {state}. Do you have 15 minutes?" + calendar link | Mailchimp workflow using the case-type field from the form |
-| On trigger | Retargeting stays on for 180 days | Meta |
-
-No end date. Being patient is the strategy.
-
----
-
-## 6. Owners & next actions
-
-| # | Action | Owner |
-|---|---|---|
-| 1 | Approve the name and check the domain | Gabriel |
-| 2 | Tell Sam the project is back on and share this v2 | Gabriel |
-| 3 | Ask Man, Blake & Jackson for the PI video | Gabriel |
-| 4 | WordPress: logo, copy, schema, footer, videos | Web team |
-| 5 | Re-check inbox warmup in Instantly; rebuild the list without FL | Sam |
-| 6 | Paid Mailchimp funnel + checkout + emails | Sam / Shereesa |
-| 7 | Slide deck draft from Section 2 | Sam → Gabriel edits |
-| 8 | Point retargeting at the funnel | Veronica |
-| 9 | Pick a date ≥ 3 weeks after warmup is confirmed | Sam |
-
-v1 Sections 2 (accounts and warmup), 4 (landing page), and 6 (testing and dry run) carry over unchanged except for the paid checkout and the new copy.
+## 12. Open items
+- [ ] Confirm the spelling "Orell, Silk & Powell"
+- [ ] Video links for the MBJ email (draft in Gmail, not sent)
+- [ ] Zoom participant cap and Mailchimp plan limit
+- [ ] Written permission from the 3 case-study firms
+- [ ] Webinar #1 date
