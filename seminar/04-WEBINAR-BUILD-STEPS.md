@@ -32,7 +32,7 @@ Stack (all already in the Tech Stack sheet): WordPress/WP Engine + Gravity Forms
 - **Instantly** (owned): 3-step cold invite to the PI email list, minus FL, sent from the warmed cold domains only
 
 ## Phase 6: Promotion (start ~10–14 days before each webinar)
-- **Facebook:** Mihle runs ads to the 4,000-lawyer custom audience + a lookalike; retarget page visitors who didn't pay
+- **Facebook:** Veronica runs ads to the 4,000-lawyer custom audience + a lookalike; retarget page visitors who didn't pay
 - **Email:** Instantly invites, plus a personal Gmail send to warm contacts/past prospects
 - **SDR calls (short sprint):** Aircall / Google Voice, 2–3 days. Script: "Gabriel's doing a $20 PI-only session on LSA rankings, can I text you the link?" Log results in the Sheet. Use CallRail/Twilio to clean numbers first
 

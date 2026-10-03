@@ -54,7 +54,7 @@ Same format for each firm so the pattern is unmistakable: **Before → What we i
 - "3 things you can do this week": dispute last month's bad leads, check your answer rate, stop batch review requests.
 - Call to action: **LSA Market Audit** (Meeting 1), limited slots, $20 ticket credited.
 
-## Screenshot capture checklist (assign to Arjun / Mihle)
+## Screenshot capture checklist (assign to Arjun / Veronica)
 - [ ] Every Google page: full-page capture with URL and date visible, saved as PDF too (Google edits help pages)
 - [ ] Keep a sources slide at the end listing every URL
 - [ ] LSA dashboards for all 3 firms: before = the 90 days before implementation, after = the most recent 90 days
