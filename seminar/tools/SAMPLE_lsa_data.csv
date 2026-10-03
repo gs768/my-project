@@ -1,0 +1,12 @@
+city,firm,rating,reviews,is_client
+Cityville,Client Firm,4.8,120,1
+Cityville,Comp A,4.9,300,0
+Cityville,Comp B,4.8,200,0
+Cityville,Comp C,4.5,90,0
+Townsburg,Client Firm,4.8,120,1
+Townsburg,Comp D,4.7,400,0
+Townsburg,Comp E,4.6,50,0
+Villetown,Client Firm,4.8,120,1
+Villetown,Comp F,4.9,80,0
+Villetown,Comp G,4.9,150,0
+Villetown,Comp H,4.8,130,0

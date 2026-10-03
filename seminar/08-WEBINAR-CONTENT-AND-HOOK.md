@@ -10,6 +10,11 @@
 - **A wording problem to settle:** Google's own LSA help page lists responsiveness among its ranking factors. If the ad says response time *isn't* the key, someone can screenshot Google to disprove it. Safer: **"Most agencies stop at photos, citations and response time. Those are table stakes. Here's what moved {firm} from {A} to {B}."** It keeps your hook and stays defensible. (Verify the current factor list on Google's page before publishing.)
 - Use this as the opener for HeyGen V1 and the primary text for ad 1 in file 07.
 
+**Hook, refined:** response time isn't the point. What agencies leave out is the work Google doesn't publish and no out-of-the-box tool does well enough for a PI firm to compete, such as contacting citation sites by hand to get real costs. Suggested line: *"Agencies stop at what Google publishes and what a tool can automate. The manual work they skip is where PI firms win."*
+
+## 1b. Live demo: city opportunity map (for two attending firms)
+We run `tools/lsa_opportunity.py` for two firms expected to attend. It ranks nearby cities by fewest LSA competitors with a higher rating, or the same rating and more reviews. See `tools/README.md`. Real data has to be captured manually from public LSA results, because Google offers no API for it.
+
 ## 2. The three-phase rollout (what we show, how it fits the webinar)
 **Phase 1: Research and foundation (no AI in the images)**
 - Authentic team photos with **EXIF data kept**. Never AI-generated for client LSA profiles
