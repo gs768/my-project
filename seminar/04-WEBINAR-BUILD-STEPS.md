@@ -1,3 +1,5 @@
+> **PARTLY SUPERSEDED (2026-10-03):** registration and payment now run through Eventbrite (see 07 and 09). The Google Sheet, Mailchimp and Instantly steps still apply.
+
 # Webinar build steps (v3: $20 webinar, free/owned tools, no Pipedrive, no GoHighLevel)
 
 Stack (all already in the Tech Stack sheet): WordPress/WP Engine + Gravity Forms · PayPal · Zoom · Mailchimp · Instantly · Facebook Ads · Aircall/Google Voice · Google Workspace (Sheets, Calendar, Apps Script) · Zapier · CallRail · ElevenLabs/TurboScribe · Canva/Adobe

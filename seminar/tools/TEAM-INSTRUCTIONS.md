@@ -41,9 +41,10 @@ Columns: `county,state,adjacent_county,adjacent_state`
 ### 2B. Cities and populations (`cities.csv`)
 Columns: `city,state,county,population`
 1. On census.gov, search **"City and Town Population Totals"** (latest year) for each state. Download the table of **incorporated places**. This gives city and population.
-2. Each city needs a county. Use the Census **Geographic Relationship Files** (Place to County), or Wikipedia's county list for the state if the Census file is hard to use. Add a county column.
+   **Unincorporated towns count too (decided by Gabriel).** The Census lists these as "Census Designated Places" (CDPs). They are not in the table above. On data.census.gov, search the latest decennial census population table (Table P1) for each state, filter geography to **Place**, and add the CDPs. Add a `type` column (`city` or `CDP`) so we can tell them apart. Some unincorporated communities are not CDPs and have no Census population; skip those and note them in a comments column.
+2. Each city or town needs a county. Use the Census **Geographic Relationship Files** (Place to County), or Wikipedia's county list for the state if the Census file is hard to use. Add a county column.
 3. **If a city sits in more than one county**, put it in the county that holds most of its population, and add a note. Tell Gabriel which cities this applies to.
-4. **Decision to confirm with Gabriel first:** include only incorporated cities, or also unincorporated towns (Census "CDPs")? The instructions above assume incorporated cities only.
+4. **Decided:** cities AND unincorporated towns (CDPs) both count. Mixed population sources are fine for ranking, but note the year of each source.
 5. You only need cities in the counties around our qualifying offices, but the full state list is fine and easier.
 6. Save as CSV with the four column names above.
 

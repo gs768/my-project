@@ -1,3 +1,5 @@
+> **SUPERSEDED (2026-10-03):** this was the first draft ($497 in-person-style seminar, GoHighLevel). Current plan: $20 webinar, Eventbrite + Mailchimp. See PLAYBOOK.md, 07, 08 and 09.
+
 # Seminar build kit: ready to paste into Mailchimp / Instantly / Meta
 
 Host: Gabriel Sutton · Brand: Sutton Injury Law Marketing Group · Audience: PI firms, all states except FL
