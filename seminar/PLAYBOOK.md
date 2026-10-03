@@ -26,15 +26,16 @@
 |---|---|
 | Gabriel | Host, final edits, AI avatar, client relationships |
 | Sam | Project lead, Instantly, build checklist |
-| Veronica | All Facebook/social ads (warm-up + webinar) |
+| Veronica (Google Ads & social ads manager) | Facebook/social ads. **Not assigned yet** |
 | Shereesa | Slides, emails, Mailchimp, event listings, nurture |
 | Arjun | Google screenshots, WordPress page/schema |
-| Eduardo | BrightLocal grids + CallRail reports for case studies |
-| Robyn | Client permissions for case studies, review screenshots |
-| Alexander Zanon (COO) | SDR call sprint, client video coordination |
+| LLM connectors (Claude) | Case-study data (LSA, CallRail, BrightLocal), Instantly, Google Tag Manager, G Suite |
+| Robyn | Review screenshots (client permissions are already in hand) |
+| Alexander Zanon (COO) | Client video coordination |
+| Upwork SDR contractor | Outreach / calls (to be hired) |
 | Raghu | Web/forms/tracking, if available |
 
-**Before any spend:** move account ownership away from former staff. Mihle still owns Facebook Ads/Business Manager, Instantly, Zapier, GTM, MillionVerifier and NeverBounce. Romina still owns G Suite, Outlook, NordPass and Google Voice. Transfer to Gabriel and update NordPass.
+Mihle and Romina are gone; the LLM connectors now manage Instantly, Google Tag Manager and G Suite. The tech stack sheet still lists them as owners; update it.
 
 ## 4. Tool stack ($0 new except ads)
 | Need | Tool (already owned / free) |
@@ -136,5 +137,4 @@ Ad reach / warm pool size → registrations → paid → attended → M1 → M2 
 - [ ] Confirm the spelling "Orell, Silk & Powell"
 - [ ] Video links for the MBJ email (draft in Gmail, not sent)
 - [ ] Zoom participant cap and Mailchimp plan limit
-- [ ] Written permission from the 3 case-study firms
 - [ ] Webinar #1 date
