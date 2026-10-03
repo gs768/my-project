@@ -1,32 +1,48 @@
-# Case-study inflection check (2026-10-03): Langley, MBJ Anderson, OSP Cleveland
+# Case-study inflections from Google Ads / LSA data (2026-10-03)
 
-**Bottom line:** CallRail cannot isolate LSA activity for these firms, so it can't yet show "something good happened" on the LSA profiles. The LSA dashboard exports (leads, cost per lead, ranking, reviews) are still needed. What CallRail does show is below, as all-source call volume. Treat it as a pointer to *when* to look, not as proof.
+**Source of truth:** the LSA campaigns in the Google Ads accounts reached through the analytics@sdmark.net connection (CallRail is not used). KPIs: **impressions, spend, charged phone calls** (plus **absolute top impression rate**, see below).
+Accounts found: **Langley Injury Law** (9793533625), **Mann Blake & Jackson** (8957355448), **Obral, Silk & Pal, LLC.** (8659393350). Each has one LOCAL_SERVICES campaign, ENABLED.
 
-## Why CallRail isn't enough
-- "Google Local Services Ads" as a call source: **MBJ 6 calls total**; Langley and OSP: none labeled LSA. LSA calls usually arrive on Google's forwarding numbers, not CallRail numbers.
-- Most calls come in as "Google My Business" or office numbers (Langley 13,073 of 16,280 calls on the "Spartanburg Office Number"; OSP 2,454 of 2,603 on "Google My Business").
-- CallRail keeps **only 2 years** of data. Anything before roughly Oct 2024 (Langley's account starts Feb 2024, MBJ's Aug 2024) is already unavailable, so an earlier "before" baseline must come from the LSA dashboard or an old export.
+## Data limits (be honest on the slides)
+- **Absolute top impression rate:** the API returns no value for these LSA campaigns. It must come from the LSA dashboard in the browser (screenshot).
+- **Charged phone calls:** pulled lead by lead (`local_services_lead`, type PHONE_CALL, `lead_charged`). The Langley monthly counts below were **tallied by hand from the rows and are approximate**; recompute before any number goes on a slide. MBJ and OSP lead counts are **not pulled yet**.
+- **MBJ is one account for the firm.** Whether the lift came from Anderson or Columbia needs the location/lead detail. Not yet checked.
+- Spend is all LSA lead charges (phone **and** message leads), so don't divide by phone calls alone.
+- These are *signals* that something changed. The cause comes from the change log (what we did, when).
 
-## What the call data shows (all sources, monthly, Oct 2024 to Sep 2026)
-**Langley Law Firm (about 600-750 calls/month, flat)**
-- No sustained inflection in volume. Peak **June 2026: 819 calls**, but **missed calls rose to 40 (June) and 36 (July)** from a typical 15-20. That is a response problem, not a win.
-- Possible story: stable demand with a recent answer-rate slip we can flag, not a growth case study, unless the LSA dashboard shows something.
+## OSP Cleveland (Obral, Silk & Pal): strongest story so far
+Spend sat near a **budget ceiling of about $6.3-6.9k a month** from Dec 2024 to Oct 2025, so impressions are the clean signal.
+| Month | Impressions | Spend |
+|---|---|---|
+| Jul 2024 | 78 | $41 |
+| Nov 2024 | 1,908 | $3,932 |
+| Dec 2024 | 3,492 | $5,045 |
+| Jun-Aug 2025 | 1,857 / 1,861 / 1,891 | about $6.5k |
+| **Sep 2025** | **4,190** | $6,896 |
+| **Oct 2025** | **4,773** | $6,692 |
+| Dec 2025 | 1,673 | $6,514 |
+| Apr-May 2026 | 3,317 / 3,412 | $7.6k / $8.2k |
+| Jul-Aug 2026 | 2,950 / 2,823 | $9.7k / $9.7k |
+- **Inflection 1: Nov 2024.** LSA relaunched after a gap (no data Aug-Oct 2024). Impressions went from under 100 to about 1,900-3,500.
+- **Inflection 2 (best candidate): Sep-Oct 2025.** Impressions **more than doubled (about 1,890 to 4,190 and 4,773) at flat spend.** That is "more exposure for the same money," the kind of change a ranking improvement produces. Find what we changed in Aug-Sep 2025.
+- Then a fall to 1,673 in Dec and a climb through spring 2026, with spend raised to $9.7k.
 
-**MBJ (Columbia + Anderson combined; Anderson has its own number: 637 calls total)**
-- Steady climb through 2025: 58-73 calls in Nov 2024 to Jan 2025, 127 in Apr, **131/145/155 in Jul-Sep 2025**.
-- **Sharp jump May-Jun 2026: 248 and 236 calls** (April was 110), first-time callers 185/154 vs 62. Back to 107 in July.
-- Candidate inflection to investigate: **May-Jun 2026**. Check what changed that month (the change log, ad changes, review activity, LSA budget). Note that Anderson's newest review was about 19 weeks old as of Sep 30, so Anderson may not be where the lift came from.
+## Langley (Langley Injury Law)
+- **Inflection 1: Oct 2024.** Impressions went from 11-42 a month (Jun-Sep 2024, no spend) to **1,530 in Oct 2024** as LSA went live.
+- **Spring 2026 peak.** Impressions climbed from 954 (Feb) to 1,742 (Apr), 1,877 (May), 2,143 (Jun), 2,249 (Jul). Spend rose from $2.0k to a high of $6.8k (May). **Approximate charged phone calls: Mar 15, Apr 21, May 34, Jun 26, Jul 18, Aug 13, Sep 8.**
+- **Decline since July:** impressions fall to 976 in September, spend to $1.9k, charged calls to about 8. Something to explain (budget cut, ranking loss, reviews?) before presenting this as a success.
+- The earlier flat-spend months (e.g., Dec 2025: $2.2k, 1,009 impressions) give a before/after for spring 2026, but the rise coincides with a spend increase, so impressions per dollar is the fair comparison.
 
-**OSP Cleveland (two CallRail companies: "Obral Silk & Pal" disabled 2025-07-30; "216-LAWYERS, LLC" active from 2025-07-24)**
-- Early 2025: roughly 110-190 calls/month. After the tracking switch: **Aug-Sep 2025 dropped to 87 and 83**, first-time callers 24-39.
-- Rebound **Feb-Mar 2026 (125, 130)**, dip Apr-May (67, 64), rebound **Aug 2026 (133)**.
-- Part of the 2025 drop may come from the switch of tracking numbers, not demand. Don't present it until confirmed.
+## MBJ (Mann Blake & Jackson)
+- LSA spend starts **May 2025** ($499, 116 impressions). **Jul 2025 spike: 1,099 impressions** for $1,264 (Jun was 257), then back to 214 in Aug.
+- Steady 2026: Mar $2,035 / 539, Apr $419 / 479, May $1,077 / 546. Impressions fall to 269-373 from Jun to Sep 2026, and spend to about $0.3k a month.
+- Weakest case-study candidate: volume is small and declining. Needs lead data to see if charged calls rose despite the lower impressions.
 
-## Data we still need for the real case study
-1. **LSA dashboard exports** for each of the three: leads, cost per lead, charged vs. credited leads, ratings, review counts, by month. (Mihle was the LSA owner; confirm who has access now.)
-2. **Review timelines:** BrightLocal Reputation Manager reports exist for the OSP location (Obral Silk & Pal, Cleveland); Langley has several related locations in BrightLocal (Langley Still & Foss; Hodge & Langley; Brumback & Langley); no MBJ location was found. Confirm which entity is the one in the video.
-3. **A change log** for each firm: the date of each LSA/profile change we made (photos, citations, answer system), to line up with any inflection.
-4. Pick the inflection first, then write the story around it, and verify the numbers against screenshots.
+## What this means for the case study
+Build the story around **OSP Sep-Oct 2025** (impressions doubled at a flat budget) and **Langley Oct 2024 (go-live) plus the spring 2026 climb**, if the change log supports them. MBJ is the weakest.
 
-## Name check
-Firm names in the systems: **"Obral Silk & Pal Injury & Accident Lawyers"** (OSP, Cleveland, 216lawyers.com); **Mann Blake & Jackson**; **Langley** appears as "Langley Law Firm" (CallRail), "Langley Still & Foss" (Google profile). The playbook now says "Obral Silk & Pal (OSP)".
+## To do next
+1. Get the **change log** for OSP (Aug-Sep 2025) and Langley (Feb-Apr 2026).
+2. Pull **charged phone-call counts by month** for OSP and MBJ, and re-tally Langley with a script instead of by hand.
+3. Screenshot **absolute top impression rate** and review counts/ratings from each LSA dashboard (browser).
+4. Confirm the ad-copy blanks: {FIRM} = OSP, {A} = about 1,890 monthly impressions, {B} = about 4,190-4,773, {C} = about 30-60 days (from change log to peak). Verify before use.

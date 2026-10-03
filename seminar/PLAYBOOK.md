@@ -82,7 +82,7 @@ Mihle and Romina are gone; the LLM connectors now manage Instantly, Google Tag M
 ⚠️ Say "LSA ranking signals + Search Ads Quality Score". LSA itself has no Quality Score.
 
 **Act 4: Proof (~15 min).** Same before → what we did → after format for each firm:
-- **Obral Silk & Pal (OSP)** (confirm spelling)
+- **Obral Silk & Pal (OSP)** (Cleveland; strongest case-study candidate, see 10)
 - **Langley Law Firm**
 - **Maier Gutierrez & Associates** (spelled "Maier" in their email signature)
 Show LSA dashboard (leads, cost/lead, credited leads, reviews) + BrightLocal grid / CallRail answer rate. One headline number per firm, plus a quote/clip.
