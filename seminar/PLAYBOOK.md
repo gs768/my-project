@@ -95,16 +95,16 @@ Compliance: these are marketing claims made to lawyers, so no guaranteed ranking
 | Social retargeting | Veronica | **Already set up.** Point the PI custom audience and site visitors to the registration page; retarget registrants who haven't paid, and attendees who didn't book |
 | Existing list / referrals | Gabriel | Personal invites to warm PI contacts |
 
-Landing page and checkout: GoHighLevel funnel with a payment step (Stripe), then the thank-you page with the lead magnet ("LSA Lead Dispute Checklist").
+Landing page and checkout: Mailchimp funnel with a payment step (Stripe), then the thank-you page with the lead magnet ("LSA Lead Dispute Checklist").
 
 ---
 
 ## 4. Client conversion: two-meeting close
 
-1. **Seminar** (paid), then the replay and an invitation to Meeting 1 (GHL "Webinar After" emails, v1 Step 5.3, with new copy).
+1. **Seminar** (paid), then the replay and an invitation to Meeting 1 (Mailchimp "Webinar After" emails, v1 Step 5.3, with new copy).
 2. **Meeting 1: LSA & Local Audit (30 min).** Run BrightLocal/Ahrefs on their market beforehand and show 2–3 findings. **Book Meeting 2 before you hang up.**
 3. **Meeting 2: Proposal (45 min).** Spoke map for their metros plus a responsiveness plan, at premium pricing. Seminar fee credited.
-4. Pipedrive stages: Registered → Paid → Attended → M1 booked → M1 held → M2 held → Won / Nurture.
+4. Google Sheet stages: Registered → Paid → Attended → M1 booked → M1 held → M2 held → Won / Nurture.
 
 ---
 
@@ -112,8 +112,8 @@ Landing page and checkout: GoHighLevel funnel with a payment step (Stripe), then
 
 | Cadence | Content | Tool |
 |---|---|---|
-| **Monthly** | One genuinely useful email, e.g. "How Google's spam filters are quietly hiding PI firms' reviews / LSA leads" (spam updates, review filtering, fake-competitor listings, lead disputes). No pitch. Embed the FAQ videos and blog posts. | GoHighLevel newsletter |
-| **Quarterly** | "Hi {first}, we have a new idea for getting more **{case type they value}** cases in {state}. Do you have 15 minutes?" + calendar link | GHL workflow using the case-type field from the form |
+| **Monthly** | One genuinely useful email, e.g. "How Google's spam filters are quietly hiding PI firms' reviews / LSA leads" (spam updates, review filtering, fake-competitor listings, lead disputes). No pitch. Embed the FAQ videos and blog posts. | Mailchimp newsletter |
+| **Quarterly** | "Hi {first}, we have a new idea for getting more **{case type they value}** cases in {state}. Do you have 15 minutes?" + calendar link | Mailchimp workflow using the case-type field from the form |
 | On trigger | Retargeting stays on for 180 days | Meta |
 
 No end date. Being patient is the strategy.
@@ -129,7 +129,7 @@ No end date. Being patient is the strategy.
 | 3 | Ask Man, Blake & Jackson for the PI video | Gabriel |
 | 4 | WordPress: logo, copy, schema, footer, videos | Web team |
 | 5 | Re-check inbox warmup in Instantly; rebuild the list without FL | Sam |
-| 6 | Paid GHL funnel + checkout + emails | Sam / Shereesa |
+| 6 | Paid Mailchimp funnel + checkout + emails | Sam / Shereesa |
 | 7 | Slide deck draft from Section 2 | Sam → Gabriel edits |
 | 8 | Point retargeting at the funnel | Veronica |
 | 9 | Pick a date ≥ 3 weeks after warmup is confirmed | Sam |

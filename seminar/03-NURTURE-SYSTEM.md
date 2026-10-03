@@ -1,10 +1,10 @@
-# Client nurture system (GoHighLevel + Pipedrive)
+# Client nurture system (Mailchimp + Google Sheet)
 
 The rule: **never stop being useful, rarely ask.** One value email a month, one personal "new idea" ask a quarter.
 
 ## 1. Pipeline & tags
-Pipedrive stages: Registered → Paid → Attended / No-show → M1 Booked → M1 Held → M2 Booked → M2 Held → **Won** / **Nurture**
-GHL tags: `seminar-paid`, `attended`, `no-show`, `m1-held`, `m2-held`, `client-won`, `nurture-longterm`, `case-auto|trucking|premises|medmal|wd|other`, `state-XX`
+Google Sheet stages: Registered → Paid → Attended / No-show → M1 Booked → M1 Held → M2 Booked → M2 Held → **Won** / **Nurture**
+Mailchimp tags: `seminar-paid`, `attended`, `no-show`, `m1-held`, `m2-held`, `client-won`, `nurture-longterm`, `case-auto|trucking|premises|medmal|wd|other`, `state-XX`
 
 ## 2. Post-seminar sequence (workflow "Seminar – After")
 | When | Who | Email |
@@ -52,7 +52,7 @@ Theme: *Google's spam filters and what they're quietly doing to PI firms.* 12-mo
 Map the case-type tag to a friendly phrase (`case-trucking` → "trucking accident"). If there's no tag, use "high-value injury cases". Only send it if there's a real idea that quarter; keep a running "ideas" note.
 
 **Rules**
-- Replies or bookings remove them from the automated sends and alert Gabriel (Pipedrive activity).
+- Replies or bookings remove them from the automated sends and alert Gabriel (Google Sheet activity).
 - Unsubscribe, bounce, or `client-won` exits the workflow.
 - Retargeting audience: everyone in nurture, 180 days, soft creative (videos, blog posts).
 - Florida contacts are tagged and held, not mailed, until FL opens.

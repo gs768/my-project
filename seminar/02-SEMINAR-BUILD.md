@@ -1,4 +1,4 @@
-# Seminar build kit: ready to paste into GoHighLevel / Instantly / Meta
+# Seminar build kit: ready to paste into Mailchimp / Instantly / Meta
 
 Host: Gabriel Sutton · Brand: Sutton Injury Law Marketing Group · Audience: PI firms, all states except FL
 Placeholders: `{DATE}` `{TIME_ET}` `{PRICE}` `{REG_LINK}` `{JOIN_LINK}` `{BOOK_LINK}`
@@ -10,7 +10,7 @@ Placeholders: `{DATE}` `{TIME_ET}` `{PRICE}` `{REG_LINK}` `{JOIN_LINK}` `{BOOK_L
 - **Seats:** capped at 40, which keeps it premium and makes Q&A real
 - **Guarantee:** "If you don't leave with at least one change worth more than the ticket, reply and we'll refund you." This removes the risk of a paid ticket and costs little.
 
-## 2. Registration / sales page (GHL funnel: "LSA Seminar")
+## 2. Registration / sales page (Mailchimp funnel: "LSA Seminar")
 **Eyebrow:** For personal injury firms already spending on Google
 **Headline:** Why are you paying for LSA leads your competitors get cheaper?
 **Sub:** A 75-minute working session on what really moves PI firms up in Google Local Services Ads, and the three-layer system top-ranked firms run behind the scenes.
@@ -30,7 +30,7 @@ Placeholders: `{DATE}` `{TIME_ET}` `{PRICE}` `{REG_LINK}` `{JOIN_LINK}` `{BOOK_L
 
 **Thank-you page:** "You're in. Your Zoom link is on its way. Bonus: download the **LSA Lead Dispute Checklist**." (PDF in section 7.)
 
-## 3. Registrant emails (GHL workflow "Seminar – Registered")
+## 3. Registrant emails (Mailchimp workflow "Seminar – Registered")
 1. **Immediately:** *You're in: The LSA Playbook, {DATE}*. Receipt, {JOIN_LINK}, calendar file, checklist PDF. "Reply with the one LSA question you most want answered; I'll build it into the session."
 2. **3 days before:** *Pull these 2 numbers before {DATE}*. Ask them to bring their LSA cost-per-lead and their answer rate from the LSA dashboard. This raises engagement and sets up Meeting 1.
 3. **24h before:** *Tomorrow, {TIME_ET}*
@@ -72,11 +72,11 @@ Creative: 20-sec Gabriel selfie video + a client-testimonial cutdown.
 Lists the dispute categories (wrong case type, outside service area, spam/solicitor, duplicate, job seeker, wrong number), the dispute window, how to document each, and a weekly 10-minute routine. Footer: brand + seminar link.
 
 ## 8. Build checklist
-- [ ] GHL funnel + Stripe product ($297/$497 with a date-based switch)
+- [ ] Mailchimp funnel + Stripe product ($297/$497 with a date-based switch)
 - [ ] Zoom webinar, auto-record on, capped registration
 - [ ] Workflow "Seminar – Registered" (section 3) + no-show branch
 - [ ] Calendar "LSA Market Audit": 30 min, max 10/week, buffer 15
 - [ ] Instantly campaign loaded and paused until warmup is healthy
 - [ ] Retargeting ads pointed at the funnel
-- [ ] Pipedrive pipeline stages (see playbook §4)
+- [ ] Google Sheet pipeline stages (see playbook §4)
 - [ ] Dry run out loud with a timer
