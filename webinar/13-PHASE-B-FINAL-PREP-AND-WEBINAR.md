@@ -11,7 +11,9 @@
 
 This document covers **final prep** and **the webinar itself**. Immediate follow-up and nurture are outlined at the end and get their own plan next.
 
-**Date check:** Nov 15, 2026 (the placeholder) is a **Sunday**. Lawyers are much more likely to attend on a **Tuesday, Wednesday or Thursday, 12-1 pm or 3-4 pm in their time zone**. Recommended: move to **Tue Nov 17 or Wed Nov 18**. The dates below use T-minus so they work for any date. (If it stays Nov 15: T-5 = Tue Nov 10, T+2 = Tue Nov 17.)
+**Dates (confirmed):** webinar #1 **Tue Nov 17, 2026** (time TBD: 12-1 pm or 3-4 pm). T-5 = Thu Nov 12 · T-4 = Fri Nov 13 · T-3 = Sat Nov 14 (in-house mock) · T-2 = Sun Nov 15 · T-1 = Mon Nov 16 · T+1 = Wed Nov 18 · T+2 = Thu Nov 19. Webinar #2 (Google reviews) is **Tue Dec 8**: Phase C = Nov 19-Dec 3, Phase D = Dec 3-Dec 10. Ads and listings go live about Tue Nov 3.
+
+**Weekend note:** T-3 falls on a Saturday, so send reminder E2 on **Fri Nov 13** instead.
 
 ## Roles
 | Role | Who | During the webinar |
@@ -82,7 +84,7 @@ Look and slide template: see **14-VISUAL-STYLE-AND-PRODUCTION.md** (inspired by 
 | 0:48-0:56 | **Case studies** | Gabriel | Intro line: "We chose these two profiles because they show how an existing profile can improve from the system, and how a new profile can have immediate success from the system." OSP (impressions about 2.5x at the same budget, CPM -58%); MBJ Columbia (live Jul 25, 2024, 17 charged leads in the first full month, 7 med-mal calls). "Results vary." |
 | 0:56-1:03 | **Live city-opportunity demo** | Gabriel | One consenting attendee firm or a demo firm: the nearby cities with the fewest stronger LSA competitors |
 | 1:03-1:06 | **3 things to do this week + offer** | Gabriel | 1) Review last month's charged leads and check which ones Google credited 2) check your answer rate 3) stop batch review requests. Offer: **LSA Market Audit** (we run this analysis for your firm), limited weekly slots. Shereesa posts the booking link. **Poll 2:** "Want us to run this analysis for your firm? (yes / not now)" |
-| 1:06-1:08 | **Next webinar invite** | Gabriel | For the "not now" group: Google reviews webinar, [date], $20. Shereesa posts the Eventbrite link. **Poll 3:** "Save me a seat at the reviews webinar? (yes / no)". See 16-NEXT-WEBINAR-REVIEWS.md |
+| 1:06-1:08 | **Next webinar invite** | Gabriel | For the "not now" group: Google reviews webinar, Tue Dec 8, $20. Shereesa posts the Eventbrite link. **Poll 3:** "Save me a seat at the reviews webinar? (yes / no)". See 16-NEXT-WEBINAR-REVIEWS.md |
 | 1:08-1:20 | **Q&A** | Gabriel, Shereesa | Shereesa reads questions in order of value; hot leads noted |
 | 1:20 | Close | Gabriel | Replay within 24 hours; booking link and next-webinar link again; thank you. Stop recording |
 
@@ -105,7 +107,7 @@ Look and slide template: see **14-VISUAL-STYLE-AND-PRODUCTION.md** (inspired by 
 - Anyone who says "yes" to Poll 3 (next webinar): gets the Eventbrite link by email the same night
 - Anything that confused people, to fix in the replay clips and the next webinar
 
-## Immediate follow-up (T+0 to T+2), outline. Full plan next.
+## Immediate follow-up (T+0 to T+2), outline. Full plan: 17-FOLLOW-UP-T0-T2.md
 - **T+0 (within 2 hours):** replay link to attendees; "sorry we missed you" email with replay to no-shows; hot leads tagged in the Sheet
 - **T+1:** Gabriel personally emails or calls every hot lead; booking link to all attendees; debrief meeting (30 min: what to reuse and fix for webinar #2, the reviews webinar); TurboScribe transcript; Claude produces the fix list and a numbers summary (registrations, paid, attended, poll results, bookings)
 - **T+2:** second follow-up to attendees who haven't booked; replay clips cut for retargeting ads; Phase C starts (nurture emails, webinar #2 pre-work)

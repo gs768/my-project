@@ -7,13 +7,13 @@ Rules for every Google page: full-page capture with the **URL and date visible**
 
 | ID | Slide | What | Who | Status |
 |---|---|---|---|---|
-| S1 | google-ranking | Google LSA Help: how Local Services Ads are ranked (factor list boxed) | Vicente | Requested, due Thu Oct 8 |
-| S2 | google-disputes | Google LSA Help: automatic lead crediting (started July 2024) | Vicente | Requested, due Thu Oct 8 |
-| S3 | google-qs | Google Ads Help: Quality Score components ("landing page experience" boxed) | Vicente | Requested, due Thu Oct 8 |
-| S4 | punish-content | Google spam policies: doorway pages (city-page example boxed) | Vicente | Requested, due Thu Oct 8 |
-| S5 | punish-content | Search Central blog, March 2024 update: scaled content abuse | Vicente | Requested, due Thu Oct 8 |
-| S6 | punish-reviews | Google Maps content policy: fake engagement / incentivized reviews | Vicente | Requested, due Thu Oct 8 |
-| S7 | punish-reviews | Google Business Profile guidelines: business name rules | Vicente | Requested, due Thu Oct 8 |
+| S1 | google-ranking | Google LSA Help: how Local Services Ads are ranked (factor list boxed) | Vicente | Requested, due Thu Oct 8 (S2 change sent Oct 4: crediting page is primary) |
+| S2 | google-disputes | Google LSA Help: automatic lead crediting (started July 2024) | Vicente | Requested, due Thu Oct 8 (S2 change sent Oct 4: crediting page is primary) |
+| S3 | google-qs | Google Ads Help: Quality Score components ("landing page experience" boxed) | Vicente | Requested, due Thu Oct 8 (S2 change sent Oct 4: crediting page is primary) |
+| S4 | punish-content | Google spam policies: doorway pages (city-page example boxed) | Vicente | Requested, due Thu Oct 8 (S2 change sent Oct 4: crediting page is primary) |
+| S5 | punish-content | Search Central blog, March 2024 update: scaled content abuse | Vicente | Requested, due Thu Oct 8 (S2 change sent Oct 4: crediting page is primary) |
+| S6 | punish-reviews | Google Maps content policy: fake engagement / incentivized reviews | Vicente | Requested, due Thu Oct 8 (S2 change sent Oct 4: crediting page is primary) |
+| S7 | punish-reviews | Google Business Profile guidelines: business name rules | Vicente | Requested, due Thu Oct 8 (S2 change sent Oct 4: crediting page is primary) |
 | S8 | osp / osp-chart | OSP Cleveland LSA dashboard, May-Nov 2025, incl. absolute top impression rate | Vicente | Requested, due Fri Oct 9 |
 | S9 | mbj | MBJ Columbia LSA dashboard, Jul 2024-Jan 2025, incl. categories | Vicente | Requested, due Fri Oct 9 |
 | S10 | ai-tools | Citation planner screen | Gabriel / Claude | To decide: live, prototype or rollout |

@@ -17,7 +17,7 @@
 | Format | Pre-scheduled **webinar** on Zoom (online, not in person), ~60 min + Q&A |
 | Price | **$20**, not credited toward services |
 | Title | *The LSA Playbook: What Actually Moves PI Firms to the Top of Google Local Services Ads* |
-| Date | **November 15, 2026 (placeholder, time TBD)** |
+| Dates | **Webinar #1 (LSA Playbook): Tue Nov 17, 2026** · **Webinar #2 (Google reviews): Tue Dec 8, 2026** · in-house mock Sat Nov 14 · time TBD (12-1 pm or 3-4 pm) |
 | Runs In-house mock (team only) → **Webinar #1: The LSA Playbook** (full push) → **Webinar #2: Google reviews** (~3 weeks later). No practice webinar |
 | Next webinar | Every webinar ends by inviting people to the next. Next topic: **Google reviews: their effect on local search and LSA performance, and strategies for injury lawyers to get more reviews** (see 16-NEXT-WEBINAR-REVIEWS.md) |
 | Audience | PI firm owners/partners, all states except FL; best fit is 3+ attorneys already spending on Google |
@@ -132,16 +132,19 @@ Sheet statuses: Invited → Paid → Attended / No-show → M1 Booked → M1 Hel
 ## 9b. Program phases
 A = now to T-5 · **B = T-5 to T+2 (final prep, webinar, immediate follow-up; see 13-PHASE-B-FINAL-PREP-AND-WEBINAR.md)** · C = T+2 to 5 days before webinar #2 · D = 5 days before webinar #2 to 2 days after it · E = everything else. (Webinar #2 is now the Google reviews webinar.)
 
-## 10. Timeline (Webinar #1 ≈ 5 weeks out)
-| Week | Actions |
+## 10. Timeline (dates confirmed: webinar #1 Tue Nov 17, webinar #2 Tue Dec 8)
+| Week of | Actions |
 |---|---|
-| 0 | Fix account ownership · avatar clips · warm-up ads live · confirm Zoom cap and Mailchimp limit · request client permissions + MBJ video |
-| 1 | Google screenshots · case-study data · Eventbrite + WordPress page · Sheet + Zapier · Calendar booking |
-| 2 | Slides v1 · emails in Mailchimp · Instantly campaign loaded (paused) · checklist PDF |
-| 3 | Webinar ads + Instantly + listings live (~14 days out) · in-house mock planned |
-| 4 | SDR sprint · reminders · final dry run |
-| 5 | In-house mock (T-3) → **Webinar #1: The LSA Playbook** (full 4,000 audience + full email list + SDR) → transcript + debrief → cut replay into clips |
-| 8 | **Webinar #2: Google reviews** (webinar #1 attendees and no-shows, nurture list, retargeting, new promotion) |
+| Oct 5 | Fix account ownership · avatar clips · warm-up ads live · confirm Zoom cap and Mailchimp limit · client permissions + MBJ video · Vicente screenshots (Oct 8-9) · Alex on Langley (Oct 7) · post the Upwork SDR job |
+| Oct 12 | Eventbrite listings for **both** webinars + WordPress page · Sheet + Zapier · booking calendar · logo and headshot from Raghu |
+| Oct 19 | Slides v1 · emails in Mailchimp · Instantly campaign loaded (paused) · checklist PDF · SDR hired |
+| Oct 26 | HeyGen ads final · QR codes (booking + reviews webinar) · SDR trained on the script |
+| Nov 2 | **Ads, Instantly and listings live (Tue Nov 3)** · SDR sprint |
+| Nov 9 | Phase B starts Thu Nov 12 · **in-house mock Sat Nov 14** |
+| Nov 16 | **Webinar #1: The LSA Playbook, Tue Nov 17** (full 4,000 audience + full email list + SDR) · follow-up Nov 17-19 (17-FOLLOW-UP-T0-T2.md) · replay clips |
+| Nov 23 | Phase C: Meeting 1s, nurture, promote webinar #2 (light week: Thanksgiving Nov 26) |
+| Nov 30 | Phase D starts Thu Dec 3: final prep for webinar #2 |
+| Dec 7 | **Webinar #2: Google reviews, Tue Dec 8** → follow-up through Dec 10 |
 | Ongoing | Meetings 1 & 2 · monthly + quarterly nurture · monthly report |
 
 ## 11. Measure (monthly)
@@ -151,5 +154,5 @@ Ad reach / warm pool size → registrations → paid → attended → M1 → M2 
 - [ ] Confirm the spelling "Obral Silk & Pal (OSP)"
 - [ ] Video links for the MBJ email (draft in Gmail, not sent)
 - [ ] Zoom participant cap and Mailchimp plan limit
-- [ ] Webinar #1 date
-- [ ] Webinar #2 (Google reviews) date, about 3 weeks after webinar #1; its Eventbrite listing must be live before webinar #1
+- [x] Dates: webinar #1 Tue Nov 17, webinar #2 Tue Dec 8 (its Eventbrite listing must be live before Nov 17)
+- [ ] Webinar time and time zone

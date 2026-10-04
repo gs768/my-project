@@ -1,6 +1,6 @@
 # Webinar ad creative + landing page concept (HeyGen avatar)
 
-Placeholders to fill once details are set: `{DATE}` (Nov 15, 2026 placeholder) `{TIME ET}` `{LINK}`. Price: **$20**. Nothing here is assigned to anyone yet.
+Placeholders to fill once details are set: `{DATE}` (Tue Nov 17, 2026, confirmed) `{TIME ET}` `{LINK}`. Price: **$20**. Nothing here is assigned to anyone yet.
 
 **Verify before publishing:** every statement about what Google does or doesn't count (ranking factors, citations, spam updates) should be checked against Google's current help pages. The scripts are written so the claims stay general.
 
@@ -65,7 +65,7 @@ Both use the same Eventbrite event so registrations land in one place.
 **Eventbrite listing setup:** title, 1 hero image (avatar + date), same description as above, $20 ticket with fees passed to the buyer, **capacity matches the Zoom plan**, Zoom link added as the online event details, a reminder email 24 hours before, and a custom question for the case type they value most (for nurture).
 
 ## 4. Open items
-- [ ] Date/time for Webinar #1 (Nov 15 is a placeholder)
+- [x] Date for Webinar #1: Tue Nov 17. [ ] Time
 - [ ] HeyGen: generate V1 and V5 first, once the date is set (V2 and V3 can go earlier as warm-up content with the date left out)
 - [ ] Zoom participant cap and the Eventbrite capacity must match
 - [ ] Approved case-study numbers from the LLM connectors (LSA, CallRail) before using V4
