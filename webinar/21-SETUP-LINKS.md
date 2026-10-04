@@ -54,10 +54,12 @@ Row 2 on Registrants is an example of the expected format. Delete it once real r
 
 Other campaigns in the account (RR/Rainstone roofing, CENAPs, ESG) are other businesses. The one remaining list, "suttondigitalmarketing.com - AI Sales Agent - AI SDR Master Lead List", has 7 leads.
 
-**Lists found in Google Drive** (candidates to load into a new Instantly campaign; not opened yet):
+**Chosen list (Oct 4):** the three 2023 `personal_injury_lawyer_+2.xlsx` exports, converted to Google Sheets ("PI lawyers 2023 export A/B/C", same folder) and cleaned to 6,107 firms. Details: 23-INSTANTLY-INVITE-SEQUENCE.md.
+
+**Other lists found in Google Drive** (not used):
 - `Filt_score_PI_lawyer.xlsx` (4 MB, owner coo@suttonlegalmarketing.com, Jul 2026): looks like a filtered, scored PI lawyer list
 - `combined_personal_injury_leads.csv` (215 MB, owner coo@suttonlegalmarketing.com, Jul 2026): the large combined source
 - Three `personal_injury_lawyer_+2.xlsx` exports (2023 scrapes, 14-29 MB, owner gs@)
 - `Attorney Outreach List — May 23 2026` (small Google Sheet)
 
-Before loading: remove Florida, remove anyone on Do Not Contact and past unsubscribes/bounces, and verify emails (bounce rate must stay under 3%).
+Before loading: remove Florida, remove anyone on Do Not Contact and past unsubscribes/bounces, and emails are not verified (no credits): watch bounces in the first two days and pause above 3%.

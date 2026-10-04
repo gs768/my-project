@@ -69,3 +69,18 @@ Same format as the LSA Playbook: about 60 minutes plus Q&A, Google's own words f
 - [ ] Screenshots of Google's pages from section 3, item 2 (assign when the date is set)
 - [ ] Review-growth data for one consenting client (Claude, via connectors)
 - [ ] HeyGen avatar ad for the reviews webinar (after webinar #1)
+
+## 6. Deck (first draft, Oct 4)
+https://claude.ai/artifact/C5EEShMmNK6DZJf2jfYAZK: 22 slides in the same style as The LSA Playbook deck. Six parts: the hook · what Google says · how reviews move Maps and LSAs · what gets reviews filtered · getting more reviews · proof and Q&A. Offer: the **Reviews & LSA Audit**.
+
+**Screenshots and data the deck still needs** (assign when webinar #1 prep is done):
+| Code | Slide | What |
+|---|---|---|
+| R1 | google-local | Google Business Profile Help: how local results are ranked (prominence paragraph boxed) |
+| R2 | google-lsa | Local Services Help: how ads are ranked (rating and number of reviews boxed); same page as S1 |
+| R3 | google-policy | Google Maps content policy: incentives, gating, fake engagement |
+| R4 | google-policy | FTC rule on fake reviews and testimonials |
+| R5 | lsa-reviews | Chart: reviews needed to pass the top 3, by city (sample firm, with consent) |
+| R6 | proof | Client chart: monthly new reviews vs. LSA impressions and charged leads (connector data, consent, "Results vary") |
+
+Gabriel to sharpen: the hook line, the examples on the Maps and "when/who" slides.
