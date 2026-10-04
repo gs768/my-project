@@ -80,7 +80,7 @@ Look and slide template: see **14-VISUAL-STYLE-AND-PRODUCTION.md** (inspired by 
 | 0:40-0:48 | **AI tools demo** | Gabriel | Citation planner; LSA lead-rating system; autoresponder + image publisher. **Show screens, not code** |
 | 0:48-0:56 | **Case studies** | Gabriel | Intro line: "We chose these two profiles because they show how an existing profile can improve from the system, and how a new profile can have immediate success from the system." OSP (impressions about 2.5x at the same budget, CPM -58%); MBJ Columbia (live Jul 25, 2024, 17 charged leads in the first full month, 7 med-mal calls). "Results vary." |
 | 0:56-1:03 | **Live city-opportunity demo** | Gabriel | One consenting attendee firm or a demo firm: the nearby cities with the fewest stronger LSA competitors |
-| 1:03-1:06 | **3 things to do this week + offer** | Gabriel | 1) Dispute last month's bad leads 2) check your answer rate 3) stop batch review requests. Offer: **LSA Market Audit** (we run this analysis for your firm), limited weekly slots. Shereesa posts the booking link. **Poll 2:** "Want us to run this analysis for your firm? (yes / not now)" |
+| 1:03-1:06 | **3 things to do this week + offer** | Gabriel | 1) Review last month's charged leads and check which ones Google credited 2) check your answer rate 3) stop batch review requests. Offer: **LSA Market Audit** (we run this analysis for your firm), limited weekly slots. Shereesa posts the booking link. **Poll 2:** "Want us to run this analysis for your firm? (yes / not now)" |
 | 1:06-1:20 | **Q&A** | Gabriel, Shereesa | Shereesa reads questions in order of value; hot leads noted |
 | 1:20 | Close | Gabriel | Replay within 24 hours; booking link again; thank you. Stop recording |
 
