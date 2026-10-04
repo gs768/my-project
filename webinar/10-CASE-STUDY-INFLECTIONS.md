@@ -64,15 +64,15 @@ Case types come from the lead category. Charged phone calls are counted from the
 | Jun 2025 | 1,389 | $1,906 | 9 (2 / 3 / 4) | 2 | $173 |
 | Jul 2025 | 1,927 | $5,061 | 14 (9 / 4 / 1) | 6 | $253 |
 | Aug 2025 | 1,601 | $4,745 | 15 (9 / 2 / 4) | 5 | $237 |
-| Sep 2025 | 1,028 | $4,825 | 13 (9 / 3 / 1) | 3 | $302 |
+| Sep 2025 | 1,028 | $4,825 | 13 (9 / 3 / 1) | 3 | $202 |
 | Jun 2026 | 172 | $577 | 1 (1 / 0 / 0) | 2 | $192 |
-| Jul 2026 | 376 | $1,852 | 2 (2 / 0 / 0) | 4 | $309 |
+| Jul 2026 | 376 | $1,852 | 2 (2 / 0 / 0) | 4 | $209 |
 | Aug 2026 | 508 | $1,954 | 3 (3 / 0 / 0) | 3 | $326 |
 | Sep 2026 | 385 | $1,315 | 2 (2 / 0 / 0) | 2 | $329 |
 - **Jun-Sep 2025 total: 51 charged phone calls. Jun-Sep 2026 total: 8 (down about 84%).**
 - **Both non-PI categories ended in September 2025.** The last medical-malpractice lead was Sep 8, 2025 and the last litigation lead was Sep 11, 2025. Since then every lead is personal injury. That points to the account's service categories being reduced (or those categories losing eligibility) in early-to-mid September 2025.
 - **June 2025 only has leads through Jun 16** and none Jun 17-30. Check whether the profile or budget was off in late June.
-- **Cost per charged lead is no better in 2026** ($192-$329 vs $173-$302), so the loss is volume, not price.
+- **Cost per charged lead is no better in 2026** ($192-$329 vs $173-$202), so the loss is volume, not price.
 - **Question for Alex / whoever owns the account:** what changed on the categories and profile around Sep 2025? If it was a deliberate change, tell Gabriel; if not, restoring med-mal and litigation is the likely fix. (Same deep-dive request as Langley, with the category lead for this account.)
 
 ## Jan-Sep numbers by month (Google Ads LSA campaign metrics)
@@ -91,15 +91,15 @@ Months not shown had no LSA data in the account (MBJ main starts May 2025; Oct-D
 | Jun 2025 | 1,389 | $1,906 | 11 | $173 | $1,372 |
 | Jul 2025 | 1,927 | $5,061 | 20 | $253 | $2,626 |
 | Aug 2025 | 1,601 | $4,745 | 20 | $237 | $2,964 |
-| Sep 2025 | 1,028 | $4,825 | 16 | $302 | $4,694 |
+| Sep 2025 | 1,028 | $4,825 | 16 | $202 | $4,694 |
 | **Jan-Sep 2025 total** | **17,157** | **$38,136** | **162** | **$235** | **$2,223** |
 | Jan 2026 | 202 | $1,865 | 6 | $311 | $9,232 |
 | Feb 2026 | 156 | $870 | 2 | $435 | $5,577 |
 | Mar 2026 | 260 | $2,042 | 7 | $292 | $7,853 |
-| Apr 2026 | 379 | $1,823 | 6 | $304 | $4,809 |
+| Apr 2026 | 379 | $1,823 | 6 | $204 | $4,809 |
 | May 2026 | 305 | $3,351 | 9 | $372 | $10,987 |
 | Jun 2026 | 172 | $577 | 3 | $192 | $3,355 |
-| Jul 2026 | 376 | $1,852 | 6 | $309 | $4,924 |
+| Jul 2026 | 376 | $1,852 | 6 | $209 | $4,924 |
 | Aug 2026 | 508 | $1,954 | 6 | $326 | $3,846 |
 | Sep 2026 | 385 | $1,315 | 4 | $329 | $3,416 |
 | **Jan-Sep 2026 total** | **2,743** | **$15,648** | **49** | **$319** | **$5,705** |

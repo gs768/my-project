@@ -4,7 +4,7 @@
 > Most agencies say photos, citations and response time are the key to Local Services Ads.
 > We'll show you how we helped **{firm}** go from **{A}** to **{B}** in **{C}** days.
 > What we share isn't obvious, but it works for personal injury LSAs, and the case studies prove it.
-> Join us {DATE}, {TIME ET}. $30, replay included.
+> Join us {DATE}, {TIME ET}. $20, replay included.
 
 - **{firm}/{A}/{B}/{C}:** fill only from the LLM connectors (LSA dashboard, CallRail, Google Ads) once the case study is final. Candidates: Langley, Brown Bass & Jeter, Obral Silk & Pal (OSP), Maier Gutierrez. If a number can't be tied to a screenshot, drop it. Add "Results vary."
 - **A wording problem to settle:** Google's own LSA help page lists responsiveness among its ranking factors. If the ad says response time *isn't* the key, someone can screenshot Google to disprove it. Safer: **"Most agencies stop at photos, citations and response time. Those are table stakes. Here's what moved {firm} from {A} to {B}."** It keeps your hook and stays defensible. (Verify the current factor list on Google's page before publishing.)

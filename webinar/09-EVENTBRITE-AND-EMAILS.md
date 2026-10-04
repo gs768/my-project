@@ -1,14 +1,14 @@
-# Eventbrite listing + registrant emails (draft, $30 webinar)
+# Eventbrite listing + registrant emails (draft, $20 webinar)
 
 Fill before publishing: `{DATE}` (Nov 15, 2026 placeholder) `{TIME ET}` `{ZOOM LINK}` `{FIRM}/{A}/{B}/{C}` (case-study numbers, only from connector data and a screenshot).
 No guaranteed results anywhere. Exclude Florida from all targeting.
 
 ## 1. Eventbrite listing
 **Title:** The LSA Playbook for Personal Injury Firms: What Agencies Leave Out
-**Summary (under 140 characters):** A live 60-minute webinar for PI firms on Google Local Services Ads, with real before-and-after case studies. $30.
+**Summary (under 140 characters):** A live 60-minute webinar for PI firms on Google Local Services Ads, with real before-and-after case studies. $20.
 **Category:** Business & Professional > Marketing. **Format:** Online. **Date/time:** {DATE}, {TIME ET} (show the time zone).
 **Image:** HeyGen avatar frame with the date badge (1:1 and 16:9 versions).
-**Ticket:** "Webinar seat", $30, fees passed to the buyer, capacity set to the Zoom limit. Sales end 30 minutes before start.
+**Ticket:** "Webinar seat", $20, fees passed to the buyer, capacity set to the Zoom limit. Sales end 30 minutes before start.
 
 **Description**
 > Most agencies say photos, citations and response time are the key to Local Services Ads. Those are table stakes.

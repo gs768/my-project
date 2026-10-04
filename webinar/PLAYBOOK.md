@@ -15,7 +15,7 @@
 | Item | Decision |
 |---|---|
 | Format | Pre-scheduled **webinar** on Zoom (online, not in person), ~60 min + Q&A |
-| Price | **$30**, not credited toward services |
+| Price | **$20**, not credited toward services |
 | Title | *The LSA Playbook: What Actually Moves PI Firms to the Top of Google Local Services Ads* |
 | Date | **November 15, 2026 (placeholder, time TBD)** |
 | Runs | **Webinar #1** (practice, smaller audience) → fix → **Webinar #2** (~3 weeks later, full push) |
@@ -41,7 +41,7 @@ Mihle and Romina are gone; the LLM connectors now manage Instantly, Google Tag M
 ## 4. Tool stack ($0 new except ads)
 | Need | Tool (already owned / free) |
 |---|---|
-| Registration + $30 payment + Zoom link + reminders | **Eventbrite** (free listing; ~$1–2 ticket fee passed to the buyer), embedded on the WordPress page. Backup: Gravity Forms + PayPal |
+| Registration + $20 payment + Zoom link + reminders | **Eventbrite** (free listing; ~$1–2 ticket fee passed to the buyer), embedded on the WordPress page. Backup: Gravity Forms + PayPal |
 | Webinar room | **Zoom** meeting with registration (muted entry, waiting room, cloud recording). Add Zoom Webinars for one month only if over the participant cap |
 | Contacts / pipeline | **Google Sheet** "Webinar Contacts" (replaces Pipedrive and GoHighLevel) |
 | Automations | Zapier: Eventbrite/Gravity Forms → Sheet + Mailchimp |
@@ -100,7 +100,7 @@ Requirements: written permission, redact caller data, "results vary" footnote, n
 - **Facebook:** retarget warm pools first, then the cold 4,000 list + lookalike. Optimize for `Purchase`. Retarget non-buyers at 7 and 3 days out, and the day before.
 - **Avatar promo videos:** invitation · "Google screenshot" teaser · client-result teaser · last call. Turn on Meta's **AI info label**. Record the final invite as a real selfie video.
 - **Email:** Instantly 3-step cold invite (FL removed, conservative send limits) + personal Gmail to warm contacts.
-- **SDR sprint (Alexander, 2–3 days):** "Gabriel's running a $30 PI-only session on LSA rankings, can I text you the link?" Log in the Sheet.
+- **SDR sprint (Alexander, 2–3 days):** "Gabriel's running a $20 PI-only session on LSA rankings, can I text you the link?" Log in the Sheet.
 - **Free listings:** Eventbrite · Facebook Event · LinkedIn Event (Gabriel + company page) · AllEvents/Luma · PI attorney groups (value post, follow group rules) · email signature + website banner.
 
 ## 7. Registrant emails (Mailchimp, or Eventbrite reminders for #1)
