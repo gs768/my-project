@@ -156,3 +156,7 @@ Ad reach / warm pool size → registrations → paid → attended → M1 → M2 
 - [ ] Zoom participant cap and Mailchimp plan limit
 - [x] Dates: webinar #1 Tue Nov 17, webinar #2 Tue Dec 8 (its Eventbrite listing must be live before Nov 17)
 - [x] Time: 3:00 pm ET (Eastern Standard Time) for both webinars
+- [x] Zoom meetings, calendar holds and the Webinar Contacts sheet created (21-SETUP-LINKS.md)
+- [ ] Zapier: Eventbrite → Webinar Contacts sheet, once both listings are live (steps in 21-SETUP-LINKS.md)
+- [ ] Upwork SDR post: approve text and hourly rate (18-UPWORK-SDR-JOB-POST.md)
+- [ ] AI tools in the demo: live, prototype or in rollout?

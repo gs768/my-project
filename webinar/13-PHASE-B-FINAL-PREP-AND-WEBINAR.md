@@ -38,7 +38,7 @@ Look and slide template: see **14-VISUAL-STYLE-AND-PRODUCTION.md** (inspired by 
 - [ ] **Final promotion push** (Veronica + Claude): retargeting "5 days left" ad; Instantly last-touch email (cold list only, paused if bounce rate > 3%); Upwork SDR reminder calls to warm leads.
 - [ ] **Slides v1 locked** (Gabriel): Acts 1-4 + phases + AI demos + case studies (see run of show). Claude assembles the screenshots and case-study tables from 05, 08 and 12.
 - [ ] **Case-study screenshots in hand** (Vicente's dashboard screenshots, due Oct 9; redacted).
-- [ ] **Zoom set up** (Sam): registration via Eventbrite link; waiting room ON; attendees muted on entry; chat to everyone; Q&A on; **cloud recording ON**; co-hosts = Sam, Shereesa; alternate host = Sam.
+- [ ] **Zoom set up** (Sam; meetings already created Oct 4, IDs in 21-SETUP-LINKS.md): registration via Eventbrite link; waiting room ON; attendees muted on entry; chat to everyone; Q&A on; **cloud recording ON**; co-hosts = Sam, Shereesa; alternate host = Sam.
 
 ### T-4
 - [ ] **Pick the 2 firms for live examples** (Claude + Gabriel): from registrants, choose up to **2** where we see public, fixable issues: **stock photos on the LSA profile, slow response time, negative reviews that appear to violate Google's review policies**. If no registrant fits, use the demo firms (Fox Injury Law GA; Vinas DeLuca FL) for the city analysis.
