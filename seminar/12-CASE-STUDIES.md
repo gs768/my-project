@@ -1,6 +1,11 @@
 # Case studies: OSP Cleveland and MBJ Columbia (draft, 2026-10-04)
 
-**Read this first:** the phase dates below are **estimated backwards** from when the improvement shows up in the LSA data, using assumed lead times. I found **no records** in Slack or Gmail of what was actually done on these accounts in those periods (Slack history only goes back to 2026). Before this goes in front of attendees, either confirm the dates from the team's records, or present the timeline as **"how our phases map onto these results"** rather than as a log of what we did.
+**How we introduce them (Gabriel's line):** "We chose these two profiles because they show how an **existing profile can improve** from the system, and how a **new profile can have immediate success** from the system."
+- OSP Cleveland = existing profile that improved. MBJ Columbia = new profile with immediate success.
+- **Confirmed:** account 4267491599 is MBJ Columbia. The phase dates are confirmed.
+- Dashboard screenshots (incl. absolute top impression rate) requested from Vicente on Slack, due Fri Oct 9.
+
+**Status:** Gabriel confirmed the phase dates on Oct 4. (Originally they were **estimated backwards** from when the improvement shows up in the LSA data, using assumed lead times. I found **no records** in Slack or Gmail of what was actually done on these accounts in those periods (Slack history only goes back to 2026). Before this goes in front of attendees, either confirm the dates from the team's records, or present the timeline as **"how our phases map onto these results"** rather than as a log of what we did.)
 
 ## Assumed lead times (how long changes take to show in LSA)
 | Change | Assumed time to show | Notes |

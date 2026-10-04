@@ -128,6 +128,9 @@ Sheet statuses: Invited → Paid → Attended / No-show → M1 Booked → M1 Hel
 - Replies/bookings pull them out of automation and alert Gabriel. Unsubscribe/won ends it. FL contacts are held, not mailed.
 - Retargeting stays on nurture contacts for 180 days.
 
+## 9b. Program phases
+A = now to T-5 · **B = T-5 to T+2 (final prep, webinar, immediate follow-up; see 13-PHASE-B-FINAL-PREP-AND-WEBINAR.md)** · C = T+2 to 5 days before webinar #2 · D = 5 days before webinar #2 to 2 days after it · E = everything else.
+
 ## 10. Timeline (Webinar #1 ≈ 5 weeks out)
 | Week | Actions |
 |---|---|
