@@ -17,7 +17,7 @@
 | Format | Pre-scheduled **webinar** on Zoom (online, not in person), ~60 min + Q&A |
 | Price | **$20**, not credited toward services |
 | Title | *The LSA Playbook: What Actually Moves PI Firms to the Top of Google Local Services Ads* |
-| Dates | **Webinar #1 (LSA Playbook): Tue Nov 17, 2026** · **Webinar #2 (Google reviews): Tue Dec 8, 2026** · in-house mock Sat Nov 14 · time TBD (12-1 pm or 3-4 pm) |
+| Dates | **Webinar #1 (LSA Playbook): Tue Nov 17, 2026** · **Webinar #2 (Google reviews): Tue Dec 8, 2026** · in-house mock Sat Nov 14 · **3:00-4:00 pm ET** (12:00 PT / 2:00 CT), Q&A to about 4:20 |
 | Runs In-house mock (team only) → **Webinar #1: The LSA Playbook** (full push) → **Webinar #2: Google reviews** (~3 weeks later). No practice webinar |
 | Next webinar | Every webinar ends by inviting people to the next. Next topic: **Google reviews: their effect on local search and LSA performance, and strategies for injury lawyers to get more reviews** (see 16-NEXT-WEBINAR-REVIEWS.md) |
 | Audience | PI firm owners/partners, all states except FL; best fit is 3+ attorneys already spending on Google |
@@ -155,4 +155,4 @@ Ad reach / warm pool size → registrations → paid → attended → M1 → M2 
 - [ ] Video links for the MBJ email (draft in Gmail, not sent)
 - [ ] Zoom participant cap and Mailchimp plan limit
 - [x] Dates: webinar #1 Tue Nov 17, webinar #2 Tue Dec 8 (its Eventbrite listing must be live before Nov 17)
-- [ ] Webinar time and time zone
+- [x] Time: 3:00 pm ET (Eastern Standard Time) for both webinars

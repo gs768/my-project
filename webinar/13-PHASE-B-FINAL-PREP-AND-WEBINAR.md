@@ -11,7 +11,7 @@
 
 This document covers **final prep** and **the webinar itself**. Immediate follow-up and nurture are outlined at the end and get their own plan next.
 
-**Dates (confirmed):** webinar #1 **Tue Nov 17, 2026** (time TBD: 12-1 pm or 3-4 pm). T-5 = Thu Nov 12 · T-4 = Fri Nov 13 · T-3 = Sat Nov 14 (in-house mock) · T-2 = Sun Nov 15 · T-1 = Mon Nov 16 · T+1 = Wed Nov 18 · T+2 = Thu Nov 19. Webinar #2 (Google reviews) is **Tue Dec 8**: Phase C = Nov 19-Dec 3, Phase D = Dec 3-Dec 10. Ads and listings go live about Tue Nov 3.
+**Dates (confirmed):** webinar #1 **Tue Nov 17, 2026, 3:00 pm ET** (12:00 pm PT, 2:00 pm CT, 1:00 pm MT). Afternoon avoids morning court and works as lunchtime on the West Coast. T-5 = Thu Nov 12 · T-4 = Fri Nov 13 · T-3 = Sat Nov 14 (in-house mock) · T-2 = Sun Nov 15 · T-1 = Mon Nov 16 · T+1 = Wed Nov 18 · T+2 = Thu Nov 19. Webinar #2 (Google reviews) is **Tue Dec 8**: Phase C = Nov 19-Dec 3, Phase D = Dec 3-Dec 10. Ads and listings go live about Tue Nov 3.
 
 **Weekend note:** T-3 falls on a Saturday, so send reminder E2 on **Fri Nov 13** instead.
 

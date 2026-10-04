@@ -1,6 +1,6 @@
 # Eventbrite listing + registrant emails (draft, $20 webinar)
 
-Fill before publishing: `{DATE}` (Tue Nov 17, 2026, confirmed) `{TIME ET}` `{ZOOM LINK}` `{FIRM}/{A}/{B}/{C}` (case-study numbers, only from connector data and a screenshot).
+Fill before publishing: `{DATE}` (Tue Nov 17, 2026, confirmed) `{TIME ET}` (3:00 pm ET; also show 12:00 pm PT) `{ZOOM LINK}` `{FIRM}/{A}/{B}/{C}` (case-study numbers, only from connector data and a screenshot).
 No guaranteed results anywhere. Exclude Florida from all targeting.
 
 ## 1. Eventbrite listing
