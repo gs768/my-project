@@ -14,7 +14,7 @@
 ## 2. The offer
 | Item | Decision |
 |---|---|
-| Format | Pre-scheduled **webinar** on Zoom (not an in-person seminar), ~60 min + Q&A |
+| Format | Pre-scheduled **webinar** on Zoom (online, not in person), ~60 min + Q&A |
 | Price | **$30**, not credited toward services |
 | Title | *The LSA Playbook: What Actually Moves PI Firms to the Top of Google Local Services Ads* |
 | Date | **November 15, 2026 (placeholder, time TBD)** |

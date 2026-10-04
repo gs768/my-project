@@ -39,7 +39,7 @@ Stack (all already in the Tech Stack sheet): WordPress/WP Engine + Gravity Forms
 - **SDR calls (short sprint):** Aircall / Google Voice, 2–3 days. Script: "Gabriel's doing a $20 PI-only session on LSA rankings, can I text you the link?" Log results in the Sheet. Use CallRail/Twilio to clean numbers first
 
 ## Phase 7: Content (Day 5–10)
-- Slides in Canva (outline in 02-SEMINAR-BUILD.md §6), 60 min + Q&A
+- Slides in Canva (outline in 02-WEBINAR-BUILD-v1-SUPERSEDED.md §6), 60 min + Q&A
 - Ask Man, Blake & Jackson for their video; cut 3 client clips
 - LSA Lead Dispute Checklist PDF
 - Rehearse once out loud with a timer
