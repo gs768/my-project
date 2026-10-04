@@ -55,4 +55,4 @@
 | 1–2 | Warm-up runs; Eventbrite/LinkedIn/FB events created; slides and screenshots in progress |
 | 3 | Webinar ads + Instantly invites + listings go live (~14 days out) |
 | 4 | SDR call sprint (Alexander); reminders |
-| 5 | Webinar #1 → debrief → schedule Webinar #2 about 3 weeks later |
+| 5 | Webinar #1 (LSA Playbook, full push; in-house mock beforehand) → debrief → promote Webinar #2 (Google reviews) about 3 weeks later |

@@ -3,9 +3,9 @@
 **Working title:** *Google Reviews for Injury Lawyers: How Reviews Drive Local Search and LSA Results, and How to Get More of Them*
 **Short title (ads, slides):** Google reviews: what they do to your local search and LSA results
 **Price:** $20, not credited (same as the LSA Playbook webinar; confirm)
-**Date:** [TBD], about 3 weeks after webinar #2, on a Tue/Wed/Thu.
+**Date:** [TBD], about 3 weeks after webinar #1, on a Tue/Wed/Thu.
 
-**Sequence:** webinar #1 = LSA Playbook (practice run) → webinar #2 = LSA Playbook (larger, full push) → **webinar #3 = Google reviews** (the second topic). Webinars #1 and #2 both invite to the reviews webinar, so its Eventbrite listing goes live before webinar #1; people from #1 wait longer, and the #2 audience fills most seats.
+**Sequence:** in-house mock (team only) → **webinar #1 = The LSA Playbook** (full push) → **webinar #2 = Google reviews**. No practice webinar. Webinar #1 invites to webinar #2, so its Eventbrite listing must be live before webinar #1.
 
 Every webinar now ends by inviting people to the next one. This file covers how the LSA Playbook webinar sells the reviews webinar, and a first outline of the reviews webinar itself.
 

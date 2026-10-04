@@ -2,7 +2,7 @@
 
 **Goal:** sign personal injury firms (all US states **except Florida**) at premium rates, using a low-cost paid webinar, a two-meeting close, and patient long-term nurture.
 **Origin:** v1 Setup Manual by Sam, Miguel & Álvaro (Instantly edition, shared 2026-09-07). This version replaces it and files 01–06.
-**Principles:** use tools we already own, build free where possible, run two webinars (the first one is practice), be patient.
+**Principles:** use tools we already own, build free where possible, no practice webinar (an in-house mock instead), each webinar invites people to the next topic, be patient.
 
 ---
 
@@ -18,7 +18,7 @@
 | Price | **$20**, not credited toward services |
 | Title | *The LSA Playbook: What Actually Moves PI Firms to the Top of Google Local Services Ads* |
 | Date | **November 15, 2026 (placeholder, time TBD)** |
-| Runs | **Webinar #1** (practice, smaller audience) → fix → **Webinar #2** (~3 weeks later, same topic, full push) → **Webinar #3** (~3 weeks later, second topic: Google reviews) |
+| Runs In-house mock (team only) → **Webinar #1: The LSA Playbook** (full push) → **Webinar #2: Google reviews** (~3 weeks later). No practice webinar |
 | Next webinar | Every webinar ends by inviting people to the next. Next topic: **Google reviews: their effect on local search and LSA performance, and strategies for injury lawyers to get more reviews** (see 16-NEXT-WEBINAR-REVIEWS.md) |
 | Audience | PI firm owners/partners, all states except FL; best fit is 3+ attorneys already spending on Google |
 | Registration questions | Name, firm, email, phone, state, LSA status, monthly marketing spend, **case type they value most** (used in nurture) |
@@ -130,7 +130,7 @@ Sheet statuses: Invited → Paid → Attended / No-show → M1 Booked → M1 Hel
 - Retargeting stays on nurture contacts for 180 days.
 
 ## 9b. Program phases
-A = now to T-5 · **B = T-5 to T+2 (final prep, webinar, immediate follow-up; see 13-PHASE-B-FINAL-PREP-AND-WEBINAR.md)** · C = T+2 to 5 days before webinar #2 · D = 5 days before webinar #2 to 2 days after it · E = everything else (including webinar #3, the reviews webinar).
+A = now to T-5 · **B = T-5 to T+2 (final prep, webinar, immediate follow-up; see 13-PHASE-B-FINAL-PREP-AND-WEBINAR.md)** · C = T+2 to 5 days before webinar #2 · D = 5 days before webinar #2 to 2 days after it · E = everything else. (Webinar #2 is now the Google reviews webinar.)
 
 ## 10. Timeline (Webinar #1 ≈ 5 weeks out)
 | Week | Actions |
@@ -138,11 +138,10 @@ A = now to T-5 · **B = T-5 to T+2 (final prep, webinar, immediate follow-up; se
 | 0 | Fix account ownership · avatar clips · warm-up ads live · confirm Zoom cap and Mailchimp limit · request client permissions + MBJ video |
 | 1 | Google screenshots · case-study data · Eventbrite + WordPress page · Sheet + Zapier · Calendar booking |
 | 2 | Slides v1 · emails in Mailchimp · Instantly campaign loaded (paused) · checklist PDF |
-| 3 | Webinar ads + Instantly + listings live (~14 days out) · rehearsal with timer |
+| 3 | Webinar ads + Instantly + listings live (~14 days out) · in-house mock planned |
 | 4 | SDR sprint · reminders · final dry run |
-| 5 | **Webinar #1** → transcript + debrief → fix slides, emails, ads → schedule #2 |
-| 8 | **Webinar #2** (full 4,000 audience + full email list + SDR) → cut replay into clips |
-| 11 | **Webinar #3: Google reviews** (attendees and no-shows from #1 and #2, plus the nurture list and retargeting) |
+| 5 | In-house mock (T-3) → **Webinar #1: The LSA Playbook** (full 4,000 audience + full email list + SDR) → transcript + debrief → cut replay into clips |
+| 8 | **Webinar #2: Google reviews** (webinar #1 attendees and no-shows, nurture list, retargeting, new promotion) |
 | Ongoing | Meetings 1 & 2 · monthly + quarterly nurture · monthly report |
 
 ## 11. Measure (monthly)
@@ -153,4 +152,4 @@ Ad reach / warm pool size → registrations → paid → attended → M1 → M2 
 - [ ] Video links for the MBJ email (draft in Gmail, not sent)
 - [ ] Zoom participant cap and Mailchimp plan limit
 - [ ] Webinar #1 date
-- [ ] Reviews webinar (webinar #3): date, about 3 weeks after webinar #2
+- [ ] Webinar #2 (Google reviews) date, about 3 weeks after webinar #1; its Eventbrite listing must be live before webinar #1

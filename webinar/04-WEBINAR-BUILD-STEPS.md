@@ -1,3 +1,5 @@
+> **Superseded on dates and runs (2026-10-04):** there is no practice webinar. Run an in-house mock, then webinar #1 (The LSA Playbook, full push), then webinar #2 (Google reviews, ~3 weeks later). See PLAYBOOK.md section 2.
+
 > **PARTLY SUPERSEDED (2026-10-03):** registration and payment now run through Eventbrite (see 07 and 09). The Google Sheet, Mailchimp and Instantly steps still apply.
 
 # Webinar build steps (v3: $20 webinar, free/owned tools, no Pipedrive, no GoHighLevel)
@@ -12,7 +14,7 @@ Stack (all already in the Tech Stack sheet): WordPress/WP Engine + Gravity Forms
 
 ## Phase 2: Webinar platform (Day 1–2)
 - Use **Zoom Meeting with registration turned on** (your existing plan, $0 extra): attendees muted on entry, waiting room on, cloud recording on, Q&A in chat
-- Check your Zoom plan's participant cap (Pro = 100). Only buy the Webinars add-on (~$79+/mo for 1 month) if Webinar #2 registrations exceed it
+- Check your Zoom plan's participant cap (Pro = 100). Only buy the Webinars add-on (~$79+/mo for 1 month) if Webinar #1 registrations exceed it
 - Turn on the Zoom registration confirmation email as a backup to Mailchimp
 
 ## Phase 3: Registration + payment on the website (Day 2–4)

@@ -5,8 +5,8 @@
 |---|---|
 | A | Now until T-5 (5 days before webinar #1) |
 | **B** | **T-5 until T+2 (2 days after webinar #1): final prep, the webinar, immediate follow-up** |
-| C | T+2 until 5 days before webinar #2 (webinar #1 follow-up and nurture, plus webinar #2 pre-work) |
-| D | 5 days before webinar #2 until 2 days after it |
+| C | T+2 until 5 days before webinar #2, the Google reviews webinar (webinar #1 follow-up and nurture, plus webinar #2 pre-work) |
+| D | 5 days before webinar #2 (Google reviews) until 2 days after it |
 | E | Everything else |
 
 This document covers **final prep** and **the webinar itself**. Immediate follow-up and nurture are outlined at the end and get their own plan next.
@@ -46,11 +46,11 @@ Look and slide template: see **14-VISUAL-STYLE-AND-PRODUCTION.md** (inspired by 
 ### T-3
 - [ ] **Reminder email E2** goes out ("two numbers to pull": LSA cost per lead and answer rate).
 - [ ] **Registrant review #2**: new sign-ups, plus consent replies logged.
-- [ ] **Rehearsal 1** (Gabriel + Sam, 75 min, recorded): full run with timer. Note where it runs long.
+- [ ] **In-house mock webinar** (replaces a practice webinar; 80 min, recorded): the full run of show in Zoom with the real settings. Gabriel presents; Sam produces (polls, spotlight, backup slides); Shereesa moderates and posts every chat link in order; Alex, Vicente and others join as attendees and ask hard questions (pricing, "we tried LSAs and hated it", bar rules, a competitor-style question). Test all 3 polls, the AI demo screens, the city demo and both links (booking and next webinar). Note where it runs long or confuses people.
 - [ ] **Backup kit**: slides exported to PDF on Sam's computer; the HeyGen intro video downloaded locally; second internet connection (phone hotspot) tested.
 
 ### T-2
-- [ ] **Slides final** (Gabriel): cuts from rehearsal applied; compliance pass: no guarantees, "Results vary" on case-study slides, client caller data blurred, firm examples only with written OK.
+- [ ] **Slides final** (Gabriel): fixes from the mock applied; compliance pass: no guarantees, "Results vary" on case-study slides, client caller data blurred, firm examples only with written OK.
 - [ ] **Links ready** (Shereesa): a doc with every link to paste in chat, in order: checklist PDF, booking link (LSA Market Audit), next-webinar Eventbrite link, replay note, feedback poll.
 - [ ] **Booking calendar** (Alex): Meeting 1 slots for T+1 to T+10, **2 analyses per meeting**, capped so we can prepare each one.
 - [ ] **Polls loaded in Zoom** (Sam): see run of show (3 polls).
@@ -103,11 +103,11 @@ Look and slide template: see **14-VISUAL-STYLE-AND-PRODUCTION.md** (inspired by 
 - Attendee list with firm and join/leave time (Zoom report afterwards)
 - Poll answers, all chat questions, and anyone who says "yes" to Poll 2: **hot leads**
 - Anyone who says "yes" to Poll 3 (next webinar): gets the Eventbrite link by email the same night
-- Anything that confused people, to fix for webinar #2
+- Anything that confused people, to fix in the replay clips and the next webinar
 
 ## Immediate follow-up (T+0 to T+2), outline. Full plan next.
 - **T+0 (within 2 hours):** replay link to attendees; "sorry we missed you" email with replay to no-shows; hot leads tagged in the Sheet
-- **T+1:** Gabriel personally emails or calls every hot lead; booking link to all attendees; debrief meeting (30 min: what to fix for webinar #2); TurboScribe transcript; Claude produces the fix list and a numbers summary (registrations, paid, attended, poll results, bookings)
+- **T+1:** Gabriel personally emails or calls every hot lead; booking link to all attendees; debrief meeting (30 min: what to reuse and fix for webinar #2, the reviews webinar); TurboScribe transcript; Claude produces the fix list and a numbers summary (registrations, paid, attended, poll results, bookings)
 - **T+2:** second follow-up to attendees who haven't booked; replay clips cut for retargeting ads; Phase C starts (nurture emails, webinar #2 pre-work)
 
 ## Numbers to report at T+2
