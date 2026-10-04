@@ -27,6 +27,9 @@ This document covers **final prep** and **the webinar itself**. Immediate follow
 
 ## Final prep, day by day
 
+### Visual style
+Look and slide template: see **14-VISUAL-STYLE-AND-PRODUCTION.md** (inspired by Justia's PPC & LSAs webinar). Zoom setting to use: share screen, Advanced, **Slides as virtual background**.
+
 ### T-5 (five days before)
 - [ ] **Registrant review #1** (Claude): pull Eventbrite registrants into the Webinar Contacts Sheet: firm, state, case type valued, LSA status. Flag Florida (hold), duplicates, non-PI.
 - [ ] **Attendance gap check** (Gabriel): if fewer than ~15 paid registrants, invite people from Gabriel's network (personal email/text). Mark them `network` in the Sheet. Don't count them as organic.
