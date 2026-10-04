@@ -19,6 +19,7 @@
 | Title | *The LSA Playbook: What Actually Moves PI Firms to the Top of Google Local Services Ads* |
 | Date | **November 15, 2026 (placeholder, time TBD)** |
 | Runs | **Webinar #1** (practice, smaller audience) → fix → **Webinar #2** (~3 weeks later, full push) |
+| Next webinar | Every webinar ends by inviting people to the next. Next topic: **Google reviews: their effect on local search and LSA performance, and strategies for injury lawyers to get more reviews** (see 16-NEXT-WEBINAR-REVIEWS.md) |
 | Audience | PI firm owners/partners, all states except FL; best fit is 3+ attorneys already spending on Google |
 | Registration questions | Name, firm, email, phone, state, LSA status, monthly marketing spend, **case type they value most** (used in nurture) |
 
@@ -151,3 +152,4 @@ Ad reach / warm pool size → registrations → paid → attended → M1 → M2 
 - [ ] Video links for the MBJ email (draft in Gmail, not sent)
 - [ ] Zoom participant cap and Mailchimp plan limit
 - [ ] Webinar #1 date
+- [ ] Reviews webinar: date, and whether it is webinar #2 or a third webinar

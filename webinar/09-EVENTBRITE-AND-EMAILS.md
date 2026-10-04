@@ -42,9 +42,11 @@ No guaranteed results anywhere. Exclude Florida from all targeting.
 **E6: Attendees, +2 hours**
 > Subject: Your replay and next step
 > Thanks for joining. Replay: {REPLAY LINK} (available for 7 days). If you'd like us to run the same city analysis for your firm, here's the link to book a 30-minute LSA Market Audit: {BOOK LINK}. Gabriel
+> P.S. Next webinar: Google reviews and your local search and LSA results, {NEXT DATE}. Seat: {NEXT EVENTBRITE LINK}
 
-**E7: No-shows, +2 hours:** *Sorry we missed you*: replay link plus the same booking link.
-**E8: Non-bookers, +3 days:** *One thing from the webinar worth doing this week* (one specific action from the session) + booking link.
+**E7: No-shows, +2 hours:** *Sorry we missed you*: replay link plus the same booking link, with the same P.S. about the next webinar.
+**E7b: Poll 3 "yes", same night:** *Your seat for the reviews webinar*: the Eventbrite link only, no audit pitch.
+**E8: Non-bookers, +3 days:** *One thing from the webinar worth doing this week* (one specific action from the session) + booking link + next-webinar link.
 **E9: Non-bookers, +7 days:** a last short note, then they move to monthly nurture (spam-filter tips, quarterly "new idea for your {case type}" email; see 03-NURTURE-SYSTEM.md).
 
 Every email: plain text, physical address, unsubscribe. Marketing emails from the warmed main-domain inbox, never the cold-outreach domains.

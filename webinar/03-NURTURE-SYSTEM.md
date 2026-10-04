@@ -4,7 +4,7 @@ The rule: **never stop being useful, rarely ask.** One value email a month, one 
 
 ## 1. Pipeline & tags
 Google Sheet stages: Registered → Paid → Attended / No-show → M1 Booked → M1 Held → M2 Booked → M2 Held → **Won** / **Nurture**
-Mailchimp tags: `seminar-paid`, `attended`, `no-show`, `m1-held`, `m2-held`, `client-won`, `nurture-longterm`, `case-auto|trucking|premises|medmal|wd|other`, `state-XX`
+Mailchimp tags: `seminar-paid`, `attended`, `no-show`, `m1-held`, `m2-held`, `client-won`, `nurture-longterm`, `next-webinar-yes`, `case-auto|trucking|premises|medmal|wd|other`, `state-XX`
 
 ## 2. Post-seminar sequence (workflow "Seminar – After")
 | When | Who | Email |
@@ -12,7 +12,7 @@ Mailchimp tags: `seminar-paid`, `attended`, `no-show`, `m1-held`, `m2-held`, `cl
 | +2h | Attended | *Replay + your 3 action items*: replay, recap, {BOOK_LINK} for the LSA Market Audit |
 | +2h | No-show | *Replay (48h)* + same booking link |
 | +2 days | Not booked | *The responsiveness number nobody checks*: one insight plus the link |
-| +5 days | Not booked | *Last audit slots this week* |
+| +5 days | Not booked | *Last audit slots this week*, P.S. next webinar (Google reviews) |
 | +8 days | Not booked | Move to `nurture-longterm` |
 
 ## 3. The two meetings
