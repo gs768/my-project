@@ -18,7 +18,7 @@
 | Price | **$20**, not credited toward services |
 | Title | *The LSA Playbook: What Actually Moves PI Firms to the Top of Google Local Services Ads* |
 | Date | **November 15, 2026 (placeholder, time TBD)** |
-| Runs | **Webinar #1** (practice, smaller audience) → fix → **Webinar #2** (~3 weeks later, full push) |
+| Runs | **Webinar #1** (practice, smaller audience) → fix → **Webinar #2** (~3 weeks later, same topic, full push) → **Webinar #3** (~3 weeks later, second topic: Google reviews) |
 | Next webinar | Every webinar ends by inviting people to the next. Next topic: **Google reviews: their effect on local search and LSA performance, and strategies for injury lawyers to get more reviews** (see 16-NEXT-WEBINAR-REVIEWS.md) |
 | Audience | PI firm owners/partners, all states except FL; best fit is 3+ attorneys already spending on Google |
 | Registration questions | Name, firm, email, phone, state, LSA status, monthly marketing spend, **case type they value most** (used in nurture) |
@@ -130,7 +130,7 @@ Sheet statuses: Invited → Paid → Attended / No-show → M1 Booked → M1 Hel
 - Retargeting stays on nurture contacts for 180 days.
 
 ## 9b. Program phases
-A = now to T-5 · **B = T-5 to T+2 (final prep, webinar, immediate follow-up; see 13-PHASE-B-FINAL-PREP-AND-WEBINAR.md)** · C = T+2 to 5 days before webinar #2 · D = 5 days before webinar #2 to 2 days after it · E = everything else.
+A = now to T-5 · **B = T-5 to T+2 (final prep, webinar, immediate follow-up; see 13-PHASE-B-FINAL-PREP-AND-WEBINAR.md)** · C = T+2 to 5 days before webinar #2 · D = 5 days before webinar #2 to 2 days after it · E = everything else (including webinar #3, the reviews webinar).
 
 ## 10. Timeline (Webinar #1 ≈ 5 weeks out)
 | Week | Actions |
@@ -142,6 +142,7 @@ A = now to T-5 · **B = T-5 to T+2 (final prep, webinar, immediate follow-up; se
 | 4 | SDR sprint · reminders · final dry run |
 | 5 | **Webinar #1** → transcript + debrief → fix slides, emails, ads → schedule #2 |
 | 8 | **Webinar #2** (full 4,000 audience + full email list + SDR) → cut replay into clips |
+| 11 | **Webinar #3: Google reviews** (attendees and no-shows from #1 and #2, plus the nurture list and retargeting) |
 | Ongoing | Meetings 1 & 2 · monthly + quarterly nurture · monthly report |
 
 ## 11. Measure (monthly)
@@ -152,4 +153,4 @@ Ad reach / warm pool size → registrations → paid → attended → M1 → M2 
 - [ ] Video links for the MBJ email (draft in Gmail, not sent)
 - [ ] Zoom participant cap and Mailchimp plan limit
 - [ ] Webinar #1 date
-- [ ] Reviews webinar: date, and whether it is webinar #2 or a third webinar
+- [ ] Reviews webinar (webinar #3): date, about 3 weeks after webinar #2
