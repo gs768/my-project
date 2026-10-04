@@ -24,7 +24,6 @@ This document covers **final prep** and **the webinar itself**. Immediate follow
 | Tech backup | Raghu | On call: Eventbrite/Zoom link problems, landing page, tracking |
 | Data / demo prep | Claude (LLM connectors) | Case-study numbers, city-opportunity analysis, registrant research, emails |
 | Ads | Veronica | Final retargeting push (when assigned) |
-| SDR | Upwork contractor | Final reminder calls/texts |
 | Follow-up / client video | Alex | Books Meeting 1 calls after the webinar |
 
 ## Final prep, day by day
@@ -35,7 +34,7 @@ Look and slide template: see **14-VISUAL-STYLE-AND-PRODUCTION.md** (inspired by 
 ### T-5 (five days before)
 - [ ] **Registrant review #1** (Claude): pull Eventbrite registrants into the Webinar Contacts Sheet: firm, state, case type valued, LSA status. Flag Florida (hold), duplicates, non-PI.
 - [ ] **Attendance gap check** (Gabriel): if fewer than ~15 paid registrants, invite people from Gabriel's network (personal email/text). Mark them `network` in the Sheet. Don't count them as organic.
-- [ ] **Final promotion push** (Veronica + Claude): retargeting "5 days left" ad; Instantly last-touch email (cold list only, paused if bounce rate > 3%); Upwork SDR reminder calls to warm leads.
+- [ ] **Final promotion push** (Veronica + Claude): retargeting "5 days left" ad; Instantly last-touch email (cold list only, paused if bounce rate > 3%) to warm leads.
 - [ ] **Slides v1 locked** (Gabriel): Acts 1-4 + phases + AI demos + case studies (see run of show). Claude assembles the screenshots and case-study tables from 05, 08 and 12.
 - [ ] **Case-study screenshots in hand** (Vicente's dashboard screenshots, due Oct 9; redacted).
 - [ ] **Zoom set up** (Sam; meetings already created Oct 4, IDs in 21-SETUP-LINKS.md): registration via Eventbrite link; waiting room ON; attendees muted on entry; chat to everyone; Q&A on; **cloud recording ON**; co-hosts = Sam, Shereesa; alternate host = Sam.

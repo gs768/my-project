@@ -1,3 +1,5 @@
+> **On hold (Oct 4, 2026):** SDR calling is not part of the current plan. Kept on file in case it is added later.
+
 # Upwork job post: SDR for the PI webinar (draft, not posted)
 
 **Post by:** Wed Oct 7 · **Hire by:** Fri Oct 23 · **Training:** week of Oct 26 · **Calling:** Nov 3 to Dec 10

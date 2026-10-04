@@ -10,7 +10,7 @@
 | Arjun (SEO) | Google screenshots (Act 1–2), WordPress page |
 | Eduardo | BrightLocal grids + CallRail reports for case studies |
 | Robyn | Client permission for the case-study firms, reputation screenshots |
-| Alexander Zanon (Account Exec) | SDR call sprint |
+| Alexander Zanon (Account Exec) | Meeting 1 bookings and follow-up (SDR calling is out of scope for now) |
 | Raghu (web dev, status blank in the sheet) | Gravity Forms / PayPal / tracking, if still available |
 
 **No longer with us. Remove them from the plan:** Mihle, Miguel, Álvaro, Andreas, Romina, Fizza, Thomas, Cheyenne.
@@ -54,5 +54,5 @@
 | 0 | Fix account ownership; script and produce 5 avatar clips; Veronica launches warm-up ads |
 | 1–2 | Warm-up runs; Eventbrite/LinkedIn/FB events created; slides and screenshots in progress |
 | 3 | Webinar ads + Instantly invites + listings go live (~14 days out) |
-| 4 | SDR call sprint (Alexander); reminders |
+| 4 | Reminders; personal emails to warm contacts |
 | 5 | Webinar #1 (LSA Playbook, full push; in-house mock beforehand) → debrief → promote Webinar #2 (Google reviews) about 3 weeks later |

@@ -1,3 +1,5 @@
+> **On hold (Oct 4, 2026):** SDR calling is not part of the current plan. Kept on file in case it is added later.
+
 # SDR call script: webinar invite (before each webinar)
 
 **Who calls:** the Upwork SDR (see 18-UPWORK-SDR-JOB-POST.md). **When:** Nov 3-16 for webinar #1, Nov 23-Dec 7 for webinar #2, 10 am-5 pm in the firm's time zone.

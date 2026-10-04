@@ -42,7 +42,7 @@ Compliance for all copy: no guaranteed rankings or results. Results mentioned on
 | Traffic | Send to | Why |
 |---|---|---|
 | Facebook / retargeting | **Page on suttondigitalmarketing.com** (e.g. `/lsa-webinar`) with the **Eventbrite checkout embedded** | Pixel and GTM fire on your own domain, so retargeting works. Page also builds the rebranded site's authority |
-| Cold email (Instantly) and SDR (Upwork) | **The Eventbrite event page directly** | Keeps cold-email links off the main domain, which protects the site from spam complaints. Eventbrite handles registration and sends the Zoom link |
+| Cold email (Instantly) | **The Eventbrite event page directly** | Keeps cold-email links off the main domain, which protects the site from spam complaints. Eventbrite handles registration and sends the Zoom link |
 
 Both use the same Eventbrite event so registrations land in one place.
 

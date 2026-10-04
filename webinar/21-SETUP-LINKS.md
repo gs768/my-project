@@ -26,12 +26,11 @@ https://docs.google.com/spreadsheets/d/1jlD4UnaNfiDksD9KzYB-Ua0p1R_9rp4hnzfMrqoq
 | Tab | What it holds |
 |---|---|
 | Registrants | Everyone who registers for either webinar: details, paid/attended, tier, poll answers, stage, Meeting 1 date, consent. Florida rows turn red; hot leads turn amber |
-| SDR Call Log | Every SDR call and outcome (dropdowns) |
-| Do Not Contact | Anyone who asks not to be contacted. Checked before every call and email |
-| Summary | Funnel per webinar and SDR results (formulas; the Example rows are excluded) |
+| Do Not Contact | Anyone who asks not to be contacted. Checked before every email |
+| Summary | Funnel per webinar (formulas; the Example row is excluded) |
 | Lists | Dropdown values. Edit here to change the choices |
 
-Row 2 on Registrants and SDR Call Log is an example of the expected format. Delete it once real rows arrive.
+Row 2 on Registrants is an example of the expected format. Delete it once real rows arrive.
 
 ## Zapier: Eventbrite → sheet (about 10 minutes; do once both Eventbrite listings are live)
 1. In Zapier, create a Zap. Trigger: **Eventbrite → New Attendee Registered** (connect the Eventbrite account; choose the organizer, and leave Event blank so it covers both webinars, or make one Zap per event).
@@ -39,3 +38,26 @@ Row 2 on Registrants and SDR Call Log is an example of the expected format. Dele
 3. Map fields: Registered on = order created date · Webinar = event name (or type the exact Lists value per Zap: `#1 LSA Playbook (Nov 17)` / `#2 Google reviews (Dec 8)`) · First/Last name · Email · Phone · Firm, State, Case type (custom questions) · Source = `Eventbrite` · Paid = `Yes` · Stage = `Paid`.
 4. Test with a real $20 registration (refund it afterwards), check the row appears, then turn the Zap on.
 5. Optional second step: **Mailchimp → Add/Update Subscriber** with tag `seminar-paid` so the confirmation email (E1) starts.
+
+## Email list (checked Oct 4, 2026)
+**Instantly:** the digital-marketing campaigns are still there with their copy and stats, but their leads have been removed, so the contact list can't be exported from Instantly.
+
+| Campaign | Contacted | Replies | Opportunities |
+|---|---|---|---|
+| May 2025 - Personal Injury Lawyers | 9,503 | 41 | 6 |
+| Gabriel Copy (copy) - Lawyers (Oct 2024) | 13,550 | 29 | 3 |
+| Gabriel Copy (copy) - Lawyers (Nov 2024) | 8,936 | 7 | 2 |
+| Kamran's Copy Test - Lawyers | 1,981 | 7 | 1 |
+| May 2025 - Other Lawyers | 40 | 0 | 0 |
+| Bad Review Removal | 2,978 | 10 | 4 |
+| May 2025 - Other Industries | 27,049 | 45 | 4 |
+
+Other campaigns in the account (RR/Rainstone roofing, CENAPs, ESG) are other businesses. The one remaining list, "suttondigitalmarketing.com - AI Sales Agent - AI SDR Master Lead List", has 7 leads.
+
+**Lists found in Google Drive** (candidates to load into a new Instantly campaign; not opened yet):
+- `Filt_score_PI_lawyer.xlsx` (4 MB, owner coo@suttonlegalmarketing.com, Jul 2026): looks like a filtered, scored PI lawyer list
+- `combined_personal_injury_leads.csv` (215 MB, owner coo@suttonlegalmarketing.com, Jul 2026): the large combined source
+- Three `personal_injury_lawyer_+2.xlsx` exports (2023 scrapes, 14-29 MB, owner gs@)
+- `Attorney Outreach List — May 23 2026` (small Google Sheet)
+
+Before loading: remove Florida, remove anyone on Do Not Contact and past unsubscribes/bounces, and verify emails (bounce rate must stay under 3%).

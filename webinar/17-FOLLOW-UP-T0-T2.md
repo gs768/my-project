@@ -27,7 +27,6 @@ Florida contacts: no follow-up beyond the replay (Florida is excluded).
 | What | Who |
 |---|---|
 | Gabriel calls or texts every hot lead who hasn't booked (script below) | Gabriel |
-| Upwork SDR calls warm attendees with phones: "Did you get the replay? Want the audit slot?" | SDR |
 | **Debrief** (30 min): what worked, what confused people, Q&A themes, what to reuse for the reviews webinar | Gabriel, Sam, Shereesa, Alex |
 | Transcript (TurboScribe) → Claude produces the fix list, the top 10 audience questions, and 5-8 clip ideas with timestamps | Claude |
 | Meeting 1 prep starts for anyone who booked (2 analyses per meeting; consent first) | Alex + team |
@@ -47,9 +46,6 @@ Florida contacts: no follow-up beyond the replay (Florida is excluded).
 
 **Call/text script (Gabriel, T+1)**
 > "Hi {first}, it's Gabriel Sutton from last night's LSA webinar. You said you'd like us to run the analysis for {firm}. I have time Thursday or Friday. Which works?" If no answer: text the same line with the booking link.
-
-**SDR script (warm attendees, T+1)**
-> "Hi, this is {name} with Sutton Injury Law Marketing Group, following up on Gabriel's LSA webinar last night. Did the replay come through? Gabriel is running the city analysis for a few firms this week. Would you like one of the slots?" Yes → book on the calendar. Not now → "There's a follow-up webinar on Google reviews on December 8; want the link?" Log every call in the Sheet.
 
 E6, E7, E7b and E8: see 09-EVENTBRITE-AND-EMAILS.md.
 

@@ -34,7 +34,6 @@
 | LLM connectors (Claude) | Case-study data (LSA, CallRail, BrightLocal), Instantly, Google Tag Manager, G Suite |
 | Robyn | Review screenshots (client permissions are already in hand) |
 | Alexander Zanon (COO) | Client video coordination |
-| Upwork SDR contractor | Outreach / calls (to be hired) |
 | Raghu | Web/forms/tracking, if available |
 
 Mihle and Romina are gone; the LLM connectors now manage Instantly, Google Tag Manager and G Suite. The tech stack sheet still lists them as owners; update it.
@@ -101,7 +100,6 @@ Requirements: written permission, redact caller data, "results vary" footnote, n
 - **Facebook:** retarget warm pools first, then the cold 4,000 list + lookalike. Optimize for `Purchase`. Retarget non-buyers at 7 and 3 days out, and the day before.
 - **Avatar promo videos:** invitation · "Google screenshot" teaser · client-result teaser · last call. Turn on Meta's **AI info label**. Record the final invite as a real selfie video.
 - **Email:** Instantly 3-step cold invite (FL removed, conservative send limits) + personal Gmail to warm contacts.
-- **SDR sprint (Alexander, 2–3 days):** "Gabriel's running a $20 PI-only session on LSA rankings, can I text you the link?" Log in the Sheet.
 - **Free listings:** Eventbrite · Facebook Event · LinkedIn Event (Gabriel + company page) · AllEvents/Luma · PI attorney groups (value post, follow group rules) · email signature + website banner.
 
 ## 7. Registrant emails (Mailchimp, or Eventbrite reminders for #1)
@@ -135,13 +133,13 @@ A = now to T-5 · **B = T-5 to T+2 (final prep, webinar, immediate follow-up; se
 ## 10. Timeline (dates confirmed: webinar #1 Tue Nov 17, webinar #2 Tue Dec 8)
 | Week of | Actions |
 |---|---|
-| Oct 5 | Fix account ownership · avatar clips · warm-up ads live · confirm Zoom cap and Mailchimp limit · client permissions + MBJ video · Vicente screenshots (Oct 8-9) · Alex on Langley (Oct 7) · post the Upwork SDR job |
+| Oct 5 | Fix account ownership · avatar clips · warm-up ads live · confirm Zoom cap and Mailchimp limit · client permissions + MBJ video · Vicente screenshots (Oct 8-9) · Alex on Langley (Oct 7) |
 | Oct 12 | Eventbrite listings for **both** webinars + WordPress page · Sheet + Zapier · booking calendar · logo and headshot from Raghu |
-| Oct 19 | Slides v1 · emails in Mailchimp · Instantly campaign loaded (paused) · checklist PDF · SDR hired |
-| Oct 26 | HeyGen ads final · QR codes (booking + reviews webinar) · SDR trained on the script |
-| Nov 2 | **Ads, Instantly and listings live (Tue Nov 3)** · SDR sprint |
+| Oct 19 | Slides v1 · emails in Mailchimp · Instantly campaign loaded (paused) · checklist PDF |
+| Oct 26 | HeyGen ads final · QR codes (booking + reviews webinar) |
+| Nov 2 | **Ads, Instantly and listings live (Tue Nov 3)** |
 | Nov 9 | Phase B starts Thu Nov 12 · **in-house mock Sat Nov 14** |
-| Nov 16 | **Webinar #1: The LSA Playbook, Tue Nov 17** (full 4,000 audience + full email list + SDR) · follow-up Nov 17-19 (17-FOLLOW-UP-T0-T2.md) · replay clips |
+| Nov 16 | **Webinar #1: The LSA Playbook, Tue Nov 17** (full 4,000 audience + full email list) · follow-up Nov 17-19 (17-FOLLOW-UP-T0-T2.md) · replay clips |
 | Nov 23 | Phase C: Meeting 1s, nurture, promote webinar #2 (light week: Thanksgiving Nov 26) |
 | Nov 30 | Phase D starts Thu Dec 3: final prep for webinar #2 |
 | Dec 7 | **Webinar #2: Google reviews, Tue Dec 8** → follow-up through Dec 10 |
@@ -157,6 +155,7 @@ Ad reach / warm pool size → registrations → paid → attended → M1 → M2 
 - [x] Dates: webinar #1 Tue Nov 17, webinar #2 Tue Dec 8 (its Eventbrite listing must be live before Nov 17)
 - [x] Time: 3:00 pm ET (Eastern Standard Time) for both webinars
 - [x] Zoom meetings, calendar holds and the Webinar Contacts sheet created (21-SETUP-LINKS.md)
+- [ ] Email list: the law-firm leads are no longer in Instantly (campaign stats and copy remain); candidate lists are in Drive (see 21-SETUP-LINKS.md). Pick the list to load
 - [ ] Zapier: Eventbrite → Webinar Contacts sheet, once both listings are live (steps in 21-SETUP-LINKS.md)
-- [ ] Upwork SDR post: approve text and hourly rate (18-UPWORK-SDR-JOB-POST.md)
-- [ ] AI tools in the demo: live, prototype or in rollout?
+- SDR calling is out of scope for now (18 and 19 are kept on file in case it is added later)
+- [x] AI tools: they run as LLM sessions today; the demo shows inputs and outputs (22-AI-TOOLS-DEMO.md)

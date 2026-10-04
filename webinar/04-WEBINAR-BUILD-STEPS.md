@@ -51,7 +51,7 @@ Stack (all already in the Tech Stack sheet): WordPress/WP Engine + Gravity Forms
 - Afterward: TurboScribe the recording, note what dragged, which questions came up, and where people dropped off; fix slides, emails and the form
 
 ## Phase 9: Webinar #2 (main push)
-- Full 4,000 FB audience + full email list + SDR sprint
+- Full 4,000 FB audience + full email list
 - Replay cut into short clips (Rumble/YouTube/FB) for retargeting
 
 ## Phase 10: After each webinar
