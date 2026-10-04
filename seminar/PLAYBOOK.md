@@ -110,6 +110,12 @@ Lead magnet: **LSA Lead Dispute Checklist** (1 page).
 ## 7b. Choosing which firms to target (analysis consent)
 Before a firm is added to the target list, **confirm we may run its city-opportunity analysis and present it in the meeting** (the analysis uses its public LSA and review data, plus screenshots). Record the confirmation (email or call note) in the Sheet. No confirmation, no analysis. **Capacity: 2 analyses per meeting.**
 
+## 7c. Three days before the webinar: prepare examples for registered firms
+- **T-3 days:** review the registrant list in the Sheet. For firms that signed up (cap: **2 analyses per meeting**), check public signs we can fix: **stock photos on the LSA profile**, **slow response time**, **negative reviews that appear to violate Google's review policies** (we can request removal through Google's process; removal is never guaranteed).
+- **Consent first:** before showing any firm's profile live, **email them privately**: "we've prepared an analysis for your firm, OK to show it?" Record the answer in the Sheet. No confirmation, no live critique.
+- **At the start of the webinar:** ask whether anyone from the prepared firms is here (only firms that said yes).
+- **Fallback if only 1-2 people show up:** invite people from Gabriel's network to attend. Mark them in the Sheet as `network`, tell them to expect a real working session, and don't count them as organic registrations or present them as customers or testimonials.
+
 ## 8. Conversion: two meetings
 1. **Meeting 1, LSA Market Audit (30 min).** Before: BrightLocal grid, LSA rank check, a test call to their intake, hub/spoke coverage check. On the call: 3 findings, their goals, the case type they value. **Book Meeting 2 before hanging up.**
 2. **Meeting 2, The Plan (45 min).** Spoke map, responsiveness plan, dispute recovery estimate, premium pricing. One follow-up within 7 days, then nurture. No pressure.
