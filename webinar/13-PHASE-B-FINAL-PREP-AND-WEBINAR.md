@@ -73,7 +73,7 @@ Look and slide template: see **14-VISUAL-STYLE-AND-PRODUCTION.md** (inspired by 
 | 0:00-0:03 | Doors open | Shereesa | Chat prompt: "Where are you, and which case type matters most?" |
 | 0:03-0:06 | Welcome + housekeeping | Gabriel | Recorded, replay coming, put questions in Q&A. Ask whether anyone from the prepared firms is here (only firms that said yes) |
 | 0:06-0:10 | **Hook** | Gabriel | "Most agencies say photos, citations and response time are the key to LSAs. Those are table stakes. What they leave out is the manual work Google doesn't publish." **Poll 1:** "Are you running LSAs today? (yes, happy / yes, unhappy / paused / never)" |
-| 0:10-0:20 | **Act 1: what Google says** | Gabriel | Google's own screenshots: ranking factors, disputes, reviews, Quality Score |
+| 0:10-0:20 | **Act 1: what Google says** | Gabriel | Google's own screenshots: ranking factors (plus proximity, hours, complaints from Gabriel's experience), automated lead crediting, reviews, Quality Score |
 | 0:20-0:28 | **Act 2: what Google punishes** | Gabriel | Doorway pages, scaled content, review rules, name stuffing |
 | 0:28-0:30 | **The turn** | Gabriel | "Google rewards local relevance, responsiveness and real reviews, and punishes fake scale." |
 | 0:30-0:40 | **The 3-phase system** | Gabriel | Phase 1 research and foundation (authentic photos with EXIF, citation work, goals, autoresponder and overflow, profile, reputation); Phase 2 implementation (AI rates leads, books, publishes images, twice-monthly algorithm reports); Phase 3 scale and maintain ("what happens if X") |

@@ -61,7 +61,7 @@ Mihle and Romina are gone; the LLM connectors now manage Instantly, Google Tag M
 
 **Act 1: Google's own words (~10 min).** Screenshots with URL and date visible:
 - LSA ranking factors: proximity, review score/count, **responsiveness**, hours, complaints
-- Lead disputes / credits
+- Lead crediting (automated since July 2024; manual disputes are outdated)
 - Reviews feeding LSA
 - Google Ads Quality Score (landing page experience) for the Search Ads PI firms run alongside LSA
 
@@ -78,7 +78,7 @@ Mihle and Romina are gone; the LLM connectors now manage Instantly, Google Tag M
 1. **Hub-and-Spoke Local Authority, the spam-proof version:** fewer, better spoke pages, each with real local proof. Helps local relevance and Search Ads Quality Score.
 2. **Responsiveness Engine:** answer rate, speed to lead, after-hours coverage, missed-call text-back.
 3. **Filter-safe review velocity:** one-by-one requests, never batched.
-4. **Weekly lead-dispute routine.**
+4. **What Google doesn't publish:** from 15 years running LSAs, **proximity, business hours and complaints** also affect ranking (Gabriel's field experience; present it as that, next to Google's own list).
 ⚠️ Say "LSA ranking signals + Search Ads Quality Score". LSA itself has no Quality Score.
 
 **Act 4: Proof (~15 min).** Final picks: **OSP Cleveland** and **MBJ Columbia (medical malpractice)**; see 12-CASE-STUDIES.md. Same before → what we did → after format for each firm:
@@ -88,7 +88,7 @@ Mihle and Romina are gone; the LLM connectors now manage Instantly, Google Tag M
 Show LSA dashboard (leads, cost/lead, credited leads, reviews) + BrightLocal grid / CallRail answer rate. One headline number per firm, plus a quote/clip.
 Requirements: written permission, redact caller data, "results vary" footnote, no guarantees.
 
-**Close (~5 min):** recap the chain · 3 things to do this week (dispute last month's bad leads, check answer rate, stop batch review requests) · CTA: book the **LSA Market Audit**.
+**Close (~5 min):** recap the chain · 3 things to do this week (review last month's charged leads and check which ones Google credited, check answer rate, stop batch review requests) · CTA: book the **LSA Market Audit**.
 
 ## 6. Promotion
 **Phase A: Warm-up ads (start now, 3–4 weeks before webinar ads)**, run by Veronica
@@ -105,7 +105,7 @@ Requirements: written permission, redact caller data, "results vary" footnote, n
 
 ## 7. Registrant emails (Mailchimp, or Eventbrite reminders for #1)
 Confirmation + checklist PDF → 3 days before ("bring your LSA cost-per-lead and answer rate") → 24h → 1h → starting now → replay (attendees) / replay 48h (no-shows).
-Lead magnet: **LSA Lead Dispute Checklist** (1 page).
+Lead magnet: **LSA Profile Checklist** (bid, reviews, response time, plus proximity, business hours and complaints) (1 page).
 
 ## 7b. Choosing which firms to target (analysis consent)
 Before a firm is added to the target list, **confirm we may run its city-opportunity analysis and present it in the meeting** (the analysis uses its public LSA and review data, plus screenshots). Record the confirmation (email or call note) in the Sheet. No confirmation, no analysis. **Capacity: 2 analyses per meeting.**
@@ -118,12 +118,12 @@ Before a firm is added to the target list, **confirm we may run its city-opportu
 
 ## 8. Conversion: two meetings
 1. **Meeting 1, LSA Market Audit (30 min).** Before: BrightLocal grid, LSA rank check, a test call to their intake, hub/spoke coverage check. On the call: 3 findings, their goals, the case type they value. **Book Meeting 2 before hanging up.**
-2. **Meeting 2, The Plan (45 min).** Spoke map, responsiveness plan, dispute recovery estimate, premium pricing. One follow-up within 7 days, then nurture. No pressure.
+2. **Meeting 2, The Plan (45 min).** Spoke map, responsiveness plan, hours and complaint review, premium pricing. One follow-up within 7 days, then nurture. No pressure.
 
 Sheet statuses: Invited → Paid → Attended / No-show → M1 Booked → M1 Held → M2 Held → Won / Nurture.
 
 ## 9. Long-term nurture (never ends)
-- **Monthly (1st Tuesday):** one genuinely useful plain-text email from Gabriel on *Google's spam filters and PI firms*. 12 topics: review filter · fake listings · LSA disputes · spam-looking Ads leads · thin city pages · contact forms in spam · lead-gen listings · review gating · helpful content · spam calls on the LSA bill · duplicate profiles · year in review.
+- **Monthly (1st Tuesday):** one genuinely useful plain-text email from Gabriel on *Google's spam filters and PI firms*. 12 topics: review filter · fake listings · LSA lead crediting · spam-looking Ads leads · thin city pages · contact forms in spam · lead-gen listings · review gating · helpful content · spam calls on the LSA bill · duplicate profiles · year in review.
 - **Quarterly:** "Hi {first}, we have a new idea for getting more **{case type}** cases in {state}. Do you have 15 minutes?" + booking link. Only send it when there's a real idea.
 - Replies/bookings pull them out of automation and alert Gabriel. Unsubscribe/won ends it. FL contacts are held, not mailed.
 - Retargeting stays on nurture contacts for 180 days.

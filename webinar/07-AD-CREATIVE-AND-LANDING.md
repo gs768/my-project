@@ -12,7 +12,7 @@ Visual: avatar on the left, big on-screen text on the right (one line per beat),
 > "Most agencies say the secret to Local Services Ads is citations and photos. I don't think that's the real story. I'm Gabriel Sutton, and I'm running a short, live webinar for personal injury firms on what actually moves LSA, using what Google itself publishes. It's $20, and it's on {DATE}. Link below."
 
 **V2: The leads you're paying for**
-> "If your firm runs Local Services Ads, some of the leads you're charged for may be disputable. Wrong case type, wrong area, spam. Most firms never check. In our webinar on {DATE}, I'll show you how disputes work, and what else affects who gets the next call. $20. Link below."
+> "Google's help page says LSA ranking comes down to your bid, reviews and response time. After 15 years running LSAs, I can tell you proximity, business hours and complaints matter too, and most agencies never mention them. On {DATE} I'll show you what moves the next call to your firm. $20. Link below."
 
 **V3: Answer speed**
 > "How fast does your firm answer a Local Services Ads lead? It matters more than most people think. On {DATE}, I'm walking through the ranking factors Google publishes, what Google's spam updates mean for your website, and what we've done for personal injury firms. $20, live, with Q&A."
@@ -28,7 +28,7 @@ Scripts are 20–35 seconds when read at normal pace. Each ends with the same CT
 ## 2. Ad copy (Meta; paste per ad)
 **Primary text**
 1. The usual LSA advice is "get more citations and photos." In this live webinar we look at what Google actually publishes about ranking, and what it means for personal injury firms. {DATE}, $20.
-2. Paying for Local Services Ads? Learn how lead disputes work, why answer speed matters, and what Google's spam updates mean for your site. Live webinar for PI firms. $20.
+2. Paying for Local Services Ads? Learn what Google doesn't publish about ranking, why answer speed matters, and what Google's spam updates mean for your site. Live webinar for PI firms. $20.
 3. 60 minutes. Real dashboards from personal injury firms. Google's own documentation on screen. $20, replay included.
 4. (Retargeting) You looked at the webinar. Seats are still open for {DATE}. $20, replay included.
 
@@ -53,7 +53,7 @@ Both use the same Eventbrite event so registrations land in one place.
 4. **HeyGen intro video** (V1, 30 sec, with captions)
 5. **What you'll learn** (3–4 bullets):
    - What Google publishes about how Local Services Ads are ranked
-   - How lead disputes work and what's worth disputing
+   - What Google doesn't publish: proximity, business hours and complaints
    - What Google's recent spam updates mean for your firm's website
    - Real before-and-after dashboards from personal injury firms
 6. **Who it's for / who it isn't:** PI firms already spending on Google; not for anyone looking for a $500/month package

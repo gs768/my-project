@@ -22,7 +22,7 @@ Mailchimp tags: `seminar-paid`, `attended`, `no-show`, `m1-held`, `m2-held`, `cl
 - After: auto email "Recap + what I'll bring on {M2_DATE}".
 
 **Meeting 2: The Plan (45 min)**
-- Spoke map for their metros, Responsiveness Engine plan, dispute-recovery estimate, premium pricing, seminar fee credited.
+- Spoke map for their metros, Responsiveness Engine plan, business hours and complaint review, premium pricing (the $20 webinar fee is not credited).
 - If no decision in 7 days: one follow-up, then `nurture-longterm`. **No pressure.**
 
 ## 4. Long-term nurture (workflow "Nurture – Long Term", never ends)
@@ -30,7 +30,7 @@ Mailchimp tags: `seminar-paid`, `attended`, `no-show`, `m1-held`, `m2-held`, `cl
 Theme: *Google's spam filters and what they're quietly doing to PI firms.* 12-month calendar:
 1. Google's review filter is deleting your best reviews. Here's why.
 2. Fake "law firm" listings stealing your map calls (and how to report them)
-3. The LSA leads you can dispute this week
+3. What Google credits automatically on LSA leads (and what to check)
 4. Why your Google Ads leads look like spam to your intake team
 5. The spam update that hit PI sites with thin city pages
 6. Is your contact form landing in your own spam folder? (5-min test)

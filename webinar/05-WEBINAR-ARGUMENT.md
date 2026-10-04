@@ -14,7 +14,7 @@ Screenshot the official sources, highlight with a box/underline, and show the UR
 |---|---|---|---|
 | 1.1 | LSA Help Center: "how ads are ranked" page | The factor list: proximity, review score and count, **responsiveness to calls/messages**, business hours, serious/repeated complaints | "Five of these are things you control. Citations and photos aren't on the list." |
 | 1.2 | Same page / LSA "responsiveness" help text | Wording about answering and responding to leads | "Missed calls aren't just lost cases. They lower your rank." |
-| 1.3 | Help Center: disputing / getting credit for leads | Eligible dispute reasons | "Google tells you to dispute bad leads. Most firms don't." |
+| 1.3 | Help Center: lead crediting | Automated crediting since July 2024 | "Disputing leads is an outdated service now; Google credits invalid leads automatically." |
 | 1.4 | Help Center: reviews on LSA / GBP | Reviews feed the LSA score | Sets up Act 2 (review filtering) |
 | 1.5 | Google Ads Help: Quality Score components (expected CTR, ad relevance, **landing page experience**) | Landing page experience | "Your Search Ads run next to LSA, and your website decides that bill." |
 
@@ -33,7 +33,7 @@ Screenshot the official sources, highlight with a box/underline, and show the UR
 1. **Hub-and-Spoke Local Authority, the version that survives spam updates.** One hub per metro, plus spokes only where you have *real local proof* (case results, courthouse, crash corridors, attorney ties, local reviews). Fewer, better pages. Ties to 1.5 (landing page / Quality Score) and avoids 2.1–2.2.
 2. **Responsiveness Engine.** Answer rate, speed to lead, after-hours coverage, missed-call text-back. Ties to 1.1–1.2.
 3. **Review velocity that doesn't trip the filter.** One-by-one text requests spread over time, never batched. Ties to 1.4 and 2.4.
-4. **Weekly dispute routine.** Ties to 1.3.
+4. **Beyond Google's list:** proximity, business hours and complaints also move LSA ranking (Gabriel's 15 years of LSA experience).
 Show the diagram and a scorecard. Don't show templates, link maps, call flows or scripts.
 
 ## Act 4: Proof: three profile pieces (≈15 min)
@@ -51,7 +51,7 @@ Same format for each firm so the pattern is unmistakable: **Before → What we i
 
 ## Close (≈5 min)
 - Recap the chain on one slide: Google says → Google punishes → strategy → results.
-- "3 things you can do this week": dispute last month's bad leads, check your answer rate, stop batch review requests.
+- "3 things you can do this week": review last month's charged leads and check which ones Google credited, check your answer rate, stop batch review requests.
 - Call to action: **LSA Market Audit** (Meeting 1), limited slots, $20 ticket credited.
 
 ## Screenshot capture checklist (assign to Arjun / Veronica)

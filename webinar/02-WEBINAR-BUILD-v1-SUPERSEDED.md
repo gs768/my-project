@@ -30,7 +30,7 @@ Placeholders: `{DATE}` `{TIME_ET}` `{PRICE}` `{REG_LINK}` `{JOIN_LINK}` `{BOOK_L
 **Button:** Reserve My Seat ({PRICE})
 **Fine print:** Marketing education for law firm owners. No results guaranteed. Not legal advice.
 
-**Thank-you page:** "You're in. Your Zoom link is on its way. Bonus: download the **LSA Lead Dispute Checklist**." (PDF in section 7.)
+**Thank-you page:** "You're in. Your Zoom link is on its way. Bonus: download the **LSA Profile Checklist**." (PDF in section 7.)
 
 ## 3. Registrant emails (Mailchimp workflow "Seminar – Registered")
 1. **Immediately:** *You're in: The LSA Playbook, {DATE}*. Receipt, {JOIN_LINK}, calendar file, checklist PDF. "Reply with the one LSA question you most want answered; I'll build it into the session."
@@ -70,7 +70,7 @@ Creative: 20-sec Gabriel selfie video + a client-testimonial cutdown.
 | 70–75 | Invitation: **LSA Market Audit** (Meeting 1), 10 slots this week | {BOOK_LINK} on screen and in chat |
 | 75+ | Q&A | |
 
-## 7. Lead magnet: LSA Lead Dispute Checklist (1 page, Canva)
+## 7. Lead magnet: LSA Profile Checklist (1 page, Canva)
 Lists the dispute categories (wrong case type, outside service area, spam/solicitor, duplicate, job seeker, wrong number), the dispute window, how to document each, and a weekly 10-minute routine. Footer: brand + seminar link.
 
 ## 8. Build checklist

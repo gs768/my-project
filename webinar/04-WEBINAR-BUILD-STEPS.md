@@ -19,7 +19,7 @@ Stack (all already in the Tech Stack sheet): WordPress/WP Engine + Gravity Forms
 - WordPress page `/lsa-webinar` (headline, bullets, 3 client videos, host bio, date)
 - Gravity Forms form: name, firm, email, phone, state, LSA status, monthly spend, **case type valued most**
 - Payment: Gravity Forms PayPal add-on (or a PayPal payment link on the thank-you step), $20
-- Thank-you page: Zoom registration link + LSA Lead Dispute Checklist PDF
+- Thank-you page: Zoom registration link + LSA Profile Checklist PDF
 - GA4 + Meta Pixel "Purchase" event on the thank-you page (GTM, already set up)
 
 ## Phase 4: The "CRM" = a Google Sheet (Day 3–4, free)
@@ -41,7 +41,7 @@ Stack (all already in the Tech Stack sheet): WordPress/WP Engine + Gravity Forms
 ## Phase 7: Content (Day 5–10)
 - Slides in Canva (outline in 02-WEBINAR-BUILD-v1-SUPERSEDED.md §6), 60 min + Q&A
 - Ask Man, Blake & Jackson for their video; cut 3 client clips
-- LSA Lead Dispute Checklist PDF
+- LSA Profile Checklist PDF
 - Rehearse once out loud with a timer
 
 ## Phase 8: Webinar #1 (practice run)

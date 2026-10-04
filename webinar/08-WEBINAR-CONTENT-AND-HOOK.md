@@ -31,7 +31,7 @@ We run `tools/lsa_opportunity.py` for two firms expected to attend. It ranks nea
 
 **Phase 3: Scale and maintain**
 - Action-point and budget balancing
-- Playbook for "what happens if X / what happens if Y" (budget cap hit, answer rate drops, a competitor enters, a review is removed, a dispute is rejected, etc.). Some of these are easy and some need a call
+- Playbook for "what happens if X / what happens if Y" (budget cap hit, answer rate drops, a competitor enters, a review is removed, a lead Google charged should have been credited, etc.). Some of these are easy and some need a call
 
 ## 3. AI tools we'll demo (screens, not code)
 1. **Citation planner:** which citations a firm needs, in what order, and where the NAP is inconsistent

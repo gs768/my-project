@@ -8,7 +8,7 @@ Rules for every Google page: full-page capture with the **URL and date visible**
 | ID | Slide | What | Who | Status |
 |---|---|---|---|---|
 | S1 | google-ranking | Google LSA Help: how Local Services Ads are ranked (factor list boxed) | Vicente | Requested, due Thu Oct 8 |
-| S2 | google-disputes | Google LSA Help: disputing leads / getting credit (eligible reasons boxed) | Vicente | Requested, due Thu Oct 8 |
+| S2 | google-disputes | Google LSA Help: automatic lead crediting (started July 2024) | Vicente | Requested, due Thu Oct 8 |
 | S3 | google-qs | Google Ads Help: Quality Score components ("landing page experience" boxed) | Vicente | Requested, due Thu Oct 8 |
 | S4 | punish-content | Google spam policies: doorway pages (city-page example boxed) | Vicente | Requested, due Thu Oct 8 |
 | S5 | punish-content | Search Central blog, March 2024 update: scaled content abuse | Vicente | Requested, due Thu Oct 8 |
@@ -33,5 +33,5 @@ Rules for every Google page: full-page capture with the **URL and date visible**
 - S7 https://support.google.com/business/answer/3038177 (business name)
 
 ## Content corrections found while checking the sources (Oct 4)
-- **Ranking (S1):** Google's page says LSA ranking is an auction: bid plus profile quality (verification/Google badge, rating, number of reviews, response time). Earlier notes listing "proximity, hours, complaints" are not confirmed by this page; the slide notes now follow Google's wording.
-- **Disputes (S2):** Google moved LSA to **automated lead crediting starting July 2024**. "Review last month's charged leads and check which ones Google credited" was changed to "Review last month's charged leads and check which ones Google credited" until S2 confirms whether manual disputes still exist.
+- **Ranking (S1):** Google's page says LSA ranking is an auction: bid plus profile quality (verification/Google badge, rating, number of reviews, response time). **Gabriel confirmed (Oct 4) from 15 years as an LSA specialist that proximity, business hours and complaints also play a role.** The slide shows Google's list plus those three, labeled as field experience.
+- **Disputes (S2):** Google moved LSA to **automated lead crediting starting July 2024**. The slide now says "Lead disputes are automated now", and this-week item 1 reads "Review last month's charged leads and check which ones Google credited". **Gabriel confirmed: disputing leads is an outdated service; crediting is automated now.**
