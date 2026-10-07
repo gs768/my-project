@@ -48,7 +48,7 @@ Everything Gabriel needs to evaluate the webinar before anything is published or
 4. **Consent:** OK to ask OSP and MBJ for written permission to show their dashboards? (Numbers-only versions work without screenshots.)
 5. **City demo:** which firm (a registrant who agrees, or the demo firms Fox Injury Law GA / Vinas DeLuca FL)?
 6. **Length:** about 63 minutes of content + 12-15 minutes of Q&A. Cut anything?
-7. **Physical mailing address** for the email footers (required by law in commercial email).
+7. ~~Mailing address~~ Done: 1835 E Charleston Blvd, Suite 202, Las Vegas, NV 89104 (Sutton Digital Marketing GBP address per BrightLocal).
 
 ## 5. Claims to double-check before going live
 - OSP: "same budget". Daily spend went from about $203 to $221 (+9%). The slide says so; say "about the same budget" out loud.

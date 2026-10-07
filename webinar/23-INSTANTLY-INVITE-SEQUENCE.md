@@ -1,6 +1,6 @@
 # Instantly invite sequence: webinar #1 (The LSA Playbook, Tue Nov 17, 3 pm ET)
 
-**Status (Oct 7):** campaign created in Instantly and **paused** (id 597a33d9-17d9-4e16-a703-39fbf046e591, "Webinar #1 invite - PI Lawyers (LSA Playbook, Nov 17)"): 3 steps, 60 sending accounts (warmup already on for all 60), schedule Oct 28-Nov 16, weekdays 9:00-4:30 Central. 6,106 contacts loaded (1 rejected as invalid). **Nothing sends until Gabriel approves and the campaign is activated.** Fill `[EVENTBRITE LINK]` and `[Physical mailing address]` first.
+**Status (Oct 7):** campaign created in Instantly and **paused** (id 597a33d9-17d9-4e16-a703-39fbf046e591, "Webinar #1 invite - PI Lawyers (LSA Playbook, Nov 17)"): 3 steps, 60 sending accounts (warmup already on for all 60), schedule Oct 28-Nov 16, weekdays 9:00-4:30 Central. 6,106 contacts loaded (1 rejected as invalid). **Nothing sends until Gabriel approves and the campaign is activated.** Mailing address added (Sutton Digital Marketing's address from BrightLocal; confirm it matches the live Google Business Profile). Fill `[EVENTBRITE LINK]` first.
 
 ## The list (built Oct 4, 2026)
 Source: the three 2023 Outscraper "personal_injury_lawyer" exports in Drive (converted to Google Sheets: "PI lawyers 2023 export A/B/C", same folder as the originals). 96,047 rows in total.
@@ -26,7 +26,7 @@ The CSV (email, first name, full name, title, firm, website, city, state, greeti
 - **Schedule:** weekdays 9:00 am-4:30 pm Central, Nov 3-16
 - **Plain text,** open and link tracking off, stop on reply and auto-reply
 - **Capacity check:** 6,107 leads × 3 steps ≈ 18,000 emails; at 1,200/day that needs about 15 sending days, and Nov 3-16 has 10. Either start Wed Oct 28 (the Eventbrite listing must be live by then) or accept that some step-3 emails won't go out. Recommended: start Oct 28
-- **Before launch, replace:** `[EVENTBRITE LINK]` and `[Physical mailing address]` (required in commercial email)
+- **Before launch, replace:** `[EVENTBRITE LINK]` and `1835 E Charleston Blvd, Suite 202, Las Vegas, NV 89104` (required in commercial email)
 
 ## Step 1 (day 0) — subject: `LSA webinar for {{city}} injury firms`
 > {{greeting}}
@@ -41,7 +41,7 @@ The CSV (email, first name, full name, title, firm, website, city, state, greeti
 >
 > Emily Hugo
 > Sutton Injury Law Marketing Group
-> [Physical mailing address]
+> 1835 E Charleston Blvd, Suite 202, Las Vegas, NV 89104
 
 ## Step 2 (day 4, same thread)
 > {{greeting}}

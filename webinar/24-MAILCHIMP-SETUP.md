@@ -1,7 +1,7 @@
 # Mailchimp setup: webinar #1 registrant emails (ready to load, nothing sent)
 
 **Status (Oct 7):** final copy below. Mailchimp is not connected to Claude (no Zapier connection), so this is loaded by hand by Shereesa or Gabriel, or Claude loads it after a Mailchimp connection is added in Zapier. **Do not send or activate anything until Gabriel approves.**
-**Sender:** Gabriel Sutton, from the warmed main-domain inbox (never the cold-outreach domains). **Every email:** plain-text style, physical mailing address `[Physical mailing address]`, unsubscribe link (Mailchimp adds it).
+**Sender:** Gabriel Sutton, from the warmed main-domain inbox (never the cold-outreach domains). **Every email:** plain-text style, physical mailing address `1835 E Charleston Blvd, Suite 202, Las Vegas, NV 89104`, unsubscribe link (Mailchimp adds it).
 
 ## 1. Audience setup (one audience for all webinars)
 - **Audience:** "PI Webinars" (create once).
@@ -121,4 +121,4 @@ Hot leads (`webinar1-hot`) get Gabriel's personal email instead (17-FOLLOW-UP-T0
 > Gabriel
 
 ## 4. Placeholders to fill before anything goes live
-`[Physical mailing address]` · `[ZOOM LINK]` (webinar #1 join link) · `[REPLAY LINK]` · `[CHECKLIST LINK]` (the final PDF in Drive) · `[BOOKING LINK]` (Meeting 1 calendar) · `[WEBINAR 2 EVENTBRITE LINK]`
+`1835 E Charleston Blvd, Suite 202, Las Vegas, NV 89104` · `[ZOOM LINK]` (webinar #1 join link) · `[REPLAY LINK]` · `[CHECKLIST LINK]` (the final PDF in Drive) · `[BOOKING LINK]` (Meeting 1 calendar) · `[WEBINAR 2 EVENTBRITE LINK]`
