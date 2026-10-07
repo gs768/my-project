@@ -1,6 +1,6 @@
 # Instantly invite sequence: webinar #1 (The LSA Playbook, Tue Nov 17, 3 pm ET)
 
-**Status:** copy drafted; campaign not created yet (needs Gabriel's go-ahead to create it in Instantly via the API, or Gabriel creates it in the Instantly UI from this file).
+**Status (Oct 7):** campaign created in Instantly and **paused** (id 597a33d9-17d9-4e16-a703-39fbf046e591, "Webinar #1 invite - PI Lawyers (LSA Playbook, Nov 17)"): 3 steps, 60 sending accounts (warmup already on for all 60), schedule Oct 28-Nov 16, weekdays 9:00-4:30 Central. 6,106 contacts loaded (1 rejected as invalid). **Nothing sends until Gabriel approves and the campaign is activated.** Fill `[EVENTBRITE LINK]` and `[Physical mailing address]` first.
 
 ## The list (built Oct 4, 2026)
 Source: the three 2023 Outscraper "personal_injury_lawyer" exports in Drive (converted to Google Sheets: "PI lawyers 2023 export A/B/C", same folder as the originals). 96,047 rows in total.
