@@ -38,3 +38,19 @@ Rules for every Google page: full-page capture with the **URL and date visible**
 
 
 **S10-S12 (AI tool demo screens): no screenshots needed.** Built as input/output slides in the deck (Oct 4); see 22-AI-TOOLS-DEMO.md.
+
+
+## Received from Vicente (Oct 6-7, 2026) — review
+Tracking sheet: "Webinar screenshots S1-S9" in the Webinar Screenshots folder. All captured Oct 6, 2026, incognito, URL and date visible, one red box each, PDF backups included.
+
+| Item | Status | Placed in deck |
+|---|---|---|
+| S1 LSA ranking | Good. Google lists bid, likelihood of a lead (responsiveness; the search's service, time and location) and profile quality (rating, reviews, response time, photos, verification). Verification is not a separate "badge" factor: slide text corrected | google-ranking (part 2, profile quality boxed) |
+| S2 Lead credits | Good. The old dispute URL redirects to "About Automated Local Services Ads lead credits". The page gives **no start date** and doesn't say disputes ended, so the on-screen "July 2024" was removed. Also new: Google no longer credits "job type not serviced" and "geo not serviced" leads | google-disputes |
+| S3 Quality Score | Good | google-qs (part 1) |
+| S4 Doorway abuse | Good (city-pages example inside the box) | punish-content |
+| S5 Scaled content abuse | Good; post date (Mar 5, 2024) on part 2 | punish-content (part 1) |
+| S6 Fake reviews | Good; incentives box used | punish-reviews (part 2) |
+| S7 Business name | Good | punish-reviews (part 1) |
+| S8 OSP Cleveland dashboard | Correct period (May-Nov 2025, monthly + before/after + profile). May-Nov 2025: $45,160.76 spend, 181 charged leads, 20,035 impressions, 51.98% absolute top | Not yet (case-study slides) |
+| S9 MBJ Columbia dashboard | **Wrong period**: captured Aug-Sep 2026; the case study is the launch (live Jul 25, 2024; first full month Aug 2024). Also confirm it's the Columbia profile | Not yet |
