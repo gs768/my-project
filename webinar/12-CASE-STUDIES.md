@@ -60,7 +60,7 @@ Profile: **MBJ Nursing Home Abuse & Medical Malpractice Lawyers Columbia**, 1619
 
 - Top-of-page rate 98.3%, **absolute top (first position) 72.1%** for Aug-Sep. September alone: 57.4%.
 - August is computed as the Aug-Sep capture minus the September capture.
-- **Honest caveat:** almost no leads from about **Aug 26 to Sep 27** (all 8 September leads came Sep 28-30). Find out why (budget, pause, verification) before the webinar and say it out loud. Don't claim the August pace continued.
+- **The gap (about Aug 26 to Sep 27):** the client shut the ads off because they were getting more leads than they could handle (Gabriel, Oct 8). Leads picked back up Sep 28 (all 8 September leads came Sep 28-30). The slide says this next to the chart.
 - Phase timeline for this launch: not documented yet. Present the 3 phases as "how our phases map onto this launch" unless the team confirms dates.
 
 ## What still needs to happen before these go on slides

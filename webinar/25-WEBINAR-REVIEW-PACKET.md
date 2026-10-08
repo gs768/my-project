@@ -53,7 +53,7 @@ Everything Gabriel needs to evaluate the webinar before anything is published or
 ## 5. Claims to double-check before going live
 - OSP: "same budget". Daily spend went from about $203 to $221 (+9%). The slide says so; say "about the same budget" out loud.
 - OSP: leads stayed flat because the budget was capped. Say it before someone asks.
-- MBJ: almost no leads from about Aug 26 to Sep 27, 2026 (8 in September, all Sep 28-30). Know why before the webinar and say it; don't imply August's pace continued.
+- MBJ: the chart's gap (about Aug 26 to Sep 27, 2026) is the client pausing the ads because they had more leads than they could handle. It's on the slide; say it when the chart is up.
 - Lead credits: Google's page gives no start date; don't say a date on screen.
 - Nothing promises results; "Results vary" is on every proof slide.
 
