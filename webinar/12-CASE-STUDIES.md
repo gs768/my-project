@@ -2,7 +2,7 @@
 
 **How we introduce them (Gabriel's line):** "We chose these two profiles because they show how an **existing profile can improve** from the system, and how a **new profile can have immediate success** from the system."
 - OSP Cleveland = existing profile that improved. MBJ Columbia = new profile with immediate success.
-- **Confirmed:** account 4267491599 is MBJ Columbia. The phase dates are confirmed.
+- OSP phase dates confirmed Oct 4. MBJ Columbia uses its own dashboard (Aug-Sep 2026); see the correction below.
 - Dashboard screenshots (incl. absolute top impression rate) requested from Vicente on Slack, due Fri Oct 9.
 
 **Status:** Gabriel confirmed the phase dates on Oct 4. (Originally they were **estimated backwards** from when the improvement shows up in the LSA data, using assumed lead times. I found **no records** in Slack or Gmail of what was actually done on these accounts in those periods (Slack history only goes back to 2026). Before this goes in front of attendees, either confirm the dates from the team's records, or present the timeline as **"how our phases map onto these results"** rather than as a log of what we did.)
@@ -46,35 +46,25 @@
 | 2. Implementation | **late Aug to Sep 2025** | Optimized profile running; AI rates leads, monitors autoresponder, publishes images; first lift **Sep 2**, step-change **Sep 20-21** |
 | 3. Scale and maintain | **Oct-Nov 2025** | Peak month October (4,773 impressions, CPM $1,402); budget balancing |
 
-## Case study 2: MBJ Columbia, medical malpractice, "from zero to 17 charged leads in the first full month"
-Account 4267491599, which I'm treating as **MBJ Columbia (please confirm)**. It runs personal injury, litigation and **medical malpractice** categories.
-**When it started doing well:** the profile **first appeared on Jul 25, 2024** (no LSA impressions at all before that). First charged lead **Jul 30**. First full month (August): **17 charged leads**, including **7 charged medical-malpractice calls**.
+## Case study 2: MBJ Columbia, "49 charged leads in its first month on LSAs"
+**Corrected Oct 8:** the earlier draft used Google Ads account 4267491599, which is **not MBJ** (it targets another firm's market). Its numbers are dropped; do not use them anywhere. The story now uses **MBJ Columbia's own LSA dashboard**, captured by Vicente on Oct 7 (Drive: Webinar Case Studies / MBJ Columbia).
 
-**Monthly: before and after**
-| Month | Impressions | Spend | Charged leads | Cost per lead | CPM |
-|---|---|---|---|---|---|
-| Mar-Jun 2024 | 0 | $0 | 0 | not live | not live |
-| Jul 2024 (live Jul 25) | 99 | $176 | 1 | $176 | $1,780 |
-| **Aug 2024** | 811 | $2,854 | **17** | $168 | $3,519 |
-| **Sep 2024** | **1,729** | $3,518 | 16 | $220 | $2,035 |
-| Oct 2024 | 1,601 | $3,175 | 16 | $198 | $1,983 |
-| Nov 2024 | 1,318 | $4,117 | 19 | $217 | $3,124 |
-| Dec 2024 | 1,786 | $4,893 | 19 | $258 | $2,740 |
-| Jan 2025 | 1,916 | $4,087 | 21 | $195 | $2,133 |
-- Charged **med-mal phone calls**: Aug 7, Sep 6, Oct 3, Nov 7, Dec 4, Jan 2025 6.
-- It kept growing to **21-22 charged leads a month** in Jan-May 2025 (peak impressions 2,942 in May 2025).
-- The profile only showed on weekdays in July-August 2024 (no weekend impressions), which suggests weekday-only hours at launch.
-- **Honest caveat:** this is a **launch** story. The "before" is "not on LSA at all." It also has a later chapter: the med-mal and litigation categories stopped producing leads in **September 2025**. Don't extend the story past mid-2025 unless that is fixed.
+Profile: **MBJ Nursing Home Abuse & Medical Malpractice Lawyers Columbia**, 1619 Sumter St, Columbia SC. Verified, SC bar license on the profile, average weekly budget $3,000, automated bidding, medical negligence job type on. Went live in **early August 2026** (first charged leads around Aug 6).
 
-**Estimated phase timeline (backwards from going live on Jul 25, 2024):**
-| Phase | Estimated dates | Activities |
-|---|---|---|
-| 1. Research and foundation | **early April to mid-July 2024** | Citations research and submissions start **early April** (live by mid-June); goals and case types (PI, litigation, med-mal) set; real team photos; LSA profile set up and verification submitted **mid-June** (3-6 weeks, so approval around late July); autoresponder + call overflow live **early-mid July** |
-| 2. Implementation | **Jul 25 to Aug 2024** | LSA goes live Jul 25; first charged lead Jul 30; 17 charged leads in August (7 med-mal calls) |
-| 3. Scale and maintain | **Sep 2024 to May 2025** | Impressions to 1,700-2,900/month; 16-22 charged leads/month |
+| Period | Impressions | Spend | Charged leads | Cost per lead |
+|---|---|---|---|---|
+| Before Aug 2026 | 0 | $0 | 0 | not live |
+| **Aug 2026** | **2,388** | $5,396 | **49** | $110 |
+| Sep 2026 | 646 | $922 | 8 | $115 |
+| **Aug 1-Sep 30** | 3,034 | $6,318 | 57 (45 calls, 12 messages) | $111 |
+
+- Top-of-page rate 98.3%, **absolute top (first position) 72.1%** for Aug-Sep. September alone: 57.4%.
+- August is computed as the Aug-Sep capture minus the September capture.
+- **Honest caveat:** almost no leads from about **Aug 26 to Sep 27** (all 8 September leads came Sep 28-30). Find out why (budget, pause, verification) before the webinar and say it out loud. Don't claim the August pace continued.
+- Phase timeline for this launch: not documented yet. Present the 3 phases as "how our phases map onto this launch" unless the team confirms dates.
 
 ## What still needs to happen before these go on slides
-1. Confirm (or relabel as illustrative) the phase dates; ask whoever handled OSP in mid-2025 and MBJ in spring 2024.
-2. Confirm account 4267491599 is MBJ Columbia.
+1. Confirm (or relabel as illustrative) the phase dates; ask whoever handled OSP in mid-2025 and MBJ Columbia in summer 2026.
+2. ~~Confirm account 4267491599 is MBJ Columbia.~~ It isn't; replaced with MBJ Columbia's own dashboard (Oct 8).
 3. Screenshots from each LSA dashboard for these months (including absolute top impression rate, which the API doesn't provide).
 4. Client permission is already in hand; blur caller data; add "Results vary."

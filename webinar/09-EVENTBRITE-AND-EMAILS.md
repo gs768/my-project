@@ -19,7 +19,7 @@ No guaranteed results anywhere. Exclude Florida from all targeting.
 > **What you'll see**
 > - What Google publishes about how LSAs are ranked, and where agencies stop
 > - What years of running LSAs for injury firms show about proximity, business hours and complaints
-> - Two real injury-firm profiles: an existing profile whose impressions rose about 2.5x at the same budget, and a new profile that produced 17 charged leads in its first full month
+> - Two real injury-firm profiles: an existing profile whose impressions rose about 2.5x at the same budget, and a new profile that produced 49 charged leads in its first month
 > - Our three-phase rollout, and the AI tools behind it
 > - A live look at how we find the nearby cities where a firm can win LSAs with the fewest stronger competitors
 > - Live Q&A. The replay is included for ticket holders.

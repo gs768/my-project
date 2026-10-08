@@ -15,7 +15,7 @@ Rules for every Google page: full-page capture with the **URL and date visible**
 | S6 | punish-reviews | Google Maps content policy: fake engagement / incentivized reviews | Vicente | Requested, due Thu Oct 8 (S2 change sent Oct 4: crediting page is primary) |
 | S7 | punish-reviews | Google Business Profile guidelines: business name rules | Vicente | Requested, due Thu Oct 8 (S2 change sent Oct 4: crediting page is primary) |
 | S8 | osp / osp-chart | OSP Cleveland LSA dashboard, May-Nov 2025, incl. absolute top impression rate | Vicente | Requested, due Fri Oct 9 |
-| S9 | mbj | MBJ Columbia LSA dashboard, Jul 2024-Jan 2025, incl. categories | Vicente | Requested, due Fri Oct 9 |
+| S9 | mbj | MBJ Columbia LSA dashboard, first months after launch (Aug-Sep 2026) | Vicente | Delivered Oct 7 |
 | S10 | ai-tools | Citation planner screen | Gabriel / Claude | To decide: live, prototype or rollout |
 | S11 | ai-tools | LSA lead-rating system screen | Gabriel / Claude | To decide |
 | S12 | ai-tools | Autoresponder + image publisher screen | Gabriel / Claude | To decide |
@@ -53,4 +53,4 @@ Tracking sheet: "Webinar screenshots S1-S9" in the Webinar Screenshots folder. A
 | S6 Fake reviews | Good; incentives box used | punish-reviews (part 2) |
 | S7 Business name | Good | punish-reviews (part 1) |
 | S8 OSP Cleveland dashboard | Correct period (May-Nov 2025, monthly + before/after + profile). May-Nov 2025: $45,160.76 spend, 181 charged leads, 20,035 impressions, 51.98% absolute top | Not yet (case-study slides) |
-| S9 MBJ Columbia dashboard | **Account mismatch (Vicente, Oct 6-7):** the real MBJ Columbia LSA account opened Aug 2026, and account 4267491599 (the 2024 med-mal launch data on the slide) belongs to Emerson Straw St Petersburg (FL). Vicente delivered MBJ Columbia Aug-Sep 2026 captures (Drive: Webinar Case Studies/MBJ Columbia). Slide must be relabeled or rebuilt | Blocked on Gabriel's call |
+| S9 MBJ Columbia dashboard | Good. Vicente's Oct 7 captures (Aug 1-Sep 30 and Sep 2026, plus profile) are MBJ Columbia, SC. The Aug-Sep capture is on the mbj slide. The old 2024 numbers came from a non-MBJ account and were removed | Done (needs MBJ's written OK) |

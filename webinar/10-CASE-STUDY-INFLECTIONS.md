@@ -1,5 +1,7 @@
 # Case-study inflections from Google Ads / LSA data (2026-10-03)
 
+> **Correction (Oct 8):** account 4267491599 is **not MBJ Columbia**. Ignore every "MBJ Columbia (4267491599)" section below. The MBJ case study now uses MBJ Columbia's own dashboard (Aug-Sep 2026); see 12-CASE-STUDIES.md.
+
 **Source of truth:** the LSA campaigns in the Google Ads accounts reached through the analytics@sdmark.net connection (CallRail is not used). KPIs: **impressions, spend, charged phone calls** (plus **absolute top impression rate**, see below).
 Accounts found: **Langley Injury Law** (9793533625), **Mann Blake & Jackson** (8957355448), **Obral, Silk & Pal, LLC.** (8659393350). Each has one LOCAL_SERVICES campaign, ENABLED.
 

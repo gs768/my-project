@@ -24,7 +24,7 @@ Everything Gabriel needs to evaluate the webinar before anything is published or
 | 0:10-0:20 | 2. What Google says | google-ranking, google-unpublished, google-disputes, google-qs | Google's own ranking factors (screenshot), plus proximity, hours and complaints from 15 years of experience; disputes are automated now; the website still matters for Search Ads |
 | 0:20-0:28 | 3. What Google punishes | punish-content, punish-reviews, turn | City doorway pages, scaled content, review incentives, keyword-stuffed names (all Google screenshots) |
 | 0:28-0:48 | 4. The 3-phase system + AI tools | phases, ai-tools, ai-citation, ai-leadrating, ai-autoresponder | Research and foundation, implementation with AI, scale; each tool shown as input and output |
-| 0:48-0:56 | 5. Proof | proof-intro, osp, osp-chart, osp-proof, mbj | OSP: same budget, 61 to 174 impressions a day, first position 38.6% to 63.1%. MBJ: new profile, 17 charged leads in the first full month |
+| 0:48-0:56 | 5. Proof | proof-intro, osp, osp-chart, osp-proof, mbj | OSP: same budget, 61 to 174 impressions a day, first position 38.6% to 63.1%. MBJ Columbia: new profile, 49 charged leads in its first month (Aug 2026), 72% first position |
 | 0:56-1:03 | Live city demo | city-demo | Where a firm can win LSAs next (consenting firm or demo firm) |
 | 1:03-1:08 | Take-aways + offer + next webinar | this-week, offer, next-webinar | 3 actions this week; LSA Market Audit (Poll 2); reviews webinar Dec 8 (Poll 3) |
 | 1:08-1:20 | Q&A + close | agenda6, qa, close | Booking link, replay |
@@ -34,7 +34,7 @@ Everything Gabriel needs to evaluate the webinar before anything is published or
 |---|---|
 | Google screenshots (S1-S7) | In the deck, captured Oct 6 |
 | OSP case study (table, chart, dashboards) | Done; needs OSP's written OK to show their dashboard |
-| MBJ case study | **Blocked:** per Vicente, the account behind the slide's numbers (4267491599) is Emerson Straw St Petersburg, not MBJ Columbia; MBJ Columbia's LSA only started Aug 2026. Either relabel as Emerson Straw (needs their OK) or rebuild from MBJ Columbia Aug-Sep 2026 (captures in Drive) |
+| MBJ case study | Rebuilt Oct 8 from MBJ Columbia's own dashboard (Vicente's captures): 49 charged leads in Aug 2026, 72% first position. Needs MBJ's written OK to show the dashboard |
 | AI tool slides | Done (illustrative data, labeled) |
 | City demo | Sample data (City A-E) until a real analysis is run for a consenting or demo firm |
 | Logo, headshot | Raghu, Oct 12 (cover, close, checklist) |
@@ -53,7 +53,7 @@ Everything Gabriel needs to evaluate the webinar before anything is published or
 ## 5. Claims to double-check before going live
 - OSP: "same budget". Daily spend went from about $203 to $221 (+9%). The slide says so; say "about the same budget" out loud.
 - OSP: leads stayed flat because the budget was capped. Say it before someone asks.
-- MBJ: don't extend the story past mid-2025 (med-mal and litigation leads stopped Sep 2025; the Aug-Sep 2026 capture also shows a month with almost no leads).
+- MBJ: almost no leads from about Aug 26 to Sep 27, 2026 (8 in September, all Sep 28-30). Know why before the webinar and say it; don't imply August's pace continued.
 - Lead credits: Google's page gives no start date; don't say a date on screen.
 - Nothing promises results; "Results vary" is on every proof slide.
 
