@@ -53,4 +53,4 @@ Tracking sheet: "Webinar screenshots S1-S9" in the Webinar Screenshots folder. A
 | S6 Fake reviews | Good; incentives box used | punish-reviews (part 2) |
 | S7 Business name | Good | punish-reviews (part 1) |
 | S8 OSP Cleveland dashboard | Correct period (May-Nov 2025, monthly + before/after + profile). May-Nov 2025: $45,160.76 spend, 181 charged leads, 20,035 impressions, 51.98% absolute top | Not yet (case-study slides) |
-| S9 MBJ Columbia dashboard | Good. Vicente's Oct 7 captures (Aug 1-Sep 30 and Sep 2026, plus profile) are MBJ Columbia, SC. The Aug-Sep capture is on the mbj slide. The old 2024 numbers came from a non-MBJ account and were removed | Done (needs MBJ's written OK) |
+| S9 MBJ Columbia dashboard | Good. Vicente's Oct 7 captures (Aug 1-Sep 30 and Sep 2026, plus profile) are MBJ Columbia, SC. The Aug-Sep capture is on the mbj slide. The old 2024 numbers came from a non-MBJ account and were removed | Done; MBJ approved (Oct 8) |

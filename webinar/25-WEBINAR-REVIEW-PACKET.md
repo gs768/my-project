@@ -12,7 +12,7 @@ Everything Gabriel needs to evaluate the webinar before anything is published or
 | Lead magnet | assets/LSA-Profile-Checklist-DRAFT.pdf |
 | Eventbrite listing (unpublished) | 09-EVENTBRITE-AND-EMAILS.md, section 1 |
 | Invite emails (Instantly, paused, 6,106 contacts) | 23-INSTANTLY-INVITE-SEQUENCE.md |
-| Registrant emails (Mailchimp) | 24-MAILCHIMP-SETUP.md |
+| Registrant emails (Mailchimp, approved Oct 8; waiting on the Zapier connection) | 24-MAILCHIMP-SETUP.md |
 | Follow-up after the webinar | 17-FOLLOW-UP-T0-T2.md |
 | Next webinar (Google reviews, Dec 8) | 16-NEXT-WEBINAR-REVIEWS.md, deck https://claude.ai/artifact/C5EEShMmNK6DZJf2jfYAZK |
 
@@ -33,8 +33,8 @@ Everything Gabriel needs to evaluate the webinar before anything is published or
 | Piece | Status |
 |---|---|
 | Google screenshots (S1-S7) | In the deck, captured Oct 6 |
-| OSP case study (table, chart, dashboards) | Done; needs OSP's written OK to show their dashboard |
-| MBJ case study | Rebuilt Oct 8 from MBJ Columbia's own dashboard (Vicente's captures): 49 charged leads in Aug 2026, 72% first position. Needs MBJ's written OK to show the dashboard |
+| OSP case study (table, chart, dashboards) | Done; OSP approved showing their dashboard (Oct 8) |
+| MBJ case study | Rebuilt Oct 8 from MBJ Columbia's own dashboard (Vicente's captures): 49 charged leads in Aug 2026, 72% first position. MBJ approved showing their dashboard (Oct 8) |
 | AI tool slides | Done (illustrative data, labeled) |
 | City demo | Sample data (City A-E) until a real analysis is run for a consenting or demo firm |
 | Logo, headshot | Raghu, Oct 12 (cover, close, checklist) |
@@ -45,7 +45,7 @@ Everything Gabriel needs to evaluate the webinar before anything is published or
 1. **Is the argument right?** Read slides hook → turn: does "table stakes vs. what agencies leave out" match how you'd say it? Edit the hook line in your words.
 2. **Proximity, hours, complaints slide:** add one short client example per card, or leave as is?
 3. **The offer:** "LSA Market Audit, 30 minutes, limited slots, no pricing on screen". Keep?
-4. **Consent:** OK to ask OSP and MBJ for written permission to show their dashboards? (Numbers-only versions work without screenshots.)
+4. ~~Consent~~ Done: OSP and MBJ both approved (Oct 8).
 5. **City demo:** which firm (a registrant who agrees, or the demo firms Fox Injury Law GA / Vinas DeLuca FL)?
 6. **Length:** about 63 minutes of content + 12-15 minutes of Q&A. Cut anything?
 7. ~~Mailing address~~ Done: 1835 E Charleston Blvd, Suite 202, Las Vegas, NV 89104 (Sutton Digital Marketing GBP address per BrightLocal).
