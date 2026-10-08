@@ -34,7 +34,7 @@ Everything Gabriel needs to evaluate the webinar before anything is published or
 |---|---|
 | Google screenshots (S1-S7) | In the deck, captured Oct 6 |
 | OSP case study (table, chart, dashboards) | Done; needs OSP's written OK to show their dashboard |
-| MBJ case study | Numbers on slide; dashboard screenshots wrong period, Vicente redoing (due Fri Oct 9); needs MBJ's written OK |
+| MBJ case study | **Blocked:** per Vicente, the account behind the slide's numbers (4267491599) is Emerson Straw St Petersburg, not MBJ Columbia; MBJ Columbia's LSA only started Aug 2026. Either relabel as Emerson Straw (needs their OK) or rebuild from MBJ Columbia Aug-Sep 2026 (captures in Drive) |
 | AI tool slides | Done (illustrative data, labeled) |
 | City demo | Sample data (City A-E) until a real analysis is run for a consenting or demo firm |
 | Logo, headshot | Raghu, Oct 12 (cover, close, checklist) |

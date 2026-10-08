@@ -53,4 +53,4 @@ Tracking sheet: "Webinar screenshots S1-S9" in the Webinar Screenshots folder. A
 | S6 Fake reviews | Good; incentives box used | punish-reviews (part 2) |
 | S7 Business name | Good | punish-reviews (part 1) |
 | S8 OSP Cleveland dashboard | Correct period (May-Nov 2025, monthly + before/after + profile). May-Nov 2025: $45,160.76 spend, 181 charged leads, 20,035 impressions, 51.98% absolute top | Not yet (case-study slides) |
-| S9 MBJ Columbia dashboard | **Wrong period**: captured Aug-Sep 2026; the case study is the launch (live Jul 25, 2024; first full month Aug 2024). Also confirm it's the Columbia profile | Not yet |
+| S9 MBJ Columbia dashboard | **Account mismatch (Vicente, Oct 6-7):** the real MBJ Columbia LSA account opened Aug 2026, and account 4267491599 (the 2024 med-mal launch data on the slide) belongs to Emerson Straw St Petersburg (FL). Vicente delivered MBJ Columbia Aug-Sep 2026 captures (Drive: Webinar Case Studies/MBJ Columbia). Slide must be relabeled or rebuilt | Blocked on Gabriel's call |
