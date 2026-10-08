@@ -78,7 +78,7 @@ Mihle and Romina are gone; the LLM connectors now manage Instantly, Google Tag M
 1. **Hub-and-Spoke Local Authority, the spam-proof version:** fewer, better spoke pages, each with real local proof. Helps local relevance and Search Ads Quality Score.
 2. **Responsiveness Engine:** answer rate, speed to lead, after-hours coverage, missed-call text-back.
 3. **Filter-safe review velocity:** one-by-one requests, never batched.
-4. **What Google doesn't publish:** from 15 years running LSAs, **proximity, business hours and complaints** also affect ranking (Gabriel's field experience; present it as that, next to Google's own list).
+4. **What Google doesn't publish:** from years of running LSAs, **proximity, business hours and complaints** also affect ranking (Gabriel's field experience; present it as that, next to Google's own list).
 ⚠️ Say "LSA ranking signals + Search Ads Quality Score". LSA itself has no Quality Score.
 
 **Act 4: Proof (~15 min).** Final picks: **OSP Cleveland** and **MBJ Columbia (medical malpractice)**; see 12-CASE-STUDIES.md. Same before → what we did → after format for each firm:
@@ -156,6 +156,7 @@ Ad reach / warm pool size → registrations → paid → attended → M1 → M2 
 - [x] Time: 3:00 pm ET (Eastern Standard Time) for both webinars
 - [x] Zoom meetings, calendar holds and the Webinar Contacts sheet created (21-SETUP-LINKS.md)
 - [ ] Email list: the law-firm leads are no longer in Instantly (campaign stats and copy remain); candidate lists are in Drive (see 21-SETUP-LINKS.md). Pick the list to load
+- [ ] **Booking link for Meeting 1 (LSA Market Audit):** a Calendly or Google Calendar appointment schedule with Google Meet. Needed on the offer and close slides, the checklist PDF, E6-E9 and the hot-lead emails
 - [ ] Zapier: Eventbrite → Webinar Contacts sheet, once both listings are live (steps in 21-SETUP-LINKS.md)
 - SDR calling is out of scope for now (18 and 19 are kept on file in case it is added later)
 - [x] AI tools: they run as LLM sessions today; the demo shows inputs and outputs (22-AI-TOOLS-DEMO.md)

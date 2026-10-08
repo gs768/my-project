@@ -51,7 +51,7 @@ Same format as the LSA Playbook: about 60 minutes plus Q&A, Google's own words f
 **Description**
 > Every agency tells personal injury firms to "get more reviews." Few explain which reviews Google counts, which it filters out, and why a batch of review requests after a settlement can do nothing for your ranking.
 >
-> In this live webinar, Gabriel Sutton, who has run Local Services Ads for injury firms for 15 years, covers:
+> In this live webinar, Gabriel Sutton, who has spent 15 years in local search marketing and runs Local Services Ads for injury firms, covers:
 > - How reviews affect where your firm shows up in Google Maps
 > - How your rating and review count affect your Local Services Ads ranking and lead volume
 > - What gets reviews filtered or a profile penalized, according to Google's own policies

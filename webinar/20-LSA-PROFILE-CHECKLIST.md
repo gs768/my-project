@@ -16,7 +16,7 @@
 - [ ] **Number of reviews** compared with those same 3 firms
 - [ ] **Response time:** you answer LSA calls and messages within minutes, not hours
 
-**What Google doesn't publish (from 15 years running LSAs)**
+**What Google doesn't publish (from years of running LSAs)**
 - [ ] **Proximity:** where your office is versus where your best cases come from
 - [ ] **Business hours** in the profile match when someone actually answers the phone
 - [ ] **Complaints:** no unresolved serious or repeated complaints tied to your profile

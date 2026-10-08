@@ -12,7 +12,7 @@ Visual: avatar on the left, big on-screen text on the right (one line per beat),
 > "Most agencies say the secret to Local Services Ads is citations and photos. I don't think that's the real story. I'm Gabriel Sutton, and I'm running a short, live webinar for personal injury firms on what actually moves LSA, using what Google itself publishes. It's $20, and it's on {DATE}. Link below."
 
 **V2: The leads you're paying for**
-> "Google's help page says LSA ranking comes down to your bid, reviews and response time. After 15 years running LSAs, I can tell you proximity, business hours and complaints matter too, and most agencies never mention them. On {DATE} I'll show you what moves the next call to your firm. $20. Link below."
+> "Google's help page says LSA ranking comes down to your bid, reviews and response time. After years of running LSAs for injury firms, I can tell you proximity, business hours and complaints matter too, and most agencies never mention them. On {DATE} I'll show you what moves the next call to your firm. $20. Link below."
 
 **V3: Answer speed**
 > "How fast does your firm answer a Local Services Ads lead? It matters more than most people think. On {DATE}, I'm walking through the ranking factors Google publishes, what Google's spam updates mean for your website, and what we've done for personal injury firms. $20, live, with Q&A."

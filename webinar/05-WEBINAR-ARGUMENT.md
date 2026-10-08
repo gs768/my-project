@@ -33,7 +33,7 @@ Screenshot the official sources, highlight with a box/underline, and show the UR
 1. **Hub-and-Spoke Local Authority, the version that survives spam updates.** One hub per metro, plus spokes only where you have *real local proof* (case results, courthouse, crash corridors, attorney ties, local reviews). Fewer, better pages. Ties to 1.5 (landing page / Quality Score) and avoids 2.1–2.2.
 2. **Responsiveness Engine.** Answer rate, speed to lead, after-hours coverage, missed-call text-back. Ties to 1.1–1.2.
 3. **Review velocity that doesn't trip the filter.** One-by-one text requests spread over time, never batched. Ties to 1.4 and 2.4.
-4. **Beyond Google's list:** proximity, business hours and complaints also move LSA ranking (Gabriel's 15 years of LSA experience).
+4. **Beyond Google's list:** proximity, business hours and complaints also move LSA ranking (Gabriel's LSA field experience).
 Show the diagram and a scorecard. Don't show templates, link maps, call flows or scripts.
 
 ## Act 4: Proof: three profile pieces (≈15 min)

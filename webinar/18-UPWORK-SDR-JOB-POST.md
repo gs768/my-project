@@ -10,7 +10,7 @@
 **Title:** Appointment setter / SDR calling US personal injury law firms (webinar registrations + follow-up)
 
 **Description**
-> We're a marketing agency that has run Google Local Services Ads and local search for personal injury law firms for 15 years. We're hosting two paid webinars for injury lawyers ($20 each): **The LSA Playbook (Tue Nov 17)** and **Google Reviews for Injury Lawyers (Tue Dec 8)**.
+> We're a marketing agency that has worked in local search for 15 years and runs Google Local Services Ads for personal injury law firms. We're hosting two paid webinars for injury lawyers ($20 each): **The LSA Playbook (Tue Nov 17)** and **Google Reviews for Injury Lawyers (Tue Dec 8)**.
 >
 > We need a confident, professional caller to:
 > 1. **Before each webinar:** call law firms from our list (firms that opened our emails or engaged with our ads) and invite the owner or managing partner to register

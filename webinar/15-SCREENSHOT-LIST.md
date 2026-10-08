@@ -33,7 +33,7 @@ Rules for every Google page: full-page capture with the **URL and date visible**
 - S7 https://support.google.com/business/answer/3038177 (business name)
 
 ## Content corrections found while checking the sources (Oct 4)
-- **Ranking (S1):** Google's page says LSA ranking is an auction: bid plus profile quality (verification/Google badge, rating, number of reviews, response time). **Gabriel confirmed (Oct 4) from 15 years as an LSA specialist that proximity, business hours and complaints also play a role.** The slide shows Google's list plus those three, labeled as field experience.
+- **Ranking (S1):** Google's page says LSA ranking is an auction: bid plus profile quality (verification/Google badge, rating, number of reviews, response time). **Gabriel confirmed (Oct 4) as an LSA specialist (15 years in local search; LSAs themselves are newer) that proximity, business hours and complaints also play a role.** The slide shows Google's list plus those three, labeled as field experience.
 - **Disputes (S2):** Google moved LSA to **automated lead crediting starting July 2024**. The slide now says "Lead disputes are automated now", and this-week item 1 reads "Review last month's charged leads and check which ones Google credited". **Gabriel confirmed: disputing leads is an outdated service; crediting is automated now.**
 
 

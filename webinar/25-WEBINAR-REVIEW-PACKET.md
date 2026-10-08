@@ -38,7 +38,7 @@ Everything Gabriel needs to evaluate the webinar before anything is published or
 | AI tool slides | Done (illustrative data, labeled) |
 | City demo | Sample data (City A-E) until a real analysis is run for a consenting or demo firm |
 | Logo, headshot | Raghu, Oct 12 (cover, close, checklist) |
-| Booking link + QR codes | Not created yet (needs the Meeting 1 calendar and the Eventbrite links) |
+| Booking link + QR codes | Not created yet. Booking link: a Calendly or Google Calendar appointment schedule with Google Meet (note from Gabriel, Oct 8). QR codes after the booking and Eventbrite links exist |
 | Checklist PDF | Draft done; logo, booking link and QR to add |
 
 ## 4. Decisions only Gabriel can make
@@ -56,3 +56,7 @@ Everything Gabriel needs to evaluate the webinar before anything is published or
 - MBJ: don't extend the story past mid-2025 (med-mal and litigation leads stopped Sep 2025; the Aug-Sep 2026 capture also shows a month with almost no leads).
 - Lead credits: Google's page gives no start date; don't say a date on screen.
 - Nothing promises results; "Results vary" is on every proof slide.
+
+
+## 6. Wording rule
+LSAs have not existed for 15 years. Say "15 years in local search marketing" for Gabriel's experience, and "years of running LSAs" for the LSA field experience. Never "15 years of running LSAs".

@@ -14,11 +14,11 @@ No guaranteed results anywhere. Exclude Florida from all targeting.
 **Description**
 > Most agencies say photos, citations and response time are the key to Google Local Services Ads. Those are table stakes.
 >
-> In this live webinar for personal injury firms, Gabriel Sutton, who has run LSAs for injury firms for 15 years, shows what agencies leave out: the manual work Google doesn't publish, and what actually moves a firm up in LSAs.
+> In this live webinar for personal injury firms, Gabriel Sutton, who has spent 15 years in local search marketing and runs LSAs for injury firms, shows what agencies leave out: the manual work Google doesn't publish, and what actually moves a firm up in LSAs.
 >
 > **What you'll see**
 > - What Google publishes about how LSAs are ranked, and where agencies stop
-> - What 15 years of running LSAs shows about proximity, business hours and complaints
+> - What years of running LSAs for injury firms show about proximity, business hours and complaints
 > - Two real injury-firm profiles: an existing profile whose impressions rose about 2.5x at the same budget, and a new profile that produced 17 charged leads in its first full month
 > - Our three-phase rollout, and the AI tools behind it
 > - A live look at how we find the nearby cities where a firm can win LSAs with the fewest stronger competitors

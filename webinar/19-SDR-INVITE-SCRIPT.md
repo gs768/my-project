@@ -18,7 +18,7 @@ Get the owner or managing partner registered for the webinar ($20). Second-best:
 - **"We're not interested."** → "Understood, thank you." Outcome = Not interested.
 
 ## 2. Decision-maker
-> "Hi {first name}, {name} with Sutton Injury Law Marketing Group. I'll be quick. Gabriel Sutton has run Google Local Services Ads for injury firms for 15 years, and on Tuesday, November 17th at 3 pm Eastern he's doing a one-hour webinar on what actually moves firms up in LSAs, including what Google doesn't publish. It's $20 and includes the replay. Can I send you the link?"
+> "Hi {first name}, {name} with Sutton Injury Law Marketing Group. I'll be quick. Gabriel Sutton has 15 years in local search marketing and runs Google Local Services Ads for injury firms, and on Tuesday, November 17th at 3 pm Eastern he's doing a one-hour webinar on what actually moves firms up in LSAs, including what Google doesn't publish. It's $20 and includes the replay. Can I send you the link?"
 
 - **Yes** → confirm email, send the Eventbrite link right after the call, Outcome = Registered / booked (if they register on the call) or Interested, send info.
 - **"Is this a sales pitch?"** → "It's a teaching session with real dashboards from injury firms. At the end Gabriel mentions an audit for firms that want one, but most of the hour is what to do yourself."

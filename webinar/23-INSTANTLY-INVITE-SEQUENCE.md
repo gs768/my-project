@@ -33,7 +33,7 @@ The CSV (email, first name, full name, title, firm, website, city, state, greeti
 >
 > Most agencies say photos, citations and response time are what move Google Local Services Ads. Those are table stakes.
 >
-> On Tuesday, November 17 at 3 pm ET, Gabriel Sutton, who has run LSAs for injury firms for 15 years, is hosting a one-hour webinar on what agencies leave out, including what Google doesn't publish about LSA ranking.
+> On Tuesday, November 17 at 3 pm ET, Gabriel Sutton, who has spent 15 years in local search marketing and runs LSAs for injury firms, is hosting a one-hour webinar on what agencies leave out, including what Google doesn't publish about LSA ranking.
 >
 > It's $20 and includes the replay: [EVENTBRITE LINK]
 >
@@ -49,7 +49,7 @@ The CSV (email, first name, full name, title, firm, website, city, state, greeti
 > A quick follow-up. Three things Gabriel will cover on November 17:
 >
 > - What Google says ranks LSAs, and where agencies stop
-> - Proximity, business hours and complaints: what 15 years of running LSAs shows
+> - Proximity, business hours and complaints: what years of running LSAs for injury firms show
 > - Two injury-firm profiles: an existing one that improved, and a new one that worked from the start
 >
 > 60 minutes plus Q&A, $20, replay included: [EVENTBRITE LINK]
